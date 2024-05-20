@@ -4,98 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2b784007da44f32a",
+        "id": "c9421dc8c24854aa",
         "type": "tabs",
         "children": [
           {
-            "id": "e9468679ac4c7822",
+            "id": "9320ace15ebdd17c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/1- JS基础.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fa2b2a2f7d843fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6 - 低代码项目/1 - 流程综述.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "890fb0f528fc34b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4377eb89555b2e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - CSS/1 - CSS基础.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0e14ecb4ef5bb40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ff1be38fdb7c33c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - 计算机网络/1 - 计网基础.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d186a102dbbe60eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Webpack & 工具链/webpack基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -164,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 - JS/1- JS基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -253,10 +166,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "69248991cb63ec3f",
+  "active": "9320ace15ebdd17c",
   "lastOpenFiles": [
-    "8 - 前端跨端技术/Untitled.md",
     "1 - JS/1- JS基础.md",
+    "Excalidraw/1- JS基础 2024-05-20 21.18.24.excalidraw.md",
+    "8 - 前端跨端技术/Untitled.md",
     "Untitled",
     "8 - 前端跨端技术",
     "7 - 前端全链路监控/test.md",
@@ -300,7 +214,6 @@
     "Excalidraw/1- JS基础方法与属性 2024-02-07 21.19.32.excalidraw.md",
     "1 - 基础篇/2 - 起源Component.md",
     "1 - 基础篇/3 - 组件的通信方式.md",
-    "1 - 基础篇/1 - 认识JSX.md",
     "Untitled.canvas"
   ]
 }
