@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "7 - 前端全链路监控/test.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "7 - 前端全链路监控/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "7 - 前端全链路监控/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md"
+                "file": "7 - 前端全链路监控/test.md"
               }
             }
           },
@@ -255,11 +255,11 @@
   },
   "active": "e9468679ac4c7822",
   "lastOpenFiles": [
+    "1 - JS/1- JS基础.md",
     "7 - 前端全链路监控/test.md",
     "1 - JS/2- 前端性能优化.md",
     "Learning-and-Knowledge-Accumulation",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
-    "1 - JS/1- JS基础.md",
     "image/img 前端全链路监控",
     "image/img 前端全链路监控/Pasted image 20240509135340.png",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
