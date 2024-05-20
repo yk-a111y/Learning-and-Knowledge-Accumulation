@@ -5,6 +5,19 @@
     "4 - Webpack & 工具链": [
       "4 - Webpack & 工具链/webpack基础.md",
       "4 - Webpack & 工具链/babel原理综述.md"
+    ],
+    "/": [
+      "1 - JS",
+      "2 - CSS",
+      "3 - VUE",
+      "4 - Webpack & 工具链",
+      "5 - 计算机网络",
+      "6 - 低代码项目",
+      "7 - 前端全链路监控",
+      "8 - 前端跨端技术",
+      "Excalidraw",
+      "image",
+      "README.md"
     ]
   },
   "actionBarOrder": {},

@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4f11e2f426ce442d",
+        "id": "a2969b3d3468ad70",
         "type": "tabs",
         "children": [
           {
-            "id": "b0b51d23c6cb7e0a",
+            "id": "af0d06978f50519f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -34,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "custom"
               }
             }
           },
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 263.5026054382324
   },
   "right": {
     "id": "2114abde7063af78",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md"
+              }
             }
           },
           {
@@ -166,13 +175,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b0b51d23c6cb7e0a",
+  "active": "af0d06978f50519f",
   "lastOpenFiles": [
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "5 - 计算机网络/1 - 计网基础.md",
     "Untitled 1.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "Untitled",
     "Untitled.md",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "1 - JS/1- JS基础.md",
     "Excalidraw/1- JS基础 2024-05-20 21.18.24.excalidraw.md",
     "8 - 前端跨端技术/Untitled.md",
@@ -189,7 +199,6 @@
     "1 - JS/3- 浏览器原理.md",
     "2 - CSS/1 - CSS基础.md",
     "4 - Webpack & 工具链/webpack基础.md",
-    "5 - 计算机网络/1 - 计网基础.md",
     "image/img JS基础/Pasted image 20240424114625.png",
     "image/img 前端性能优化/Pasted image 20240423222513.png",
     "image/img 浏览器原理/Pasted image 20240423131522.png",
