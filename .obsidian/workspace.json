@@ -21,16 +21,6 @@
             }
           },
           {
-            "id": "b65eb6f6cef25541",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
             "id": "6fa2b2a2f7d843fe",
             "type": "leaf",
             "state": {
@@ -108,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +117,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "custom"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -264,10 +253,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b65eb6f6cef25541",
+  "active": "69248991cb63ec3f",
   "lastOpenFiles": [
-    "7 - 前端全链路监控/test.md",
+    "8 - 前端跨端技术/Untitled.md",
     "1 - JS/1- JS基础.md",
+    "Untitled",
+    "8 - 前端跨端技术",
+    "7 - 前端全链路监控/test.md",
     "README.md",
     "1 - JS/2- 前端性能优化.md",
     "Learning-and-Knowledge-Accumulation",
@@ -303,8 +295,6 @@
     "4 - Webpack & 工具链/img webpack基础",
     "1 - JS/img JS基础",
     "Untitled.md",
-    "image/img 前端性能优化",
-    "image/img JS基础",
     "3 - VUE/Vue基础.md",
     "1 - JS/Untitled.md",
     "Excalidraw/1- JS基础方法与属性 2024-02-07 21.19.32.excalidraw.md",
