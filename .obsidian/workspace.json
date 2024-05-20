@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a2969b3d3468ad70",
+        "id": "dda6887b2d0a87db",
         "type": "tabs",
         "children": [
           {
-            "id": "af0d06978f50519f",
+            "id": "7eadf1678e9d49bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,12 +166,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "af0d06978f50519f",
+  "active": "7eadf1678e9d49bc",
   "lastOpenFiles": [
+    "3 - VUE/Vue基础.md",
+    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "Untitled 1.md",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "Untitled",
     "Untitled.md",
     "1 - JS/1- JS基础.md",
@@ -219,7 +211,6 @@
     "1 - JS/img 浏览器原理",
     "4 - Webpack & 工具链/img webpack基础",
     "1 - JS/img JS基础",
-    "3 - VUE/Vue基础.md",
     "1 - JS/Untitled.md",
     "Excalidraw/1- JS基础方法与属性 2024-02-07 21.19.32.excalidraw.md",
     "1 - 基础篇/2 - 起源Component.md",
