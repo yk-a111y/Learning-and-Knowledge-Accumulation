@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "b65eb6f6cef25541",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
             "id": "6fa2b2a2f7d843fe",
             "type": "leaf",
             "state": {
@@ -98,7 +108,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,7 +264,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9468679ac4c7822",
+  "active": "b65eb6f6cef25541",
   "lastOpenFiles": [
     "7 - 前端全链路监控/test.md",
     "1 - JS/1- JS基础.md",
