@@ -5,26 +5,6 @@
     "4 - Webpack & 工具链": [
       "4 - Webpack & 工具链/webpack基础.md",
       "4 - Webpack & 工具链/babel原理综述.md"
-    ],
-    "image": [
-      "image/img CSS基础",
-      "image/img JS基础",
-      "image/img webpack基础",
-      "image/img 前端性能优化",
-      "image/img 浏览器原理",
-      "image/img 计网基础"
-    ],
-    "/": [
-      "1 - JS",
-      "2 - CSS",
-      "3 - VUE",
-      "4 - Webpack & 工具链",
-      "5 - 计算机网络",
-      "6 - 低代码项目",
-      "7 - 前端全链路监控",
-      "Excalidraw",
-      "Pasted image 20240509135340.png",
-      "image"
     ]
   },
   "actionBarOrder": {},

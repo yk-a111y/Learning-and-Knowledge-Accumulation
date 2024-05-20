@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c9421dc8c24854aa",
+        "id": "4f11e2f426ce442d",
         "type": "tabs",
         "children": [
           {
-            "id": "9320ace15ebdd17c",
+            "id": "b0b51d23c6cb7e0a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,23 +166,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9320ace15ebdd17c",
+  "active": "b0b51d23c6cb7e0a",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "7 - 前端全链路监控/2 - 数据结构设计.md",
+    "Untitled",
+    "Untitled.md",
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "1 - JS/1- JS基础.md",
     "Excalidraw/1- JS基础 2024-05-20 21.18.24.excalidraw.md",
     "8 - 前端跨端技术/Untitled.md",
-    "Untitled",
     "8 - 前端跨端技术",
     "7 - 前端全链路监控/test.md",
     "README.md",
     "1 - JS/2- 前端性能优化.md",
     "Learning-and-Knowledge-Accumulation",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "image/img 前端全链路监控",
     "image/img 前端全链路监控/Pasted image 20240509135340.png",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
     "6 - 低代码项目/1 - 流程综述.md",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "7 - 前端全链路监控",
     "1 - JS/3- 浏览器原理.md",
     "2 - CSS/1 - CSS基础.md",
@@ -208,12 +210,10 @@
     "1 - JS/img 浏览器原理",
     "4 - Webpack & 工具链/img webpack基础",
     "1 - JS/img JS基础",
-    "Untitled.md",
     "3 - VUE/Vue基础.md",
     "1 - JS/Untitled.md",
     "Excalidraw/1- JS基础方法与属性 2024-02-07 21.19.32.excalidraw.md",
     "1 - 基础篇/2 - 起源Component.md",
-    "1 - 基础篇/3 - 组件的通信方式.md",
     "Untitled.canvas"
   ]
 }
