@@ -1,0 +1,5 @@
+code[class*="language-"], pre[class*="language-"] {
+  word-break: normal;
+  word-wrap: break-word;
+  white-space: pre;
+}

@@ -1,0 +1,61 @@
+{
+  "userAdmonitions": {
+    "cmt": {
+      "type": "cmt",
+      "color": "5, 32, 87",
+      "icon": {
+        "name": "comment",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Comment",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "warn": {
+      "type": "warn",
+      "color": "101, 6, 6",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-file-warning"
+      },
+      "command": false,
+      "title": "Warn",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "tip": {
+      "type": "tip",
+      "color": "23, 23, 23",
+      "icon": {
+        "name": "bell",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "tips",
+      "injectColor": true,
+      "noTitle": false
+    }
+  },
+  "syntaxHighlight": true,
+  "copyButton": false,
+  "version": "10.2.0",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.df726e"
+}

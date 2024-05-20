@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "theme": "system",
+  "cssTheme": "Minimal",
+  "baseFontSize": 20,
+  "enabledCssSnippets": [
+    "nowrap"
+  ],
+  "textFontFamily": "Chalkboard SE"
+}

@@ -1,0 +1,96 @@
+{
+  "settings": {
+    "migrated": 5,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "IbDatabse",
+      "IbHeartbeatMonitor",
+      "IbTreeMapRight",
+      "IbTextAlignLeft",
+      "🧰"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "icon": "📂",
+        "rule": "1 - JS/1- JS基础.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "📂",
+        "rule": "1 - JS\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "IbSquareAndPencil",
+        "rule": "2 - 优化篇\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "icon": "IbSquareAndPencil",
+        "rule": "1 - 基础篇/1 - 认识JSX.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "icon": "IbSquareAndPencil",
+        "rule": "1 - 基础篇\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 4,
+        "useFilePath": true
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "debugMode": false
+  },
+  "1 - 基础篇/2 - 起源Component.md": "IbSquareAndPencil",
+  "1 - 基础篇/3 - 组件的通信方式.md": "IbSquareAndPencil",
+  "状态管理篇": "FabSchlix",
+  "1 - 基础篇": "IbFolder",
+  "1 - 基础篇/1 - 认识JSX.md": "IbSquareAndPencil",
+  "2 - 优化篇": "IbFolder",
+  "1 - JS": "FabJs",
+  "1 - JS/1- JS基础.md": "📂",
+  "1 - JS/2- 前端性能优化.md": "📂",
+  "3 - VUE": "FabVuejs",
+  "3 - VUE/reactivity": "📂",
+  "5 - 计算机网络": "FabBattleNet",
+  "2 - CSS/1 - CSS基础.md": "📂",
+  "1 - JS/3- 浏览器原理.md": "📂",
+  "2 - CSS": "FabCss3",
+  "4 - Webpack & 工具链": "📦",
+  "4 - Webpack & 工具链/babel原理综述.md": "📂",
+  "4 - Webpack & 工具链/webpack基础.md": "📂",
+  "5 - 计算机网络/1 - 计网基础.md": "📂",
+  "6 - 低代码项目": "IbCursorDefault",
+  "6 - 低代码项目/1 - 流程综述.md": "IbTreeMapRight",
+  "7 - 前端全链路监控": "IbHeartbeatMonitor",
+  "7 - 前端全链路监控/1 - 监控流程设计.md": "IbTreeMapRight",
+  "7 - 前端全链路监控/2 - 数据结构设计.md": "IbDatabse",
+  "6 - 低代码项目/2 - 低代码CLI工具.md": "🧰"
+}
