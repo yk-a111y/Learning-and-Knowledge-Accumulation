@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md"
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md"
               }
             }
           },
@@ -177,14 +177,14 @@
   },
   "active": "7eadf1678e9d49bc",
   "lastOpenFiles": [
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "1 - JS/1- JS基础.md",
     "3 - VUE/Vue基础.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "Untitled 1.md",
     "Untitled",
     "Untitled.md",
-    "1 - JS/1- JS基础.md",
     "Excalidraw/1- JS基础 2024-05-20 21.18.24.excalidraw.md",
     "8 - 前端跨端技术/Untitled.md",
     "8 - 前端跨端技术",
