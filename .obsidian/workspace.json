@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -169,14 +169,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "7eadf1678e9d49bc",
+  "active": "69248991cb63ec3f",
   "lastOpenFiles": [
+    "image/img 前端全链路监控/Pasted image 20240523163648.png",
     "5 - 计算机网络/1 - 计网基础.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
@@ -222,7 +223,6 @@
     "1 - JS/img JS基础",
     "1 - JS/Untitled.md",
     "Excalidraw/1- JS基础方法与属性 2024-02-07 21.19.32.excalidraw.md",
-    "1 - 基础篇/2 - 起源Component.md",
     "Untitled.canvas"
   ]
 }
