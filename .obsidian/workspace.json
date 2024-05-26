@@ -47,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -177,7 +178,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "156d22662cb3058e",
+  "active": "bf0684ec9665fc1e",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
