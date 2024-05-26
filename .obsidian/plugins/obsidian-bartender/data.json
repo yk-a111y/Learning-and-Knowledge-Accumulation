@@ -18,6 +18,11 @@
       "Excalidraw",
       "image",
       "README.md"
+    ],
+    "3 - VUE": [
+      "3 - VUE/reactivity",
+      "3 - VUE/Vue基础.md",
+      "3 - VUE/vue3-aureole.md"
     ]
   },
   "actionBarOrder": {},

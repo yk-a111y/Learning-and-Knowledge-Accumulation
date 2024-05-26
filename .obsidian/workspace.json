@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - VUE/Vue基础.md",
+                "file": "3 - VUE/vue3-aureole.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - VUE/Vue基础.md",
+                "file": "3 - VUE/vue3-aureole.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - VUE/Vue基础.md",
+                "file": "3 - VUE/vue3-aureole.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - VUE/Vue基础.md"
+                "file": "3 - VUE/vue3-aureole.md"
               }
             }
           },
@@ -177,12 +177,13 @@
   },
   "active": "c9b14b85cdabe63c",
   "lastOpenFiles": [
+    "3 - VUE/Vue基础.md",
+    "3 - VUE/vue3-aureole.md",
     "README.md",
     "3 - VUE/reactivity/3- effect具备的能力.md",
     "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
     "3 - VUE/reactivity/1- Proxy与响应式对象.md",
     "3 - VUE/reactivity/5 - computed相关.md",
-    "3 - VUE/Vue基础.md",
     "3 - VUE/reactivity/4 - ref相关.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
@@ -219,7 +220,6 @@
     "image/img 浏览器原理/Pasted image 20240313105024.png",
     "image/img webpack基础",
     "image/Untitled.md",
-    "1- 基础方法与属性.md",
     "1 - JS/img 浏览器原理",
     "4 - Webpack & 工具链/img webpack基础",
     "1 - JS/img JS基础",
