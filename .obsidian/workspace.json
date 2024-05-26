@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "986b1ff12fd811ab",
+        "id": "979d75ae8ba3c307",
         "type": "tabs",
         "children": [
           {
-            "id": "156d22662cb3058e",
+            "id": "b9732d73c3c4cd39",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -47,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -178,7 +174,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "bf0684ec9665fc1e",
+  "active": "744b5831a098fecc",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
