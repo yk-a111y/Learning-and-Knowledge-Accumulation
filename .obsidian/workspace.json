@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dda6887b2d0a87db",
+        "id": "461cf28399d07009",
         "type": "tabs",
         "children": [
           {
-            "id": "7eadf1678e9d49bc",
+            "id": "e1fcf0b1fa8dccc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,14 +166,18 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "69248991cb63ec3f",
+  "active": "e1fcf0b1fa8dccc9",
   "lastOpenFiles": [
-    "3 - VUE/vue3-aureole.md",
-    "image/img 前端全链路监控/Pasted image 20240523163648.png",
-    "5 - 计算机网络/1 - 计网基础.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "README.md",
+    "5 - 计算机网络/1 - 计网基础.md",
+    "6 - 低代码项目/2 - 低代码CLI工具.md",
+    "6 - 低代码项目/1 - 流程综述.md",
+    "1 - JS/2- 前端性能优化.md",
     "1 - JS/1- JS基础.md",
+    "3 - VUE/vue3-aureole.md",
+    "image/img 前端全链路监控/Pasted image 20240523163648.png",
     "3 - VUE/Vue基础.md",
     "Untitled 1.md",
     "Untitled",
@@ -191,13 +186,9 @@
     "8 - 前端跨端技术/Untitled.md",
     "8 - 前端跨端技术",
     "7 - 前端全链路监控/test.md",
-    "README.md",
-    "1 - JS/2- 前端性能优化.md",
     "Learning-and-Knowledge-Accumulation",
     "image/img 前端全链路监控",
     "image/img 前端全链路监控/Pasted image 20240509135340.png",
-    "6 - 低代码项目/2 - 低代码CLI工具.md",
-    "6 - 低代码项目/1 - 流程综述.md",
     "7 - 前端全链路监控",
     "1 - JS/3- 浏览器原理.md",
     "2 - CSS/1 - CSS基础.md",
