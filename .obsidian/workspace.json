@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "461cf28399d07009",
+        "id": "fc8d0658ca9d9d22",
         "type": "tabs",
         "children": [
           {
-            "id": "e1fcf0b1fa8dccc9",
+            "id": "dfd58d52498bfc7f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/2- 前端性能优化.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 - JS/2- 前端性能优化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1 - JS/2- 前端性能优化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1 - JS/2- 前端性能优化.md"
+              }
             }
           },
           {
@@ -166,16 +175,22 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "e1fcf0b1fa8dccc9",
+  "active": "dfd58d52498bfc7f",
   "lastOpenFiles": [
+    "1 - JS/1- JS基础.md",
+    "4 - Webpack & 工具链/webpack基础.md",
+    "3 - VUE/reactivity/3- effect具备的能力.md",
+    "3 - VUE/reactivity/4 - ref相关.md",
+    "3 - VUE/reactivity/1- Proxy与响应式对象.md",
+    "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
+    "1 - JS/3- 浏览器原理.md",
+    "1 - JS/2- 前端性能优化.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "README.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
     "6 - 低代码项目/1 - 流程综述.md",
-    "1 - JS/2- 前端性能优化.md",
-    "1 - JS/1- JS基础.md",
     "3 - VUE/vue3-aureole.md",
     "image/img 前端全链路监控/Pasted image 20240523163648.png",
     "3 - VUE/Vue基础.md",
@@ -190,9 +205,7 @@
     "image/img 前端全链路监控",
     "image/img 前端全链路监控/Pasted image 20240509135340.png",
     "7 - 前端全链路监控",
-    "1 - JS/3- 浏览器原理.md",
     "2 - CSS/1 - CSS基础.md",
-    "4 - Webpack & 工具链/webpack基础.md",
     "image/img JS基础/Pasted image 20240424114625.png",
     "image/img 前端性能优化/Pasted image 20240423222513.png",
     "image/img 浏览器原理/Pasted image 20240423131522.png",
@@ -207,13 +220,9 @@
     "image/img webpack基础",
     "image/Untitled.md",
     "1- 基础方法与属性.md",
-    "Excalidraw/1- JS基础方法与属性 2024-02-07 21.24.11.excalidraw.md",
-    "Excalidraw/基础 2024-02-13 20.03.24.excalidraw.md",
     "1 - JS/img 浏览器原理",
     "4 - Webpack & 工具链/img webpack基础",
     "1 - JS/img JS基础",
-    "1 - JS/Untitled.md",
-    "Excalidraw/1- JS基础方法与属性 2024-02-07 21.19.32.excalidraw.md",
     "Untitled.canvas"
   ]
 }
