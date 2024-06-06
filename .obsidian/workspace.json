@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5fc554631aa27295",
+        "id": "4fb90a3c88163047",
         "type": "tabs",
         "children": [
           {
-            "id": "dc7fd6f130cf01a7",
+            "id": "ae72f1b6abe14242",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "4 - Webpack & 工具链/babel原理综述.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5110321044922
+    "width": 247.5110321044922
   },
   "right": {
     "id": "2114abde7063af78",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "4 - Webpack & 工具链/babel原理综述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "4 - Webpack & 工具链/babel原理综述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md"
+                "file": "4 - Webpack & 工具链/babel原理综述.md"
               }
             }
           },
@@ -169,31 +169,34 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dc7fd6f130cf01a7",
+  "active": "ae72f1b6abe14242",
   "lastOpenFiles": [
+    "Excalidraw/基础 2024-02-13 20.03.24.excalidraw.md",
+    "4 - Webpack & 工具链/babel原理综述.md",
+    "3 - VUE/vue3-aureole.md",
+    "3 - VUE/Vue基础.md",
+    "Excalidraw/Vue基础 2024-06-06 17.25.54.excalidraw.md",
+    "4 - Webpack & 工具链/webpack基础.md",
+    "1 - JS/3- 浏览器原理.md",
     "1 - JS/2- 前端性能优化.md",
     "1 - JS/1- JS基础.md",
-    "4 - Webpack & 工具链/webpack基础.md",
     "3 - VUE/reactivity/3- effect具备的能力.md",
     "3 - VUE/reactivity/4 - ref相关.md",
     "3 - VUE/reactivity/1- Proxy与响应式对象.md",
     "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
-    "1 - JS/3- 浏览器原理.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "README.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
     "6 - 低代码项目/1 - 流程综述.md",
-    "3 - VUE/vue3-aureole.md",
     "image/img 前端全链路监控/Pasted image 20240523163648.png",
-    "3 - VUE/Vue基础.md",
     "Untitled 1.md",
     "Untitled",
     "Untitled.md",
@@ -213,13 +216,10 @@
     "image/img JS基础/Pasted image 20240325214241.png",
     "Pasted image 20240423130111.png",
     "6 - 低代码项目",
-    "4 - Webpack & 工具链/babel原理综述.md",
     "image/img 计网基础/Pasted image 20240213191641.png",
     "image/img 计网基础/Pasted image 20240325214040.png",
     "Excalidraw/1- JS基础方法与属性 2024-02-07 21.17.00.excalidraw.md",
     "image/img webpack基础",
-    "image/Untitled.md",
-    "1- 基础方法与属性.md",
     "1 - JS/img 浏览器原理",
     "4 - Webpack & 工具链/img webpack基础",
     "1 - JS/img JS基础",
