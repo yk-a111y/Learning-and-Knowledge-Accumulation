@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fc8d0658ca9d9d22",
+        "id": "5fc554631aa27295",
         "type": "tabs",
         "children": [
           {
-            "id": "dfd58d52498bfc7f",
+            "id": "dc7fd6f130cf01a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 - JS/2- 前端性能优化.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,8 +166,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "dfd58d52498bfc7f",
+  "active": "dc7fd6f130cf01a7",
   "lastOpenFiles": [
+    "1 - JS/2- 前端性能优化.md",
     "1 - JS/1- JS基础.md",
     "4 - Webpack & 工具链/webpack基础.md",
     "3 - VUE/reactivity/3- effect具备的能力.md",
@@ -184,7 +176,6 @@
     "3 - VUE/reactivity/1- Proxy与响应式对象.md",
     "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
     "1 - JS/3- 浏览器原理.md",
-    "1 - JS/2- 前端性能优化.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "README.md",
