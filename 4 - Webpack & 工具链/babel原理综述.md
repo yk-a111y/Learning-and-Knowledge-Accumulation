@@ -37,6 +37,6 @@ FunctionDecleration的内部逻辑，即为visitor函数。vistor函数有两个
 
 通过traverse我们可以将AST修改为我们期望的样子
 ### Parser的历史
-nodejs 出现之后，前端可以用 nodejs 来做一些工程化的事情，工程化需要对代码做编译、压缩、lint 等处理，也就有了对 js parser 的需求
+nodejs 出现之后，前端可以用 nodejs 来做一些工程化的事情，工程化需要对代码做编译、压缩、lint 等处理，也就有了对 JS parser 的需求
 ### Transform
 ### Generate
