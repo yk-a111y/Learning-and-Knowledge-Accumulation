@@ -3,9 +3,9 @@ bebel的转换过程可以分为三阶段：解析阶段（Parsing）、转换�
 
 详细过程如图：
 
-parse =>  parser 把源码转成抽象语法树（AST）
-transform => 遍历 AST，调用各种 transform 插件对 AST 进行增删改
-generate => 转换后的 AST 打印成目标代码，并生成 sourcemap
+parse =>  parser 把源码转成抽象语法树（AST）@babel/parser
+transform => 遍历 AST，调用各种 transform 插件对 AST 进行增删改@babel/traverse
+generate => 转换后的 AST 打印成目标代码，并生成 sourcemap @babel/generator
 
 ![[基础 2024-02-13 20.03.24.excalidraw]]
 ### 简单实例：说明三个过程如何工作
