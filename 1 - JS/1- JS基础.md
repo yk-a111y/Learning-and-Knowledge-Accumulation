@@ -626,6 +626,12 @@ function checkType(target) {
     return Object.prototype.toString.call(target)
 }
 
+// 判断引用类型的temp
+function checkTemp(target) {
+    const c = target.constructor
+    return new c()
+}
+
 
 function deepClone(target, map = new Map()) {
 
@@ -633,24 +639,47 @@ function deepClone(target, map = new Map()) {
 	const type = checkType(target)
 
 	// 基本数据类型直接返回 
-	if (typeof target !== 'object') {
+	if (!canForArr.concat(noForArr).includes(type)) {
 		return target
 	}
+
+	// 引用数据类型特殊处理
+	const temp = checkTemp(target)
 	
-	// 引用数据类型判断是Object还是Array
-	const temp = Array.isArray(target) ? [] : {}
 	// 解决循环引用的bug，已存在直接返回
 	if (map.get(target)){
 		return map.get(target)
 	}
 	// 不存在则第一次设置
 	map.set(target, temp)
-	// 递归实现引用数据的深拷贝
+
+	// 处理Map类型
+    if (type === mapTag) {
+       target.forEach((value, key) => {
+           temp.set(key, deepClone(value, map))
+        })
+
+        return temp
+    }
+	// 处理Set类型
+    if (type === setTag) {
+       target.forEach(value => {
+           temp.add(deepClone(value))
+        })
+
+        return temp
+    }
+	// 处理数组和对象
 	for (const key in target) {
 		temp[key] = deepClone(target[key], map);
 	}
 	
 	return temp;
+}
+
+// 拷贝Symbol的方法
+function cloneSymbol(targe) {
+    return Object(Symbol.prototype.valueOf.call(targe));
 }
 ```
 
