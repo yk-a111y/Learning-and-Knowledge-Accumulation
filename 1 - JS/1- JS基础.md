@@ -643,6 +643,11 @@ function deepClone(target, map = new Map()) {
 		return target
 	}
 
+	// 处理Symbol、Reg、Function
+	if (type === symbolTag) return cloneSymbol(target)
+	if (type === regexpTag) return cloneReg(target)
+	if (type === funcTag) return cloneFunction(target)
+
 	// 引用数据类型特殊处理
 	const temp = checkTemp(target)
 	
@@ -680,6 +685,35 @@ function deepClone(target, map = new Map()) {
 // 拷贝Symbol的方法
 function cloneSymbol(targe) {
     return Object(Symbol.prototype.valueOf.call(targe));
+}
+// 拷贝RegExp的方法
+function cloneReg(targe) {
+    const reFlags = /\w*$/;
+    const result = new targe.constructor(targe.source, reFlags.exec(targe));
+    result.lastIndex = targe.lastIndex;
+    return result;
+}
+// 拷贝Function的方法
+function cloneFunction(func) {
+    const bodyReg = /(?<={)(.|\n)+(?=})/m;
+    const paramReg = /(?<=\().+(?=\)\s+{)/;
+    const funcString = func.toString();
+    if (func.prototype) {
+        const param = paramReg.exec(funcString);
+        const body = bodyReg.exec(funcString);
+        if (body) {
+            if (param) {
+                const paramArr = param[0].split(',');
+                return new Function(...paramArr, body[0]);
+            } else {
+                return new Function(body[0]);
+            }
+        } else {
+            return null;
+        }
+    } else {
+        return eval(funcString);
+    }
 }
 ```
 
