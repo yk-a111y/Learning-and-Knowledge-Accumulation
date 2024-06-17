@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "99ad11ae06f5c0e6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +186,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "84b8b8231604aa2f",
+  "active": "99ad11ae06f5c0e6",
   "lastOpenFiles": [
     "Excalidraw/基础 2024-02-13 20.03.24.excalidraw.md",
     "4 - Webpack & 工具链/babel原理综述.md",
