@@ -601,8 +601,36 @@ let obj = { name: 'yk' };
 let newObj = JSON.parse(JSON.stringify(obj));
 ```
 方法二：循环递归
+大致思路是：首先将数据类型分为基本数据类型和引用数据类型（数组、对象），基本数据类型可直接返回，引用数据类型会涉及到递归处理。之后，再将引用数据类型分为可遍历（map、set、数组、对象）和不可遍历（Symbol、正则Reg、函数Function）两种，根据这些case继续细分处理。
 ```js
+// 可遍历的类型
+const mapTag = '[object Map]';
+const setTag = '[object Set]';
+const arrayTag = '[object Array]';
+const objectTag = '[object Object]';
+
+// 不可遍历类型
+const symbolTag = '[object Symbol]';
+const regexpTag = '[object RegExp]';
+const funcTag = '[object Function]';
+
+// 将可遍历类型存在一个数组里
+const canForArr = ['[object Map]', '[object Set]',
+                   '[object Array]', '[object Object]']
+
+// 将不可遍历类型存在一个数组
+const noForArr = ['[object Symbol]', '[object RegExp]', '[object Function]']
+
+// 判断类型的函数
+function checkType(target) {
+    return Object.prototype.toString.call(target)
+}
+
+
 function deepClone(target, map = new Map()) {
+
+	// 首先获取target类型
+	const type = checkType(target)
 
 	// 基本数据类型直接返回 
 	if (typeof target !== 'object') {
