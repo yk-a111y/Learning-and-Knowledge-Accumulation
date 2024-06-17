@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,8 +185,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "99ad11ae06f5c0e6",
-  "active": "b9732d73c3c4cd39",
+  "active": "84b8b8231604aa2f",
   "lastOpenFiles": [
     "Excalidraw/基础 2024-02-13 20.03.24.excalidraw.md",
     "4 - Webpack & 工具链/babel原理综述.md",
