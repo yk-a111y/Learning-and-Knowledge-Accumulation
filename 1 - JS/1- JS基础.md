@@ -602,23 +602,27 @@ let newObj = JSON.parse(JSON.stringify(obj));
 ```
 方法二：循环递归
 ```js
-function deepClone(target) {
+function deepClone(target, map = new Map()) {
 
 	// 基本数据类型直接返回 
 	if (typeof target !== 'object') {
 		return target
 	}
 	
-	const temp = {}
-	for (const key in obj) {
-		if (typeof key === 'object') {
-			newObj[key] = obj[key].constructor === 'Array' ? [] : {}
-			newObj[key] = deepClone(obj[key], newObj[key]);
-		} else {
-			newObj[key] = obj[key];
-		}
+	// 引用数据类型判断是Object还是Array
+	const temp = Array.isArray(target) ? [] : {}
+	// 解决循环引用的bug，已存在直接返回
+	if (map.get(target)){
+		return map.get(target)
 	}
-	return res;
+	// 不存在则第一次设置
+	map.set(target, temp)
+	// 递归实现引用数据的深拷贝
+	for (const key in target) {
+		temp[key] = deepClone(target[key], map);
+	}
+	
+	return temp;
 }
 ```
 
