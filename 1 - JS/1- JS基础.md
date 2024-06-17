@@ -602,8 +602,14 @@ let newObj = JSON.parse(JSON.stringify(obj));
 ```
 方法二：循环递归
 ```js
-function deepClone(obj, newObj) {
-	let res = newObj || {};
+function deepClone(target) {
+
+	// 基本数据类型直接返回 
+	if (typeof target !== 'object') {
+		return target
+	}
+	
+	const temp = {}
 	for (const key in obj) {
 		if (typeof key === 'object') {
 			newObj[key] = obj[key].constructor === 'Array' ? [] : {}

@@ -4,29 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f5a9e9ace01192",
+        "id": "65ab5cbed292b3b6",
         "type": "tabs",
         "children": [
           {
-            "id": "84b8b8231604aa2f",
+            "id": "f5570ab4ee580513",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Webpack & 工具链/babel原理综述.md",
-                "mode": "preview",
+                "file": "1 - JS/1- JS基础.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "99ad11ae06f5c0e6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
               }
             }
           }
@@ -96,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 - Webpack & 工具链/babel原理综述.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4 - Webpack & 工具链/babel原理综述.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4 - Webpack & 工具链/babel原理综述.md"
+                "file": "1 - JS/1- JS基础.md"
               }
             }
           },
@@ -185,15 +175,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "84b8b8231604aa2f",
+  "active": "f5570ab4ee580513",
   "lastOpenFiles": [
-    "Excalidraw/基础 2024-02-13 20.03.24.excalidraw.md",
+    "7 - 前端全链路监控/2 - 数据结构设计.md",
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "4 - Webpack & 工具链/babel原理综述.md",
+    "Excalidraw/基础 2024-02-13 20.03.24.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "1 - JS/1- JS基础.md",
     "Excalidraw/Vue基础 2024-06-06 17.25.54.excalidraw.md",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "3 - VUE/vue3-aureole.md",
     "3 - VUE/Vue基础.md",
     "Excalidraw/Vue基础 2024-06-06 17.25.54.excalidraw.md",
@@ -205,8 +195,6 @@
     "3 - VUE/reactivity/4 - ref相关.md",
     "3 - VUE/reactivity/1- Proxy与响应式对象.md",
     "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "README.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
@@ -215,15 +203,11 @@
     "Untitled 1.md",
     "Untitled",
     "Untitled.md",
-    "Excalidraw/1- JS基础 2024-05-20 21.18.24.excalidraw.md",
-    "8 - 前端跨端技术/Untitled.md",
     "8 - 前端跨端技术",
-    "7 - 前端全链路监控/test.md",
     "Learning-and-Knowledge-Accumulation",
     "image/img 前端全链路监控",
     "image/img 前端全链路监控/Pasted image 20240509135340.png",
     "7 - 前端全链路监控",
-    "2 - CSS/1 - CSS基础.md",
     "image/img JS基础/Pasted image 20240424114625.png",
     "image/img 前端性能优化/Pasted image 20240423222513.png",
     "image/img 浏览器原理/Pasted image 20240423131522.png",
