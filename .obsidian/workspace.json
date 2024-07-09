@@ -8,46 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5570ab4ee580513",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/1- JS基础.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5c40e6c9d5f629f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5927c3a710de8d57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
-                "mode": "preview",
+                "file": "8 - 跨端开发/1 - Webview.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "8 - 跨端开发/1 - Webview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "8 - 跨端开发/1 - Webview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md"
+                "file": "8 - 跨端开发/1 - Webview.md"
               }
             }
           },
@@ -204,10 +177,13 @@
   },
   "active": "5927c3a710de8d57",
   "lastOpenFiles": [
-    "image/img 浏览器原理/Pasted image 20240423130235.png",
-    "1 - JS/3- 浏览器原理.md",
-    "1 - JS/2- 前端性能优化.md",
     "1 - JS/1- JS基础.md",
+    "1 - JS/2- 前端性能优化.md",
+    "8 - 跨端开发/1 - Webview.md",
+    "1 - JS/3- 浏览器原理.md",
+    "8 - 跨端开发/Untitled",
+    "8 - 跨端开发",
+    "image/img 浏览器原理/Pasted image 20240423130235.png",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "4 - Webpack & 工具链/babel原理综述.md",
@@ -228,7 +204,6 @@
     "6 - 低代码项目/1 - 流程综述.md",
     "image/img 前端全链路监控/Pasted image 20240523163648.png",
     "Untitled 1.md",
-    "Untitled",
     "Untitled.md",
     "8 - 前端跨端技术",
     "Learning-and-Knowledge-Accumulation",
@@ -246,7 +221,6 @@
     "image/img webpack基础",
     "1 - JS/img 浏览器原理",
     "4 - Webpack & 工具链/img webpack基础",
-    "1 - JS/img JS基础",
     "Untitled.canvas"
   ]
 }

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🎑",
       "🔎",
       "📂",
       "IbPhoneCallTransfer",
-      "IbDatabse",
-      "IbHeartbeatMonitor"
+      "IbDatabse"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -95,5 +95,7 @@
   "7 - 前端全链路监控/1 - 监控流程设计.md": "IbTreeMapRight",
   "7 - 前端全链路监控/2 - 数据结构设计.md": "IbDatabse",
   "3 - VUE/Vue基础.md": "📂",
-  "3 - VUE/vue3-aureole.md": "🔎"
+  "3 - VUE/vue3-aureole.md": "🔎",
+  "8 - 跨端开发": "IbPhoneCallTransfer",
+  "8 - 跨端开发/1 - Webview.md": "🎑"
 }
