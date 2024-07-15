@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - 低代码项目/1 - 流程综述.md",
+                "file": "1 - JS/1- JS基础.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - 低代码项目/1 - 流程综述.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - 低代码项目/1 - 流程综述.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - 低代码项目/1 - 流程综述.md"
+                "file": "1 - JS/1- JS基础.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "5927c3a710de8d57",
   "lastOpenFiles": [
+    "6 - 低代码项目/1 - 流程综述.md",
     "1 - JS/3- 浏览器原理.md",
     "image/img 浏览器原理/Pasted image 20240714224525.png",
     "2 - CSS/1 - CSS基础.md",
@@ -203,7 +204,6 @@
     "README.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
-    "6 - 低代码项目/1 - 流程综述.md",
     "image/img 前端全链路监控/Pasted image 20240523163648.png",
     "Untitled 1.md",
     "Untitled.md",
