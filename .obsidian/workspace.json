@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1df32d252736ac64",
+        "id": "5367d69503b24236",
         "type": "tabs",
         "children": [
           {
-            "id": "51438bb20c125288",
+            "id": "630ae31e691359a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
-                "mode": "preview",
+                "file": "8 - 微前端/1 - 方案综述.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md"
+                "file": "8 - 微前端/1 - 方案综述.md"
               }
             }
           },
@@ -169,19 +169,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "juggl:Juggl global graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "51438bb20c125288",
+  "active": "630ae31e691359a3",
   "lastOpenFiles": [
-    "README.md",
-    "8 - 微前端/1 - 方案综述.md",
     "image/img 微前端/Pasted image 20240722213539.png",
     "image/img 微前端",
     "9 - 跨端开发/1 - Webview.md",
+    "8 - 微前端/1 - 方案综述.md",
     "6 - 低代码项目/1 - 流程综述.md",
     "8 - 微前端",
     "2 - CSS/1 - CSS基础.md",
@@ -206,6 +205,7 @@
     "3 - VUE/reactivity/4 - ref相关.md",
     "3 - VUE/reactivity/1- Proxy与响应式对象.md",
     "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
+    "README.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
     "image/img 前端全链路监控/Pasted image 20240523163648.png",
@@ -221,6 +221,7 @@
     "image/img JS基础/Pasted image 20240325214241.png",
     "Pasted image 20240423130111.png",
     "6 - 低代码项目",
+    "image/img 计网基础/Pasted image 20240213191641.png",
     "image/img webpack基础",
     "Untitled.canvas"
   ]
