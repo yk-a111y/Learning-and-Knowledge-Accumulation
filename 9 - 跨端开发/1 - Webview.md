@@ -10,4 +10,10 @@ webview两个重要的落地点是：嵌入H5的混合式APP、小程序（微�
 ### 逻辑层是什么
 在微信小程序中，开发者在app.json文件注册页面，在/pages目录下创建对应页面。代码如下：
 ![[Pasted image 20240724170713.png]]
+在index.wxml中： `<view bind:tap="handleClick" >hello,world</view>`
+页面就会呈现出`hello, world`，这一过程暴露出几个问题：
+- Page函数从何而来？
+- index.js中的代码是怎么执行的？message属性如何通过JS传递到WXML中？
+
+首先，来看Page函数的来源。在onLoad中直接打印window对象，输出为undefined，证明小程序的runtime运行时并不在浏览器环境下。
 ## 通信设计
