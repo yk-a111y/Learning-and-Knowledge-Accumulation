@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8 - 微前端/1 - 方案综述.md",
+                "file": "1 - JS/1- JS基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8 - 微前端/1 - 方案综述.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8 - 微前端/1 - 方案综述.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8 - 微前端/1 - 方案综述.md"
+                "file": "1 - JS/1- JS基础.md"
               }
             }
           },
@@ -177,10 +177,10 @@
   },
   "active": "630ae31e691359a3",
   "lastOpenFiles": [
+    "8 - 微前端/1 - 方案综述.md",
     "image/img 微前端/Pasted image 20240722213539.png",
     "image/img 微前端",
     "9 - 跨端开发/1 - Webview.md",
-    "8 - 微前端/1 - 方案综述.md",
     "6 - 低代码项目/1 - 流程综述.md",
     "8 - 微前端",
     "2 - CSS/1 - CSS基础.md",
@@ -221,7 +221,6 @@
     "image/img JS基础/Pasted image 20240325214241.png",
     "Pasted image 20240423130111.png",
     "6 - 低代码项目",
-    "image/img 计网基础/Pasted image 20240213191641.png",
     "image/img webpack基础",
     "Untitled.canvas"
   ]
