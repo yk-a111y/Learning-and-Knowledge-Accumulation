@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
-                "mode": "source",
+                "file": "9 - 跨端开发/1 - Webview.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "9 - 跨端开发/1 - Webview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "9 - 跨端开发/1 - Webview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md"
+                "file": "9 - 跨端开发/1 - Webview.md"
               }
             }
           },
@@ -177,6 +177,7 @@
   },
   "active": "630ae31e691359a3",
   "lastOpenFiles": [
+    "1 - JS/1- JS基础.md",
     "8 - 微前端/1 - 方案综述.md",
     "image/img 微前端/Pasted image 20240722213539.png",
     "image/img 微前端",
@@ -184,7 +185,6 @@
     "6 - 低代码项目/1 - 流程综述.md",
     "8 - 微前端",
     "2 - CSS/1 - CSS基础.md",
-    "1 - JS/1- JS基础.md",
     "1 - JS/3- 浏览器原理.md",
     "image/img 浏览器原理/Pasted image 20240714224525.png",
     "1 - JS/2- 前端性能优化.md",
