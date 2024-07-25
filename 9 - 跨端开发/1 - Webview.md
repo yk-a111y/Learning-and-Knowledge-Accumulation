@@ -49,6 +49,10 @@ self.source_code.pages = [
 self.source_code.components = []
 /* 存放正常的 js 文件 */
 self.source_code.modules = []
-
 ```
+可以看到，上述代码中，页面结构被存放在self.source_code.pages这个数组中；组件和其他的JS代码被分别存放在components和modules数组中。
 ## 通信设计
+WebView的本质就是由移动端提供可以内嵌Web应用的组件。目前有两种应用方式：APP中打开H5页面（Hybird）和小程序。无论哪一种方式，都涉及到WebView和Native之间的通信。
+
+### WebView 通信之 JSBridge
+### 小程序通信方式
