@@ -17,5 +17,38 @@ webview两个重要的落地点是：嵌入H5的混合式APP、小程序（微�
 
 首先，来看Page函数的来源。在onLoad中直接打印window对象，输出为undefined，证明小程序的runtime运行时并不在浏览器环境下。
 
-小程序主包的打包产物如下：
+小程序主包的打包产物（service.js文件）如下：
+```js
+/* 存放对应的页面 */
+self.source_code.pages = [
+   {
+       name:'pages/index/index', //对应的页面路径
+       source:{ // js 逻辑资源
+           jsCode:function(exports, require, module){
+               module.exports = function(wx,App,Page,Component,getApp,global){
+                   // 编译后小程序业务代码，这样就可以获取 wx,Page,Component 属性。
+                   // 业务代码
+               }
+           },
+           jsJson:{...}
+       }
+   },
+   {
+       name:'/app' // 小程序 app 文件
+       source:{
+           jsCode:function(exports, require, module){
+                module.exports = function(wx,App,Page,Component,getApp,global){
+                   // 业务代码 
+                   App({})
+                }
+           },
+       }
+   },
+];
+/* 存放对应的组件 */
+self.source_code.components = []
+/* 存放正常的 js 文件 */
+self.source_code.modules = []
+
+```
 ## 通信设计
