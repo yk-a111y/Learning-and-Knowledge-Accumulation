@@ -8,7 +8,33 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7cb82a568fdb709f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/3- 浏览器原理.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "630ae31e691359a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8 - 微前端/1 - 方案综述.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "019226055acba002",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9 - 跨端开发/1 - Webview.md",
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9 - 跨端开发/1 - Webview.md",
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9 - 跨端开发/1 - Webview.md"
+                "file": "8 - 微前端/1 - 方案综述.md"
               }
             }
           },
@@ -177,18 +204,20 @@
   },
   "active": "630ae31e691359a3",
   "lastOpenFiles": [
+    "image/img 微前端/Pasted image 20240725114322.png",
+    "image/img 微前端/Pasted image 20240725114248.png",
+    "8 - 微前端/1 - 方案综述.md",
+    "9 - 跨端开发/1 - Webview.md",
+    "1 - JS/3- 浏览器原理.md",
     "image/img 跨端开发",
     "image/img 跨端开发/Pasted image 20240724170713.png",
     "image/img 跨端开发/Pasted image 20240724165114.png",
     "1 - JS/1- JS基础.md",
-    "8 - 微前端/1 - 方案综述.md",
     "image/img 微前端/Pasted image 20240722213539.png",
     "image/img 微前端",
-    "9 - 跨端开发/1 - Webview.md",
     "6 - 低代码项目/1 - 流程综述.md",
     "8 - 微前端",
     "2 - CSS/1 - CSS基础.md",
-    "1 - JS/3- 浏览器原理.md",
     "image/img 浏览器原理/Pasted image 20240714224525.png",
     "1 - JS/2- 前端性能优化.md",
     "8 - 跨端开发/Untitled",
@@ -220,9 +249,7 @@
     "7 - 前端全链路监控",
     "image/img JS基础/Pasted image 20240424114625.png",
     "image/img 前端性能优化/Pasted image 20240423222513.png",
-    "image/img 浏览器原理/Pasted image 20240423131522.png",
     "6 - 低代码项目",
-    "image/img webpack基础",
     "Untitled.canvas"
   ]
 }
