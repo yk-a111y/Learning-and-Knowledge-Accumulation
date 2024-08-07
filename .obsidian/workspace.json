@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md"
+                "file": "1 - JS/1- JS基础.md"
               }
             }
           },
@@ -201,11 +202,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7cb82a568fdb709f",
+  "active": "2ff456c1acacad18",
   "lastOpenFiles": [
+    "1 - JS/3- 浏览器原理.md",
     "1 - JS/1- JS基础.md",
     "README.md",
-    "1 - JS/3- 浏览器原理.md",
     "9 - 跨端开发/1 - Webview.md",
     "3 - VUE/vue3-aureole.md",
     "8 - 微前端/1 - 方案综述.md",
