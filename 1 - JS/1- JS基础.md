@@ -365,6 +365,10 @@ indexOf(data, index) => 检查从index开始
 3. MouseEvent.screenX/Y：提供鼠标对于屏幕的偏移量
 4. MouseEvent.offsetX/Y：目标节点相对于事件对象padding edge的偏移量
 #### 内容宽高属性
+##### 事件对象
+pageY -- 到文档顶部的距离；clientY到可视区域顶部的距离；offsetY到触发事件元素顶部的距离；
+「X轴同理」
+![[Pasted image 20240813154749.png]]
 ##### client相关
 clientWidth/Height:：width / height  + 左右padding
 clientTop/Left：boder.top/left  即上/左边框的宽度
