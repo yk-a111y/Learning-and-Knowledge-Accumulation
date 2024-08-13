@@ -366,19 +366,27 @@ indexOf(data, index) => 检查从index开始
 4. MouseEvent.offsetX/Y：目标节点相对于事件对象padding edge的偏移量
 #### 内容宽高属性
 ##### 事件对象
-pageY -- 到文档顶部的距离；clientY到可视区域顶部的距离；offsetY到触发事件元素顶部的距离；
+e.pageY -- 到文档顶部的距离；e.clientY到可视区域顶部的距离；e.offsetY到触发事件元素顶部的距离；e.screenY鼠标距离屏幕顶部的距离；
 「X轴同理」
+
+[注] React的合成事件是缺少offsetY属性的，可以用e.nativeEvent.offsetY获取；或者自己算: offsetY = pageY - getBoundingClientRect().top - window.scrollY
 ![[Pasted image 20240813154749.png]]
-##### client相关
+##### getBoundingClientRect方法
+该方法(element.getBoundingClientRect)返回一个DOMRect对象，是包含整个元素的最小矩形(padding、border-width也包含在内)。
+![[Pasted image 20240813160714.png]]
+##### client系列
 clientWidth/Height:：width / height  + 左右padding
-clientTop/Left：boder.top/left  即上/左边框的宽度
-##### offset相关
+clientTop/Left：上/左边框的宽度
+![[1- JS基础 2024-08-13 16.26.40.excalidraw]]
+##### offset系列
 offsetWidth/Height:：width / height  + 左右/上下padding + 左右/上下border
 offsetTop：当前元素**上边框外缘 **到 最近的已定位父级（offsetParent）**上边框内缘 **的距离。无定位父级则为到body顶部距离
 offsetLeft：当前元素**左边框外缘 **到 最近的已定位父级（offsetParent）**左边框内缘 **的距离。无定位父级则为到body左边距离
-##### scroll相关
+##### scroll系列
 scrollWidth/Height: 标签内容层的实际宽高（可视区域宽高+被隐藏的部分）
 scrollTop/Left: 内容层顶/左端 到可视区域顶/左端
+window.scrollY/X: 页面在某个方向上的滚动值
+
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/25949356/1697175795783-7a96b2fa-3336-45f8-9f40-749bec9f3a18.png#averageHue=%23f0dbb7&clientId=u987ba2ff-08c5-4&from=paste&height=525&id=u6959d4ef&originHeight=867&originWidth=1131&originalType=binary&ratio=1.6500000953674316&rotation=0&showTitle=false&size=151708&status=done&style=none&taskId=u87c83261-ae12-4ff9-8265-986319e08f7&title=&width=685.454505836342)
 #### requestAnimationFrame
 H5提供的请求动画的API，在主线程（JS引擎线程）上执行，如果主线程忙碌，动画效果可能会打折扣。其效果好的原因是：
