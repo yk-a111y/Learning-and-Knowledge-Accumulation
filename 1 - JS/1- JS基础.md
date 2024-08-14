@@ -375,8 +375,8 @@ e.pageY -- 到文档顶部的距离；e.clientY到可视区域顶部的距离；
 该方法(element.getBoundingClientRect)返回一个DOMRect对象，是包含整个元素的最小矩形(padding、border-width也包含在内)。
 ![[Pasted image 20240813160714.png]]
 ##### client系列
-clientWidth/Height:：width / height  + 左右padding
-clientTop/Left：上/左边框的宽度
+clientWidth/Height: width / height  + 左右padding
+clientTop/Left: 上/左边框的宽度
 ![[1- JS基础 2024-08-13 16.26.40.excalidraw]]
 ##### offset系列
 offsetWidth/Height:：width / height  + 左右/上下padding + 左右/上下border
