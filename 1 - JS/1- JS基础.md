@@ -442,6 +442,45 @@ myWorker.terminate(); // 关闭worker
 ```js
 self.close(); // 直接执行close方法就ok了
 ```
+#### 五类Observer综述
+##### IntersectionObserver
+IntersectionObserver 可以监听一个元素和可视区域相交部分的比例，然后在可视比例达到某个阈值的时候触发回调
+```js
+const intersectionObserver = new IntersectionObserver(
+	function (entries) {
+		entries.forEach(item => { console.log(item.target, item.intersectionRatio) })
+	},
+	{
+		threshold: [0.5, 1] // 可视比例在0.5和1时触发回调
+	}
+)
+
+// 调用observe方法
+intersectionObserver.observe(document.querySelector('#box1'))
+```
+##### MutationObserver
+监听一个JS对象的变化，我们会用 Object.defineProperty 或者 Proxy；而监听DOM元素的属性和子节点的变化，我们可以用 MutationObserver。
+```js
+const mutationObserver = new MutationObserver((mutationsList) => {
+    console.log(mutationsList)
+});
+
+mutationObserver.observe(box, {
+    attributes: true,
+    childList: true
+});
+```
+##### ResizeObserver
+元素可以用 ResizeObserver 监听大小的改变，当 width、height 被修改时会触发回调
+```js
+const resizeObserver = new ResizeObserver(entries => {
+    console.log('当前大小', entries)
+});
+resizeObserver.observe(box);
+```
+##### ReportingObserver
+##### PerformanceObserver
+
 ### JS手写
 #### 大数相加
 ```js
