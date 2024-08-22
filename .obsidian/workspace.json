@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "262e1bc1ecf73d0a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
+          },
+          {
             "id": "019226055acba002",
             "type": "leaf",
             "state": {
@@ -46,7 +56,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +213,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2ff456c1acacad18",
+  "active": "262e1bc1ecf73d0a",
   "lastOpenFiles": [
     "Excalidraw/1- JS基础 2024-08-13 16.26.40.excalidraw.md",
     "1 - JS/1- JS基础.md",
