@@ -366,8 +366,7 @@ indexOf(data, index) => 检查从index开始
 4. MouseEvent.offsetX/Y：目标节点相对于事件对象padding edge的偏移量
 #### 内容宽高属性
 ##### 事件对象
-e.pageY -- 到文档顶部的距离；e.clientY到可视区域顶部的距离；e.offsetY到触发事件元素顶部的距离；e.screenY鼠标距离屏幕顶部的距离；
-「X轴同理」
+e.pageY -- 到文档顶部的距离；e.clientY到可视区域顶部的距离；e.offsetY到触发事件元素顶部的距离；e.screenY鼠标距离屏幕顶部的距离；「X轴同理」
 
 [注] React的合成事件是缺少offsetY属性的，可以用e.nativeEvent.offsetY获取；或者自己算: offsetY = pageY - getBoundingClientRect().top - window.scrollY
 ![[Pasted image 20240813154749.png]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "1 - JS/1- JS基础.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "right": {
     "id": "2114abde7063af78",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md"
+                "file": "1 - JS/1- JS基础.md"
               }
             }
           },
@@ -177,12 +178,12 @@
   },
   "active": "9c09d1f7927f69f6",
   "lastOpenFiles": [
-    "1 - JS/2- 前端性能优化.md",
+    "Excalidraw/1- JS基础 2024-08-13 16.26.40.excalidraw.md",
     "1 - JS/1- JS基础.md",
+    "1 - JS/2- 前端性能优化.md",
+    "1 - JS/3- 浏览器原理.md",
     "9 - 跨端开发/1 - Webview.md",
     "README.md",
-    "1 - JS/3- 浏览器原理.md",
-    "Excalidraw/1- JS基础 2024-08-13 16.26.40.excalidraw.md",
     "image/img JS基础/Pasted image 20240813160714.png",
     "image/img JS基础/Pasted image 20240813154749.png",
     "3 - VUE/vue3-aureole.md",
