@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - JS/2- 前端性能优化.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -186,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 338.5
   },
   "left-ribbon": {
     "hiddenItems": {
