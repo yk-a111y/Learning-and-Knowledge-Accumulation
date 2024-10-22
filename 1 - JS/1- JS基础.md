@@ -509,13 +509,81 @@ class INode<T> {
 	value: T;
 	next: INode<T> | null;
 
-  
-
 	constructor(value: T, next: INode<T> | null = null) {
 	this.value = value;
 	this.next = next;
 	}
 }
+
+export default class Queue<T> {
+  private head: INode<T> | null;
+  private tail: INode<T> | null;
+  private size: number;
+
+  constructor() {
+    this.head = null;
+    this.tail = null;
+    this.size = 0;
+  }
+
+  enqueue(value: T) {
+    const newNode = new INode<T>(value);
+    if (this.tail) {
+      this.tail.next = newNode;
+      this.tail = newNode;
+    } else {
+      this.head = newNode;
+      this.tail = newNode;
+    }
+    this.size++;
+  }
+
+  dequeue() {
+    const currentHead = this.head;
+    if (!currentHead) return;
+
+    this.head = currentHead.next;
+    this.size--;
+
+    return currentHead.value;
+  }
+
+  get _size() {
+    return this.size;
+  }
+
+  clear() {
+    this.head = null;
+    this.tail = null;
+    this.size = 0;
+  }
+
+  // 生成器函数，将Queue变为可迭代的
+  *[Symbol.iterator]() {
+    let current = this.head;
+
+    while (current) {
+      yield current.value;
+      current = current.next;
+    }
+  }
+}
+```
+具体使用如下：
+```js
+const queue = new Queue();
+queue.enqueue("1");
+queue.enqueue("2");
+queue.enqueue("3");
+console.log(queue);
+
+for (const value of queue) {
+  console.log(value); // 输出 1, 2, 3
+}
+
+queue.dequeue();
+queue.dequeue();
+console.log(queue);
 ```
 #### 数组常用算法
 ##### 数组扁平化
