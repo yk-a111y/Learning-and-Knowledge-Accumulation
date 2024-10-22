@@ -502,6 +502,21 @@ function addStrings(num1, num2) {
 }
 ```
 
+#### 实现一个Queue
+因为在操作JS原生的数组的过程中，如果是一个非常大的数组，shift带来的时间复杂度为O(n)，Queue可以实现O(1)级别的复杂度，并且不改变Array可遍历的特性
+```js
+class INode<T> {
+	value: T;
+	next: INode<T> | null;
+
+  
+
+	constructor(value: T, next: INode<T> | null = null) {
+	this.value = value;
+	this.next = next;
+	}
+}
+```
 #### 数组常用算法
 ##### 数组扁平化
 ```js
