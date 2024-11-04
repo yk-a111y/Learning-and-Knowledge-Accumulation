@@ -17,7 +17,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "1- JS基础"
             }
           },
           {
@@ -30,7 +32,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2- 前端性能优化"
             }
           },
           {
@@ -43,7 +47,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "3- 浏览器原理"
             }
           },
           {
@@ -56,7 +62,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "1- JS基础"
             }
           },
           {
@@ -65,15 +73,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9 - 跨端开发/1 - Webview.md",
+                "file": "5 - 计算机网络/1 - 计网基础.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "1 - 计网基础"
+            }
+          },
+          {
+            "id": "fc7cb35ab4ab4751",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
+            }
+          },
+          {
+            "id": "629b52967877838d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -93,7 +125,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "custom"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -108,7 +142,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -116,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -139,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9 - 跨端开发/1 - Webview.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +185,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1- JS基础"
             }
           },
           {
@@ -156,10 +196,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9 - 跨端开发/1 - Webview.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1- JS基础"
             }
           },
           {
@@ -170,7 +212,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -179,8 +223,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9 - 跨端开发/1 - Webview.md"
-              }
+                "file": "1 - JS/1- JS基础.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -188,7 +234,9 @@
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
-              "state": {}
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
             }
           },
           {
@@ -196,7 +244,9 @@
             "type": "leaf",
             "state": {
               "type": "juggl_style",
-              "state": {}
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
             }
           },
           {
@@ -204,7 +254,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -228,10 +280,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "06c183e14e02944f",
+  "active": "fc7cb35ab4ab4751",
   "lastOpenFiles": [
-    "1 - JS/1- JS基础.md",
     "9 - 跨端开发/1 - Webview.md",
+    "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
     "1 - JS/3- 浏览器原理.md",
     "Excalidraw/1- JS基础 2024-08-13 16.26.40.excalidraw.md",
