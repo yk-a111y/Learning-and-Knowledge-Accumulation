@@ -83,19 +83,7 @@
             }
           },
           {
-            "id": "fc7cb35ab4ab4751",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
-            "id": "629b52967877838d",
+            "id": "3173b7df4663330c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -105,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -177,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "5 - 计算机网络/1 - 计网基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1- JS基础"
+              "title": "Backlinks for 1 - 计网基础"
             }
           },
           {
@@ -196,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "5 - 计算机网络/1 - 计网基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1- JS基础"
+              "title": "Outgoing links from 1 - 计网基础"
             }
           },
           {
@@ -223,10 +211,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md"
+                "file": "5 - 计算机网络/1 - 计网基础.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline of 1 - 计网基础"
             }
           },
           {
@@ -280,7 +268,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fc7cb35ab4ab4751",
+  "active": "06c183e14e02944f",
   "lastOpenFiles": [
     "9 - 跨端开发/1 - Webview.md",
     "1 - JS/1- JS基础.md",
