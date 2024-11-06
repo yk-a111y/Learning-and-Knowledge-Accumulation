@@ -69,6 +69,7 @@ let p1 = Object.create(person)
 ```
 > Object.create() => 以现有对象为原型，创建一个新对象
 
+
  ![[1- JS基础方法与属性 2024-02-07 21.17.00.excalidraw]]
 
 ##### 组合继承--原型继承+盗用构造函数
