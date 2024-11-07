@@ -1556,7 +1556,7 @@ async function sliceFile(targetFile, baseChunkSize = 1) {
 当脚本内容过多时，也可以实现异步加载，即设置defer和async让脚本**异步加载**：遇到这行命令开始下载外部脚本，但不会等待下载and执行结束，而是继续走后面的渲染。
 
 >**defer：**等到整个页面渲染结束才执行，多个脚本按顺序执行**（渲染完执行）**
-**async：**一旦下载完，渲染引擎中断，执行该脚本完毕后再继续渲染，多个脚本不能保证执行顺序**（下载完执行）**
+ **async：**一旦下载完，渲染引擎中断，执行该脚本完毕后再继续渲染，多个脚本不能保证执行顺序**（下载完执行）**
 ##### CommonJS规范（同步加载模块）
 > Node采用CommonJS规范，在服务端模块加载是**运行时同步加载**，在浏览器模块需要**提前编译打包**
 
@@ -1564,10 +1564,12 @@ async function sliceFile(targetFile, baseChunkSize = 1) {
 模块可以被多次加载，但只会在第一次加载时运行，后续会访问第一次缓存的结果。想要模块再运行，必须清缓存
 
 - 基本语法
-**暴露模块**： module.exports = value / exports.xxx = value
-**引入: **require(url / moduleName)
-**CommonJS暴露的是什么？？**
-CJS规定，module代表每个模块对象，加载模块 = 加载该模块的module.exports 属性。需要注意的是，CJS输出的是值的拷贝，也就是说，**一旦输出值，模块内部的变化就影响不到这个值**。
+	**暴露模块**： module.exports = value / exports.xxx = value
+	**引入: **require(url / moduleName)
+
+
+	**CommonJS暴露的是什么？？**
+	CJS规定，module代表每个模块对象，加载模块 = 加载该模块的module.exports 属性。需要注意的是，CJS输出的是值的拷贝，也就是说，**一旦输出值，模块内部的变化就影响不到这个值**。
 ```jsx
 // test.js
 let counter = 3;
@@ -1583,6 +1585,35 @@ const test = require(./test.js)
 console.log(test.counter); // 3
 test.addCounter();
 console.log(test.counter); // 3 not 4
+```
+
+CJS的原理初探
+```js
+// 缓存变量
+var cache = {}
+var modules = {
+	'./name.js': (module) => {
+		module.exports = 'yk' // 给module的exports赋值
+	}
+}
+
+function require (modulePath) {
+	const cacheModule = cache[modulePath];
+	// 如果有缓存，返回缓存对象的exports属性
+	if (cacheModule !== undefined) return cacheModule.exports; 
+	// 令 cache[modulePath] 和 module 指向同一个地址
+	module = (cache[modulePath]) = { export : {} };
+	// 运行模块内代码
+	modules[modulePath](module, module.exports, require);
+
+	return module.exports;
+}
+
+// IIFE包裹，避免变量名字冲突
+(() => {
+  let author = require("./name.js"); // require会返回指定文件的module.exports属性
+  console.log(author, "author");
+})();
 ```
 ##### AMD（异步加载模块）
 

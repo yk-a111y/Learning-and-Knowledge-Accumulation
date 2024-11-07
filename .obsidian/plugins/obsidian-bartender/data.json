@@ -27,7 +27,7 @@
     ]
   },
   "actionBarOrder": {},
-  "autoHide": false,
+  "autoHide": true,
   "autoHideDelay": 2000,
   "dragDelay": 200
 }
