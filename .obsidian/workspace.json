@@ -83,6 +83,16 @@
             }
           },
           {
+            "id": "4e43cf2162e5c131",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
             "id": "b654b6b3f97b3b4b",
             "type": "leaf",
             "state": {
@@ -280,9 +290,9 @@
   },
   "active": "06c183e14e02944f",
   "lastOpenFiles": [
-    "Excalidraw/1- JS基础 2024-11-05 11.49.09.excalidraw.md",
-    "1 - JS/1- JS基础.md",
     "5 - 计算机网络/1 - 计网基础.md",
+    "1 - JS/1- JS基础.md",
+    "Excalidraw/1- JS基础 2024-11-05 11.49.09.excalidraw.md",
     "9 - 跨端开发/1 - Webview.md",
     "1 - JS/2- 前端性能优化.md",
     "1 - JS/3- 浏览器原理.md",
