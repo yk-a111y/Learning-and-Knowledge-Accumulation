@@ -21,6 +21,16 @@
               "icon": "lucide-file",
               "title": "babel原理综述"
             }
+          },
+          {
+            "id": "d2ee2a2318b026e8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       }
