@@ -1000,23 +1000,28 @@ function curry(fn) {
 都是将含有多个Promise实例组成的数组包装成一个Promise对象。Promise.all中的所有Promise都成功，则按顺序返回结果数组，出现失败，则整个过程直接结束，返回失败态的Promise。Promise.race为多个Promise对象竞争，返回率先完成执行的Promise的状态
 ##### 手写Promise All
 ```js
-function myPromiseAll (array) {
-	let res = [];
-	return new Promise((resolve, reject) => {
-		function addData(index, value) {
-			res[index] = value;
-			// 若所有结果执行完毕，调用resolve
-			if (index === array.length) {
-				resolve(res);
-			}
-		}
+function myPromiseAll(array) {
+  let res = [];
+  let count = 0;
+  return new Promise((resolve, reject) => {
+    function addData(index, value) {
+      res[index] = value;
+      count += 1;
+      // 若所有结果执行完毕，调用resolve
+      if (count === array.length) {
+        resolve(res);
+      }
+    }
 
-		for (let i = 0; i < array.length; i++) {
-			let currentPromise = array[i];
-			// Promise.resolve同时处理值和promise对象，再调用then处理成功或失败
-			Promise.resolve(currentPromise).then(value => addData(i, value), reject);
-		}
-	})
+    for (let i = 0; i < array.length; i++) {
+      let currentPromise = array[i];
+      // Promise.resolve同时处理值和promise对象，再调用then处理成功或失败
+      Promise.resolve(currentPromise).then(
+        (value) => addData(i, value),
+        reject
+      );
+    }
+  });
 }
 ```
 ##### 带并发限制的Promise.All
