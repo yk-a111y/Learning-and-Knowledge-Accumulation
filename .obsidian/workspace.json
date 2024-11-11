@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dca75fb6e0c4e2da",
+        "id": "e05be8b66b7c0ee4",
         "type": "tabs",
         "children": [
           {
-            "id": "ce073b5934737aa4",
+            "id": "1694c84c0dea270c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "4 - 打包 & 工具链/webpack基础.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -194,13 +194,17 @@
       "juggl:Juggl global graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce073b5934737aa4",
+  "active": "1694c84c0dea270c",
   "lastOpenFiles": [
-    "Excalidraw/webpack基础 2024-11-11 15.18.35.excalidraw.md",
+    "image/img webpack基础/Pasted Image 20241111152059_584.png",
+    "image/img webpack基础/Pasted Image 20241111152025_116.png",
     "4 - 打包 & 工具链/webpack基础.md",
+    "Excalidraw/webpack基础 2024-11-11 15.20.19.excalidraw.md",
+    "Excalidraw/webpack基础 2024-11-11 15.18.35.excalidraw.md",
     "Excalidraw/webpack基础 2024-11-11 15.17.02.excalidraw.md",
     "4 - 打包 & 工具链/babel原理综述.md",
     "1 - JS/1- JS基础.md",
@@ -231,16 +235,12 @@
     "image/img 浏览器原理/Pasted image 20240714224525.png",
     "8 - 跨端开发/Untitled",
     "9 - 跨端开发",
-    "image/img 浏览器原理/Pasted image 20240423130235.png",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "Excalidraw/基础 2024-02-13 20.03.24.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Vue基础 2024-06-06 17.25.54.excalidraw.md",
     "3 - VUE/Vue基础.md",
-    "Excalidraw/Vue基础 2024-06-06 17.25.54.excalidraw.md",
-    "3 - VUE/reactivity/3- effect具备的能力.md",
-    "image/img 前端全链路监控/Pasted image 20240523163648.png",
     "8 - 前端跨端技术",
     "Learning-and-Knowledge-Accumulation",
     "image/img 前端全链路监控",
