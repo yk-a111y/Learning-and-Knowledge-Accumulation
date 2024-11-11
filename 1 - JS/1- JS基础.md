@@ -1192,82 +1192,54 @@ function resolvePromise (myPromise, x, resolve, reject) {
   }
 }
 ```
-#### 异步任务并发限流
-```js
-class AsyncQueue {
-	constructor(concurrency) {
-		this.concurrency = concurrency; // 并发数量
-		this.running = 0; // 运行数量
-		this.queue = []; // 任务队列
-	}
-
-	addTask(task) {
-		this.queue.push(task);
-		this.runTasks();
-	}
-
-	async runTasks() {
-		while (this.running < concurrency && this.queue.length > 0) {
-			const task = this.queue.unshift();
-			this.running++;
-
-			try {
-				await task();
-			} catch (error) {
-				console.log('Task error: ', error);
-			}
-
-			this.running--;
-		}
-	}
-}
-```
-字节的面试题Scheduler
+#### Scheduler异步任务调度
 ```js
 class Scheduler {
-  constructor(concurrency) {
-    this.concurrency = concurrency;
-    this.count = 0; // 当前执行个数
-    this.queue = []; // 等待队列
+  constructor() {
+    this.count = 2; // 最大并发任务数
+    this.queue = []; // 任务队列
+    this.activeCount = 0; // 当前活动任务数
   }
 
-  async add(promiseCreater) {
-    if (this.count >= this.max) {
-      await new Promise((resolve, reject) => {
-        this.queue.push(resolve);
-      })
-    }
+  add(task) {
+    return new Promise((resolve) => {
+      const runTask = () => {
+        this.activeCount++;
+        task().then(() => {
+          resolve();
+          this.activeCount--;
+          if (this.queue.length > 0) {
+            const nextTask = this.queue.shift();
+            nextTask();
+          }
+        });
+      };
 
-    this.count++;
-    let res = promiseCreater();
-    this.count--;
-    if (this.queue.length) {
-      this.queue.shift()();
-    }
-
-    return res;
+      if (this.activeCount < this.count) {
+        runTask();
+      } else {
+        this.queue.push(runTask);
+      }
+    });
   }
 }
 
-const timeout = time => {
-	return new Promise(resolve => {
-	  setTimeout(resolve, time);
-	})
-}
+const timeout = (time) =>
+  new Promise((resolve) => {
+    setTimeout(resolve, time);
+  });
 
-const scheduler = new Scheduler(2);
+const scheduler = new Scheduler();
 const addTask = (time, order) => {
-	scheduler.add(() => timeout(time)).then(() => console.log(order))
-}
+  scheduler.add(() => timeout(time)).then(() => console.log(order));
+};
 
-addTask(1000, '1');
-addTask(500, '2');
-addTask(300, '3');
-addTask(400, '4');
-// 500ms => 2
-// 800ms => 3
-// 1000ms => 1
-// 1200ms => 4
+addTask(2000, "1");
+addTask(500, "2");
+addTask(300, "3");
+addTask(400, "4");
+// output: 2 3 1 4
+
 ```
 #### EventBus
 >基础版本实现：
