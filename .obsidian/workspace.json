@@ -13,23 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "3 - VUE/reactivity/3- effect具备的能力.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3- 浏览器原理"
-            }
-          },
-          {
-            "id": "cb926e98af5a476a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3- effect具备的能力"
             }
           }
         ]
@@ -150,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md"
+                "file": "3 - VUE/reactivity/3- effect具备的能力.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- 浏览器原理"
+              "title": "Outline of 3- effect具备的能力"
             }
           },
           {
@@ -210,6 +200,12 @@
   },
   "active": "1694c84c0dea270c",
   "lastOpenFiles": [
+    "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
+    "3 - VUE/reactivity/1- Proxy与响应式对象.md",
+    "3 - VUE/Vue基础.md",
+    "3 - VUE/reactivity/3- effect具备的能力.md",
+    "Excalidraw/收集依赖与触发依赖 trigger.md",
+    "Excalidraw/收集依赖与触发依赖 track.md",
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/1- JS基础.md",
     "4 - 打包 & 工具链/webpack基础.md",
@@ -246,11 +242,6 @@
     "8 - 跨端开发/Untitled",
     "9 - 跨端开发",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
-    "Excalidraw/基础 2024-02-13 20.03.24.excalidraw.md",
-    "conflict-files-obsidian-git.md",
-    "Excalidraw/Vue基础 2024-06-06 17.25.54.excalidraw.md",
-    "3 - VUE/Vue基础.md",
     "8 - 前端跨端技术",
     "Learning-and-Knowledge-Accumulation",
     "image/img 前端全链路监控",
