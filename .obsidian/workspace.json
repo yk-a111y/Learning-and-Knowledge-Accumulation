@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - VUE/reactivity/3- effect具备的能力.md",
+                "file": "3 - VUE/reactivity/1- Proxy与响应式对象.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3- effect具备的能力"
+              "title": "1- Proxy与响应式对象"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 257.5
   },
   "right": {
     "id": "2114abde7063af78",
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - VUE/reactivity/3- effect具备的能力.md"
+                "file": "3 - VUE/reactivity/1- Proxy与响应式对象.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- effect具备的能力"
+              "title": "Outline of 1- Proxy与响应式对象"
             }
           },
           {
@@ -200,10 +200,12 @@
   },
   "active": "1694c84c0dea270c",
   "lastOpenFiles": [
+    "3 - VUE/reactivity/5 - computed相关.md",
+    "3 - VUE/reactivity/4 - ref相关.md",
+    "3 - VUE/reactivity/3- effect具备的能力.md",
     "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
     "3 - VUE/reactivity/1- Proxy与响应式对象.md",
     "3 - VUE/Vue基础.md",
-    "3 - VUE/reactivity/3- effect具备的能力.md",
     "Excalidraw/收集依赖与触发依赖 trigger.md",
     "Excalidraw/收集依赖与触发依赖 track.md",
     "1 - JS/3- 浏览器原理.md",
@@ -237,11 +239,9 @@
     "image/img 微前端",
     "6 - 低代码项目/1 - 流程综述.md",
     "8 - 微前端",
-    "2 - CSS/1 - CSS基础.md",
     "image/img 浏览器原理/Pasted image 20240714224525.png",
     "8 - 跨端开发/Untitled",
     "9 - 跨端开发",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "8 - 前端跨端技术",
     "Learning-and-Knowledge-Accumulation",
     "image/img 前端全链路监控",

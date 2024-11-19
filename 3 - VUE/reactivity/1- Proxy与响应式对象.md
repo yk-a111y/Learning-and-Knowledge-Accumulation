@@ -1,5 +1,17 @@
-##  Proxy对象是什么
+##  Proxy与Reflect 
 >  **proxy**( raw, handler )： 为raw创建一个代理对象，在handler中实现对raw基本操作的拦截及自定义(访问属性、函数调用等。)
+
+### Proxy
+Proxy对象只能够拦截对一个对象的基本操作，如：obj.foo；但如果这样访问：obj.fn()，这种被称之为非基本操作，即`复合操作`，首先通过get访问到fn函数，然后再调用(apply)。
+
+### Reflect
+*为什么在Vue源码的实现中，不直接使用对象自身的getter、setter，而是要用`Reflect.get(obj, 'foo')`呢？*
+
+给出`const obj = { foo: 1, get bar(){ return this.foo } }`这样一个对象，让我们用副作用将函数包裹，`effect(() => log(p.bar))`，当effect执行时，p.bar是一个访问器函数，读取了foo的值，这样我们可以认为foo与副作用函数之间建立了联系，但实际并非如此。
+
+问题出现在，访问bar函数时的this，指向的是原始对象obj，并非代理对象，既然代理对象的getter始终没有触发，那依赖是一定没有被收集的，使用Reflect可以避免这一问题。因为Reflect可以指定第三个参数，receiver，即`Reflect.get(target, key, target)`
+
+综上，Reflect的出现是通过指定receiver，防止跳过代理对象handler的情况出现。
 ## 响应式对象是什么
 > 通过reactive函数创建Proxy对象，并通过定制handler实现特定的响应式效果
 ```jsx
