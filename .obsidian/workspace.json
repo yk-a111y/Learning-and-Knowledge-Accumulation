@@ -187,8 +187,8 @@
       "juggl:Juggl global graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "a6957b04f870e4b8",
