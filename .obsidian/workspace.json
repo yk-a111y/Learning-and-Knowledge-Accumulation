@@ -23,7 +23,22 @@
             }
           },
           {
-            "id": "2f0804d077f9f70d",
+            "id": "7532f24e1548ef8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/1- JS基础.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1- JS基础"
+            }
+          },
+          {
+            "id": "d6c527670c39141e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -33,7 +48,7 @@
             }
           },
           {
-            "id": "95c8fb8c68831b02",
+            "id": "264ee22fda69b5df",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -42,7 +57,8 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,10 +176,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md"
+                "file": "1 - JS/1- JS基础.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2- 前端性能优化"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -218,8 +234,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a6957b04f870e4b8",
+  "active": "7532f24e1548ef8b",
   "lastOpenFiles": [
+    "1 - JS/2- 前端性能优化.md",
     "1 - JS/3- 浏览器原理.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "1 - JS/1- JS基础.md",
@@ -242,7 +259,6 @@
     "Excalidraw/webpack基础 2024-11-11 15.17.02.excalidraw.md",
     "4 - 打包 & 工具链/babel原理综述.md",
     "Untitled.md",
-    "1 - JS/2- 前端性能优化.md",
     "4 - Webpack & 工具链/Vite.md",
     "4 - 打包 & 工具链/Vite",
     "Excalidraw/1- JS基础 2024-11-05 11.49.09.excalidraw.md",
