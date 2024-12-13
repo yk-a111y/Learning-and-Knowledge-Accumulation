@@ -4,61 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e19db4258217d626",
+        "id": "5d56e0f86de7edb8",
         "type": "tabs",
         "children": [
           {
-            "id": "a6957b04f870e4b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2- 前端性能优化"
-            }
-          },
-          {
-            "id": "7532f24e1548ef8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/1- JS基础.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1- JS基础"
-            }
-          },
-          {
-            "id": "8fecdb18b47fdcb0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "d6c527670c39141e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "264ee22fda69b5df",
+            "id": "b9a621c86ca1187f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -67,8 +17,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 - JS/1- JS基础.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline"
             }
           },
           {
@@ -244,12 +191,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7532f24e1548ef8b",
+  "active": "b9a621c86ca1187f",
   "lastOpenFiles": [
     "1 - JS/2- 前端性能优化.md",
+    "1 - JS/1- JS基础.md",
     "1 - JS/3- 浏览器原理.md",
     "5 - 计算机网络/1 - 计网基础.md",
-    "1 - JS/1- JS基础.md",
     "8 - 微前端/1 - 方案综述.md",
     "6 - 低代码项目/1 - 流程综述.md",
     "image/img JS基础/Pasted image 20240813160714.png",
