@@ -4,17 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5d56e0f86de7edb8",
+        "id": "13ba785a015eec60",
         "type": "tabs",
         "children": [
           {
-            "id": "b9a621c86ca1187f",
+            "id": "744b94c79e93e7ff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/3- 浏览器原理.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -36,10 +39,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+                "sortOrder": "byCreatedTimeReverse"
+              }
             }
           },
           {
@@ -54,9 +55,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -64,9 +63,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -89,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 - 计算机网络/1 - 计网基础.md",
+                "file": "1 - JS/3- 浏览器原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,9 +94,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 1 - 计网基础"
+              }
             }
           },
           {
@@ -108,12 +103,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5 - 计算机网络/1 - 计网基础.md",
+                "file": "1 - JS/3- 浏览器原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 1 - 计网基础"
+              }
             }
           },
           {
@@ -124,9 +117,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -134,9 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
+              "state": {
+                "file": "1 - JS/3- 浏览器原理.md"
+              }
             }
           },
           {
@@ -144,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
+              "state": {}
             }
           },
           {
@@ -154,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
+              "state": {}
             }
           },
           {
@@ -164,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "state": {}
             }
           }
         ],
@@ -191,13 +176,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b9a621c86ca1187f",
+  "active": "744b94c79e93e7ff",
   "lastOpenFiles": [
     "1 - JS/2- 前端性能优化.md",
     "1 - JS/1- JS基础.md",
     "1 - JS/3- 浏览器原理.md",
-    "5 - 计算机网络/1 - 计网基础.md",
     "8 - 微前端/1 - 方案综述.md",
+    "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/1 - 流程综述.md",
     "image/img JS基础/Pasted image 20240813160714.png",
     "3 - VUE/reactivity/1- Proxy与响应式对象.md",
