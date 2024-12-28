@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8a8ff939426f98d1",
+            "id": "6335993d90f03d9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "1 - JS/1- JS基础.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "744b94c79e93e7ff",
+            "id": "8a8ff939426f98d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -190,11 +190,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "744b94c79e93e7ff",
+  "active": "8a8ff939426f98d1",
   "lastOpenFiles": [
-    "1 - JS/2- 前端性能优化.md",
-    "1 - JS/3- 浏览器原理.md",
     "1 - JS/1- JS基础.md",
+    "1 - JS/3- 浏览器原理.md",
+    "1 - JS/2- 前端性能优化.md",
     "8 - 微前端/1 - 方案综述.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/1 - 流程综述.md",

@@ -144,7 +144,7 @@ Array.prototype.myForEach = function(fn){
 ##### for in 循环
 性能较差，因为会遍历自身和原型上所有的可枚举属性(Enumerable为true)；而`Object.keys()`只返回对象自身的可枚举属性。
 
-遍历时可能发生乱序（数字属性按照索引值大小，字符串属性根据创建的顺序排列）。与之相对的，Object.getOwnPropertyNames(获取自身所有实例属性，无论是否可枚举) 与getOwnPropertySymbols的枚举顺序确定: 升序枚举数值键，然后字符串键和Symbol。
+遍历时可能发生乱序（数字属性按照索引值大小，字符串属性根据创建的顺序排列，详见[[3- 浏览器原理#排序属性和常规属性|排序属性与常规属性]]）。与之相对的，Object.getOwnPropertyNames(获取自身所有实例属性，无论是否可枚举) 与getOwnPropertySymbols的枚举顺序确定: 升序枚举数值键，然后字符串键和Symbol。
 
 无法遍历Symbol属性(不可枚举)，Symbol需要用Object.getOwnPropertySymbols('obj')来获取
 ```js
