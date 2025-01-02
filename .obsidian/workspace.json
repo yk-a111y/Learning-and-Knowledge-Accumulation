@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - JS/1- JS基础.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,11 +198,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6335993d90f03d9b",
+  "active": "69248991cb63ec3f",
   "lastOpenFiles": [
+    "Untitled",
+    "1 - JS/2- 前端性能优化.md",
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/1- JS基础.md",
-    "1 - JS/2- 前端性能优化.md",
+    "image/img JS基础/硬链接&软连接.png",
     "8 - 微前端/1 - 方案综述.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/1 - 流程综述.md",
@@ -230,7 +232,6 @@
     "Excalidraw/1- JS基础 2024-08-13 16.26.40.excalidraw.md",
     "README.md",
     "image/img JS基础/Pasted image 20240813154749.png",
-    "3 - VUE/vue3-aureole.md",
     "image/img 微前端/Pasted image 20240725114322.png",
     "image/img 微前端/Pasted image 20240725114248.png",
     "image/img 跨端开发",
@@ -239,7 +240,6 @@
     "image/img 微前端/Pasted image 20240722213539.png",
     "image/img 微前端",
     "8 - 微前端",
-    "image/img 浏览器原理/Pasted image 20240714224525.png",
     "8 - 跨端开发/Untitled",
     "9 - 跨端开发",
     "8 - 前端跨端技术",
