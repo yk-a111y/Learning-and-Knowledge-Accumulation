@@ -442,6 +442,7 @@ myWorker.terminate(); // 关闭worker
 ```js
 self.close(); // 直接执行close方法就ok了
 ```
+#### Service Worker
 #### 五类Observer综述
 ##### IntersectionObserver
 IntersectionObserver 可以监听一个元素和可视区域相交部分的比例，然后在可视比例达到某个阈值的时候触发回调
@@ -1491,7 +1492,7 @@ async function uploadChunk(chunk, index, fileHash, uploadUrl) {
 ```
 hash计算在前端比较耗时，基于现有大文件分片上传的优化方案：
 - hash算法的优化：只针对第一个和最后一个块做整体hash计算，中间块的文件可以只取前后n个字节，避免了hash整个文件所带来的浪费。
-- 使用web worker实现整体流程，不占用浏览器主线程。
+- 使用[[#Web Worker|web worker]]实现整体流程，不占用浏览器主线程。
 - 断点续传也可以通过将已上传切片保存在localStorage实现。
 ```js
 async function uploadFile(file, baseChunkSize, uploadUrl, verifyUrl, mergeUrl, process_cb) {

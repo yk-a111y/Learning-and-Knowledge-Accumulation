@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "1c6ddc0ac76b8e2b",
+            "id": "7013c2782adfacad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 239.5
   },
   "right": {
     "id": "2114abde7063af78",
@@ -197,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 234.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,16 +214,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c6ddc0ac76b8e2b",
+  "active": "7c63e09667e00ae6",
   "lastOpenFiles": [
+    "1 - JS/1- JS基础.md",
+    "10 - 实际问题 & 案例/杂项.md",
     "Pasted image 20250103110831.png",
     "4 - 打包 & 工具链/webpack基础.md",
-    "10 - 实际问题 & 案例/杂项.md",
     "10 - 实际问题 & 案例/Untitled",
     "1 - JS/3- 浏览器原理.md",
     "Untitled.md",
     "10 - 实际问题 & 案例",
-    "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
     "image/img JS基础/硬链接&软连接.png",
     "8 - 微前端/1 - 方案综述.md",
@@ -255,7 +255,6 @@
     "image/img 跨端开发",
     "image/img 跨端开发/Pasted image 20240724170713.png",
     "image/img 跨端开发/Pasted image 20240724165114.png",
-    "image/img 微前端/Pasted image 20240722213539.png",
     "image/img 微前端",
     "8 - 微前端",
     "8 - 跨端开发/Untitled",
