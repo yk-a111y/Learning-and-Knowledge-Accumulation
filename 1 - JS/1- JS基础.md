@@ -544,6 +544,124 @@ self.addEventListener('activate', event => {
   );
 });
 ```
+##### 与主线程通信
+PostMessage
+```js
+// 注册 Service Worker
+navigator.serviceWorker.register('/service-worker.js').then(async registration => {
+	// 等待 Service Worker 准备好
+	const readySW = await navigator.serviceWorker.ready;
+	const activeWorker = readySW.active;
+
+	// 发送消息到 Service Worker
+	activeWorker.postMessage({ 
+		type: 'INIT', 
+		message: 'Hello from main thread!' 
+	});
+
+	// 监听来自 Service Worker 的消息
+		navigator.serviceWorker.addEventListener('message', event => {
+		console.log('Received message from Service Worker:', event.data);
+	});
+});
+
+
+// 监听来自主线程的消息 -- service-worker.js
+self.addEventListener('message', event => {
+  console.log('Received message from main thread:', event.data);
+
+  // 根据接收到的消息处理业务逻辑
+  if (event.data && event.data.type === 'INIT') {
+    // 执行一些逻辑，例如更新缓存、初始化状态等
+
+    // 回复消息回主线程
+    event.source.postMessage({ type: 'REPLY', message: 'Hello from Service Worker!' });
+  }
+});
+```
+MessageChannel
+```js
+
+```
+##### 存储机制
+`caches.open`方法用于在Cache Storage中打开一个缓存对象，并返回一个Promise
+```js
+self.addEventListener('fetch', event => {
+  // 首先尝试通过网络请求获取资源
+  event.respondWith(
+    fetch(event.request).then(networkResponse => {
+      // 打开名为 'dynamic-cache' 的缓存
+      return caches.open('dynamic-cache').then(cache => {
+        // 确保响应是成功的才能放入缓存
+        cache.put(event.request, networkResponse.clone());
+        return networkResponse;
+      });
+    })
+  );
+});
+```
+`cache.addAll`用于将一批请求添加到缓存中，高效处理多个请求
+```js
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open('my-cache').then(cache => {
+      return cache.addAll([
+        '/',
+        '/index.html',
+        '/styles.css',
+        '/script.js',
+        '/image.png'
+      ]);
+    })
+  );
+});
+```
+`cache.match`在特定Cache对象中查找与指定请求匹配的响应
+```js
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.open('my-cache').then(cache => {
+      return cache.match(event.request).then(cachedResponse => {
+        // 如果有缓存响应，返回它；否则继续通过网络请求获取
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+
+        // 如果没有缓存响应，执行网络请求
+        return fetch(event.request).then(networkResponse => {
+          // 将新获取的响应对象存储到缓存中
+          if (networkResponse && networkResponse.status === 200) {
+            cache.put(event.request, networkResponse.clone());
+          }
+          return networkResponse;
+        });
+      });
+    })
+  );
+});
+```
+更新与删除缓存
+```js
+// 更新
+caches.open('my-cache').then(cache => {
+  cache.put('/dynamic-content', new Response('Updated content'));
+});
+
+// 删除
+caches.keys().then(cacheNames => {
+  return Promise.all(
+    cacheNames.filter(cacheName => {
+      return cacheName !== 'my-cache';
+    }).map(cacheName => {
+      return caches.delete(cacheName);
+    })
+  );
+});
+```
+##### 使用限制
+- Service Worker 可以拦截和修改网络请求，会涉及敏感数据的传输和处理。为了防止中间人攻击和其他安全威胁，浏览器要求 Service Worker 只能在 HTTPS 环境下注册和运行
+- Service Worker 的作用域是基于其注册脚本的位置来决定的。这意味着Service Worker只能控制与其注册脚本在相同路径或子路径下的页面和请求。
+- Service Worker 运行在独立的 Worker 线程中，不直接访问 DOM、window 对象
 #### 五类Observer综述
 ##### IntersectionObserver
 IntersectionObserver 可以监听一个元素和可视区域相交部分的比例，然后在可视比例达到某个阈值的时候触发回调

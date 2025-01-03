@@ -37,7 +37,8 @@
               "title": "杂项"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "10 - 实际问题 & 案例/杂项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1- JS基础"
+              "title": "Backlinks for 杂项"
             }
           },
           {
@@ -128,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "10 - 实际问题 & 案例/杂项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1- JS基础"
+              "title": "Outgoing links from 杂项"
             }
           },
           {
@@ -155,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md"
+                "file": "10 - 实际问题 & 案例/杂项.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline of 杂项"
             }
           },
           {
@@ -213,10 +214,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6335993d90f03d9b",
+  "active": "7013c2782adfacad",
   "lastOpenFiles": [
-    "10 - 实际问题 & 案例/杂项.md",
     "1 - JS/1- JS基础.md",
+    "10 - 实际问题 & 案例/杂项.md",
     "Pasted image 20250103110831.png",
     "4 - 打包 & 工具链/webpack基础.md",
     "10 - 实际问题 & 案例/Untitled",
