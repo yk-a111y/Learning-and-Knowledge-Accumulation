@@ -443,6 +443,107 @@ myWorker.terminate(); // 关闭worker
 self.close(); // 直接执行close方法就ok了
 ```
 #### Service Worker
+Service Worker 是一种运行在 Web 应用后台的脚本，可以拦截和控制网络请求，充当 Web 应用与浏览器网络的代理服务器，可以实现 Web 应用离线访问、资源预载、智能缓存、资源更新、后台同步和推送通知等。这些特性使 Web 应用即便在网络不稳定或离线状态下，也能提供更快速和可靠的用户体验。
+
+Service worker 注册(需要在JS主文件中注册，一般是通过监听window.load)
+```js
+window.addEventListener('load', () => {
+	navigator.serviceWorker
+	  .register("./service-worker.js")
+	  .then((registration) => {
+	    console.log("Service Worker registered with scope:", registration.scope);
+	  })
+	  .catch((error) => {
+	    console.error("Service Worker registration failed:", error);
+	  });
+})
+```
+
+这样就可以通过创建service-worker.js文件处理后续的安装、激活以及fetch等步骤
+##### 安装阶段
+```js
+// self在service worker中是一个全局对象，类似于浏览器中的window
+self.addEventListener('install', event => {
+  console.log('Service Worker installing...');
+  // waitUntil执行异步任务，如资源缓存
+  event.waitUntil(
+    caches.open('v1').then(cache => {
+      console.log('Caching resources during install');
+      return cache.addAll([
+        '/',
+        '/index.html',
+        '/styles.css',
+        '/script.js'
+      ]);
+    })
+  );
+});
+```
+##### 激活阶段
+```js
+self.addEventListener('activate', event => {
+  // 定义一个缓存白名单，其中包含需要保留的缓存版本名
+  const cacheWhitelist = ['v1'];
+
+  // 在激活阶段，使用 waitUntil() 阻止 Service Worker 激活完成，直到内部的 Promise 被解决
+  event.waitUntil(
+    // 获取所有缓存的名称（即现有的缓存版本）
+    caches.keys().then(cacheNames => {
+      // 使用 Promise.all() 处理可能要删除的多个缓存
+      return Promise.all(
+        // 遍历所有的缓存名称
+        cacheNames.map(cacheName => {
+          // 检查每个缓存名称是否在白名单中
+          if (!cacheWhitelist.includes(cacheName)) {
+            // 如果不在白名单中，删除这个缓存
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
+```
+##### 控制阶段
+一旦激活完成，service worker进入控制阶段，就可以服务所在的页面，可以对fetch进行拦截处理，决定资源从网络or缓存中获取。
+```js
+self.addEventListener('fetch', event => {
+  // 使用事件对象的 respondWith() 方法以自定义响应
+  event.respondWith(
+    // 尝试从缓存中匹配请求
+    caches.match(event.request).then(response => {
+      // 缓存中有匹配的响应则返回，否则进行网络请求
+      return response || fetch(event.request).then(networkResponse => {
+        // 打开缓存进行存储
+        return caches.open('v1').then(cache => {
+          // 将请求 URL 与网络响应一同缓存
+          // 使用 clone() 是因为 response 是 Stream，只能消费一次
+          cache.put(event.request, networkResponse.clone());
+          // 返回网络响应给页面使用
+          return networkResponse;
+        });
+      });
+    })
+  );
+});
+```
+##### 更新阶段
+为了确保新版本的service worker快速生效，开发者通常会用SkipWaiting() 和 clients.claim()跳过等待
+```js
+self.addEventListener('install', event => {
+  console.log('New Service Worker installing...');
+  // 强制等待中的 Service Worker 立即生效
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', event => {
+  console.log('Service Worker activating...');
+  // 立即接管所有客户端
+  event.waitUntil(
+    clients.claim()
+  );
+});
+```
 #### 五类Observer综述
 ##### IntersectionObserver
 IntersectionObserver 可以监听一个元素和可视区域相交部分的比例，然后在可视比例达到某个阈值的时候触发回调
