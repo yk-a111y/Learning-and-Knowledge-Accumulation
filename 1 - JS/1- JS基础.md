@@ -731,8 +731,8 @@ class INode<T> {
 	next: INode<T> | null;
 
 	constructor(value: T, next: INode<T> | null = null) {
-	this.value = value;
-	this.next = next;
+		this.value = value;
+		this.next = next;
 	}
 }
 

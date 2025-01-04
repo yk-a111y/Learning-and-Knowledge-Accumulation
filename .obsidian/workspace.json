@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6335993d90f03d9b",
+            "id": "8db089f532b6a7d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "7013c2782adfacad",
+            "id": "6335993d90f03d9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -214,11 +214,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7013c2782adfacad",
+  "active": "6335993d90f03d9b",
   "lastOpenFiles": [
     "1 - JS/1- JS基础.md",
     "10 - 实际问题 & 案例/杂项.md",
-    "Pasted image 20250103110831.png",
+    "image/img 实际问题 & 案例/Pasted image 20250103110831.png",
+    "image/img 实际问题 & 案例",
+    "image/img.md",
     "4 - 打包 & 工具链/webpack基础.md",
     "10 - 实际问题 & 案例/Untitled",
     "1 - JS/3- 浏览器原理.md",
@@ -248,7 +250,6 @@
     "4 - 打包 & 工具链/Vite",
     "Excalidraw/1- JS基础 2024-11-05 11.49.09.excalidraw.md",
     "9 - 跨端开发/1 - Webview.md",
-    "Excalidraw/1- JS基础 2024-08-13 16.26.40.excalidraw.md",
     "image/img JS基础/Pasted image 20240813154749.png",
     "image/img 微前端/Pasted image 20240725114322.png",
     "image/img 微前端/Pasted image 20240725114248.png",
@@ -260,7 +261,6 @@
     "8 - 跨端开发/Untitled",
     "9 - 跨端开发",
     "8 - 前端跨端技术",
-    "Learning-and-Knowledge-Accumulation",
     "Untitled.canvas"
   ]
 }
