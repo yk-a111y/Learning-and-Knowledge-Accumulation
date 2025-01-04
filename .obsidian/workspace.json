@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "10 - 实际问题 & 案例/杂项.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2- 前端性能优化"
+              "title": "杂项"
             }
           }
         ]
@@ -215,17 +215,17 @@
   },
   "active": "8db089f532b6a7d5",
   "lastOpenFiles": [
-    "1 - JS/2- 前端性能优化.md",
-    "INP -- Interaction to Next Paint 在2024年Chrome体验报告中替代了FID，这一指标代表了用户所经历的所有交互的全部延迟，INP范围更广，更能反应用户完整体验。.md",
     "10 - 实际问题 & 案例/杂项.md",
+    "1 - JS/2- 前端性能优化.md",
     "1 - JS/1- JS基础.md",
+    "1 - JS/3- 浏览器原理.md",
+    "INP -- Interaction to Next Paint 在2024年Chrome体验报告中替代了FID，这一指标代表了用户所经历的所有交互的全部延迟，INP范围更广，更能反应用户完整体验。.md",
     "image/img 实际问题 & 案例/Pasted image 20250104160219.png",
     "image/img 实际问题 & 案例/Pasted image 20250103110831.png",
     "image/img 实际问题 & 案例",
     "image/img.md",
     "4 - 打包 & 工具链/webpack基础.md",
     "10 - 实际问题 & 案例/Untitled",
-    "1 - JS/3- 浏览器原理.md",
     "Untitled.md",
     "10 - 实际问题 & 案例",
     "image/img JS基础/硬链接&软连接.png",
