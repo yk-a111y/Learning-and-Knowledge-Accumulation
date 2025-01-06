@@ -59,7 +59,7 @@
               "type": "markdown",
               "state": {
                 "file": "10 - 实际问题 & 案例/杂项.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -248,6 +248,7 @@
   "lastOpenFiles": [
     "1 - JS/2- 前端性能优化.md",
     "10 - 实际问题 & 案例/杂项.md",
+    "image/img 实际问题 & 案例/Pasted image 20250106151450.png",
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/1- JS基础.md",
     "INP -- Interaction to Next Paint 在2024年Chrome体验报告中替代了FID，这一指标代表了用户所经历的所有交互的全部延迟，INP范围更广，更能反应用户完整体验。.md",
@@ -281,12 +282,10 @@
     "4 - Webpack & 工具链/Vite.md",
     "4 - 打包 & 工具链/Vite",
     "Excalidraw/1- JS基础 2024-11-05 11.49.09.excalidraw.md",
-    "9 - 跨端开发/1 - Webview.md",
     "image/img JS基础/Pasted image 20240813154749.png",
     "image/img 微前端/Pasted image 20240725114322.png",
     "image/img 微前端/Pasted image 20240725114248.png",
     "image/img 跨端开发",
-    "image/img 跨端开发/Pasted image 20240724170713.png",
     "image/img 微前端",
     "8 - 微前端",
     "8 - 跨端开发/Untitled",
