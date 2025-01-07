@@ -23,6 +23,21 @@
             }
           },
           {
+            "id": "7d939f2d406fcb8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/2- 前端性能优化.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2- 前端性能优化"
+            }
+          },
+          {
             "id": "ec2d10cdada2432e",
             "type": "leaf",
             "state": {
@@ -38,18 +53,18 @@
             }
           },
           {
-            "id": "7d939f2d406fcb8b",
+            "id": "e83918d903d2b02c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "10 - 实际问题 & 案例/杂项.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2- 前端性能优化"
+              "title": "杂项"
             }
           },
           {
@@ -68,21 +83,6 @@
             }
           },
           {
-            "id": "c0dc53a6ced7e1f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1 - 监控流程设计"
-            }
-          },
-          {
             "id": "d748dd35dc19b224",
             "type": "leaf",
             "state": {
@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,10 +216,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md"
+                "file": "1 - JS/2- 前端性能优化.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2 - 数据结构设计"
+              "title": "Outline of 2- 前端性能优化"
             }
           },
           {
@@ -274,29 +274,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d748dd35dc19b224",
+  "active": "7d939f2d406fcb8b",
   "lastOpenFiles": [
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
-    "4 - 打包 & 工具链/babel原理综述.md",
-    "4 - 打包 & 工具链/webpack基础.md",
-    "10 - 实际问题 & 案例/杂项.md",
     "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
-    "image/img 实际问题 & 案例/Pasted image 20250106151450.png",
+    "7 - 前端全链路监控/2 - 数据结构设计.md",
+    "image/img JS基础/Pasted image 20240424114625.png",
+    "image/img JS基础/Pasted image 20240813154749.png",
+    "image/img JS基础/Pasted image 20240325214241.png",
+    "image/img JS基础/Pasted image 20240313213026.png",
+    "image/img JS基础/Pasted image 20240313100945.png",
+    "image/img JS基础/Pasted image 20240217155842.png",
+    "image/img JS基础/Pasted image 20240217155236.png",
+    "image/img JS基础/Pasted image 20240211234401.png",
+    "image/img JS基础/Pasted image 20240211203341.png",
+    "image/img webpack基础/Pasted image 20240308132450.png",
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "4 - 打包 & 工具链/babel原理综述.md",
+    "10 - 实际问题 & 案例/杂项.md",
+    "4 - 打包 & 工具链/webpack基础.md",
     "1 - JS/3- 浏览器原理.md",
     "INP -- Interaction to Next Paint 在2024年Chrome体验报告中替代了FID，这一指标代表了用户所经历的所有交互的全部延迟，INP范围更广，更能反应用户完整体验。.md",
-    "image/img 实际问题 & 案例/Pasted image 20250104160219.png",
-    "image/img 实际问题 & 案例/Pasted image 20250103110831.png",
     "image/img 实际问题 & 案例",
     "image/img.md",
     "10 - 实际问题 & 案例/Untitled",
     "Untitled.md",
     "10 - 实际问题 & 案例",
-    "image/img JS基础/硬链接&软连接.png",
     "8 - 微前端/1 - 方案综述.md",
     "5 - 计算机网络/1 - 计网基础.md",
     "6 - 低代码项目/1 - 流程综述.md",
-    "image/img JS基础/Pasted image 20240813160714.png",
     "3 - VUE/reactivity/1- Proxy与响应式对象.md",
     "3 - VUE/reactivity/5 - computed相关.md",
     "3 - VUE/reactivity/4 - ref相关.md",
@@ -305,17 +311,10 @@
     "3 - VUE/Vue基础.md",
     "Excalidraw/收集依赖与触发依赖 trigger.md",
     "Excalidraw/收集依赖与触发依赖 track.md",
-    "image/img webpack基础/Pasted Image 20241111152059_584.png",
-    "image/img webpack基础/Pasted Image 20241111152025_116.png",
     "Excalidraw/webpack基础 2024-11-11 15.20.19.excalidraw.md",
     "Excalidraw/webpack基础 2024-11-11 15.18.35.excalidraw.md",
     "Excalidraw/webpack基础 2024-11-11 15.17.02.excalidraw.md",
-    "4 - Webpack & 工具链/Vite.md",
     "4 - 打包 & 工具链/Vite",
-    "Excalidraw/1- JS基础 2024-11-05 11.49.09.excalidraw.md",
-    "image/img JS基础/Pasted image 20240813154749.png",
-    "image/img 微前端/Pasted image 20240725114322.png",
-    "image/img 微前端/Pasted image 20240725114248.png",
     "image/img 跨端开发",
     "image/img 微前端",
     "8 - 微前端",
