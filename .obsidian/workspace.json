@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2- 前端性能优化"
+              "title": "1 - 监控流程设计"
             }
           },
           {
@@ -216,10 +216,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md"
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2- 前端性能优化"
+              "title": "Outline of 1 - 监控流程设计"
             }
           },
           {
@@ -276,9 +276,11 @@
   },
   "active": "7d939f2d406fcb8b",
   "lastOpenFiles": [
-    "1 - JS/1- JS基础.md",
-    "1 - JS/2- 前端性能优化.md",
+    "image/img 前端全链路监控/Pasted image 20250107150942.png",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "1 - JS/2- 前端性能优化.md",
+    "1 - JS/1- JS基础.md",
     "image/img JS基础/Pasted image 20240424114625.png",
     "image/img JS基础/Pasted image 20240813154749.png",
     "image/img JS基础/Pasted image 20240325214241.png",
@@ -289,7 +291,6 @@
     "image/img JS基础/Pasted image 20240211234401.png",
     "image/img JS基础/Pasted image 20240211203341.png",
     "image/img webpack基础/Pasted image 20240308132450.png",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "4 - 打包 & 工具链/babel原理综述.md",
     "10 - 实际问题 & 案例/杂项.md",
     "4 - 打包 & 工具链/webpack基础.md",
