@@ -89,7 +89,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - JS/2- 前端性能优化.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -216,10 +216,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md"
+                "file": "7 - 前端全链路监控/2 - 数据结构设计.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2- 前端性能优化"
+              "title": "Outline of 2 - 数据结构设计"
             }
           },
           {
@@ -274,14 +274,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7ed78536fdb1ef21",
+  "active": "d748dd35dc19b224",
   "lastOpenFiles": [
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "1 - JS/2- 前端性能优化.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "image/img 前端全链路监控/Pasted image 20250108195047.png",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "image/img 前端全链路监控/Pasted image 20250107164957.png",
     "1 - JS/3- 浏览器原理.md",
-    "1 - JS/2- 前端性能优化.md",
     "10 - 实际问题 & 案例/杂项.md",
     "image/img 前端全链路监控/Pasted image 20250107150942.png",
     "1 - JS/1- JS基础.md",
