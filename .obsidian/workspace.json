@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -216,10 +216,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md"
+                "file": "1 - JS/2- 前端性能优化.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2 - 数据结构设计"
+              "title": "Outline of 2- 前端性能优化"
             }
           },
           {
@@ -274,11 +274,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d748dd35dc19b224",
+  "active": "7ed78536fdb1ef21",
   "lastOpenFiles": [
+    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "1 - JS/2- 前端性能优化.md",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "image/img 前端全链路监控/Pasted image 20250108195047.png",
     "image/img 前端全链路监控/Pasted image 20250107164957.png",
     "1 - JS/3- 浏览器原理.md",
