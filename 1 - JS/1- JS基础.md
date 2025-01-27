@@ -57,6 +57,10 @@ function myNew(fn, ...args) {
 #### JS继承
 很多面向对象的语言都支持两种继承方式：`接口继承`和`实现继承`；前者只继承方法签名，后者继承方法及其实现。接口继承对于JS来说是不可能实现的，因为函数没有签名；故JS通过`原型链`的方式实现继承。
 
+通过原型链这种形式实现的继承，可以通过两种方式确定继承关系：
+1. x instanceof y，如果一个x的原型链上存在y构造函数的原型，则返回true；
+2. isPrototypeOf()方法，原型链上每个原型都可以调用这个方法，只要原型链包含这个原型，返回true；`Fn.prototype.isPrototypeOf(instance)`
+
 ##### 原型继承--父实例作为子类原型
 ```javascript
 let person = {
@@ -74,6 +78,7 @@ let p1 = Object.create(person)
  ![[1- JS基础方法与属性 2024-02-07 21.17.00.excalidraw]]
 
 ##### 组合继承--原型继承+盗用构造函数
+即采用原型链继承原型上的属性和方法，通过盗用构造函数继承实例属性。
 ```jsx
 // 父类
 function Father (name) {
@@ -108,7 +113,7 @@ Father.prototype.getName() = function () {
 
 // 子类继承
 function Son (name, age) {
-  Father.call(this.name) // 将Father本身属性挂载到Son上
+  Father.call(this, name) // 将Father本身属性挂载到Son上
   this.age = age
 }
 // 将Father原型上的属性挂载到Son上
