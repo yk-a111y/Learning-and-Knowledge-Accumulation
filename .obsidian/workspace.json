@@ -52,8 +52,7 @@
               "title": "3- 浏览器原理"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,10 +170,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md"
+                "file": "1 - JS/1- JS基础.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- 浏览器原理"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -229,10 +228,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "59a600bec8917a6a",
+  "active": "32e4a8b439df62de",
   "lastOpenFiles": [
-    "1 - JS/1- JS基础.md",
     "1 - JS/3- 浏览器原理.md",
+    "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
     "Untitled.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
