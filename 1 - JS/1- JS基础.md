@@ -142,7 +142,7 @@ Array.prototype.myForEach = function(fn){
   var len = this.length;
   for(var i = 0; i < len; i ++){
 	  //将元素传给回调函数
-	  fn(this[i],i);
+	  fn(this[i], i, this);
   }
 }
 ```
@@ -303,7 +303,17 @@ Reflect.getOwnPropertyDescriptors(myObj, 'hidden');
 
 Map可以使用任何类型作为key，来形成key-value的结构。其内部原理是维护了两个数组，分别存储key和value，故垃圾回收机制无法回收。可以调用keys()、values()、entries()方法。
 
-WeakMap只可以使用引用数据类型作为key，作为弱引用数据结构，不可以调用keys等方法和size属性。因为它的内容取决于GC是否执行，执行前后的内容会发生变化。
+WeakMap只可以使用`引用数据类型`作为key，作为`弱引用`数据结构，不可以调用keys等方法和size属性。因为它的内容取决于GC是否执行，执行前后的内容会发生变化；初始化之后可以使用set()方法添加新的键值对，也可以使用get/has查询。
+
+```ad-cmt
+弱引用是指，只要键存在，key/value就会存在于映射中，并被当做对值的引用，故不会被当做垃圾回收。
+
+const wm = new WeakMap();
+const loginBtn = document.querySelector('#login');
+wm.set(loginBtn, { disable: true })
+
+上述代码会改变DOM结构，是的loginBtn不可见；如果是Map结构，由于loginBtn还在被引用，该DOM会保留在内存中。但如果是WeakMap的弱引用，该DOM会被回收。
+```
 
 WeakMap的常用场景：
 - 关联DOM结构，这样在DOM结构被删除后，WeakMap的弱引用不会被引用计数或标记整理算法标记，可以直接回收DOM。
