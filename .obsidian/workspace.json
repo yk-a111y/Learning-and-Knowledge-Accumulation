@@ -15,11 +15,33 @@
               "state": {
                 "file": "1 - JS/1- JS基础.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "1- JS基础"
+            }
+          },
+          {
+            "id": "5419e8b4db604768",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.3"
+            }
+          },
+          {
+            "id": "568163491efc54e0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -52,7 +74,8 @@
               "title": "3- 浏览器原理"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,7 +94,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -170,10 +194,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline"
             }
           },
           {
@@ -228,7 +254,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "32e4a8b439df62de",
+  "active": "568163491efc54e0",
   "lastOpenFiles": [
     "10 - 实际问题 & 案例/杂项.md",
     "1 - JS/2- 前端性能优化.md",
