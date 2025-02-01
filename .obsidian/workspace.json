@@ -23,19 +23,7 @@
             }
           },
           {
-            "id": "5419e8b4db604768",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.3"
-            }
-          },
-          {
-            "id": "568163491efc54e0",
+            "id": "7ab7dd2dbd8651cf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -75,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,15 +238,14 @@
       "juggl:Juggl global graph": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "568163491efc54e0",
+  "active": "7ab7dd2dbd8651cf",
   "lastOpenFiles": [
+    "1 - JS/1- JS基础.md",
     "10 - 实际问题 & 案例/杂项.md",
     "1 - JS/2- 前端性能优化.md",
-    "1 - JS/1- JS基础.md",
     "1 - JS/3- 浏览器原理.md",
     "Untitled.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
