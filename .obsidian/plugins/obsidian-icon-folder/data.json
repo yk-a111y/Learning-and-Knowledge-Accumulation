@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasExpand",
       "LiDatabase",
       "🎒",
       "LiAlarmPlus",
-      "🪶",
-      "💟"
+      "🪶"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -103,5 +103,6 @@
   "4 - 打包 & 工具链/Vite": "🪶",
   "11 -  实际问题 & 案例": "LiAlarmPlus",
   "10 - Nest": "🎒",
-  "10 - Nest/Nest基础.md": "LiDatabase"
+  "10 - Nest/Nest基础.md": "LiDatabase",
+  "10 - Nest/工程实践.md": "FasExpand"
 }

@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "10 - Nest/工程实践.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3- 浏览器原理"
+              "title": "工程实践"
             }
           },
           {
@@ -67,7 +67,8 @@
               "title": "1 - 计网基础"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "10 - Nest/工程实践.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline of 工程实践"
             }
           },
           {
@@ -247,16 +248,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "32e4a8b439df62de",
+  "active": "59a600bec8917a6a",
   "lastOpenFiles": [
-    "11 -  实际问题 & 案例/杂项.md",
-    "1 - JS/1- JS基础.md",
-    "5 - 计算机网络/1 - 计网基础.md",
-    "image/img 计网基础/Pasted image 20250206152913.png",
+    "image/img Nest/Pasted image 20250207194921.png",
+    "image/img Nest",
+    "image/img Nest/Pasted image 20250207194509.png",
     "10 - Nest/Nest基础.md",
+    "10 - Nest/工程实践.md",
+    "1 - JS/3- 浏览器原理.md",
+    "5 - 计算机网络/1 - 计网基础.md",
+    "1 - JS/1- JS基础.md",
+    "11 -  实际问题 & 案例/杂项.md",
+    "image/img 计网基础/Pasted image 20250206152913.png",
     "10 - Nest",
     "1 - JS/2- 前端性能优化.md",
-    "1 - JS/3- 浏览器原理.md",
     "Untitled.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
@@ -268,7 +273,6 @@
     "image/img JS基础/Pasted image 20240325214241.png",
     "image/img JS基础/Pasted image 20240313213026.png",
     "image/img JS基础/Pasted image 20240313100945.png",
-    "image/img JS基础/Pasted image 20240217155842.png",
     "4 - 打包 & 工具链/babel原理综述.md",
     "4 - 打包 & 工具链/webpack基础.md",
     "INP -- Interaction to Next Paint 在2024年Chrome体验报告中替代了FID，这一指标代表了用户所经历的所有交互的全部延迟，INP范围更广，更能反应用户完整体验。.md",
@@ -287,13 +291,11 @@
     "Excalidraw/收集依赖与触发依赖 trigger.md",
     "Excalidraw/收集依赖与触发依赖 track.md",
     "Excalidraw/webpack基础 2024-11-11 15.20.19.excalidraw.md",
-    "Excalidraw/webpack基础 2024-11-11 15.18.35.excalidraw.md",
     "4 - 打包 & 工具链/Vite",
     "image/img 跨端开发",
     "image/img 微前端",
     "8 - 微前端",
     "8 - 跨端开发/Untitled",
-    "9 - 跨端开发",
     "Untitled.canvas"
   ]
 }
