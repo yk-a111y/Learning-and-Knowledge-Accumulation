@@ -3,7 +3,12 @@
   "minimal-style@@h3-l": true,
   "minimal-style@@h4-l": false,
   "minimal-style@@minimal-code-scroll": false,
-  "minimal-advanced@@styled-scrollbars": false,
+  "minimal-advanced@@styled-scrollbars": true,
   "minimal-style@@trim-cols": true,
-  "minimal-style@@h2-l": true
+  "minimal-style@@h2-l": true,
+  "Editor@@codeblock-style-select": "codeblock-style-customize",
+  "Editor@@code-background-light": "#E0E0E0",
+  "Editor@@blockquote-background-light": "\"\"",
+  "Editor@@code-border-light": "#E0E0E0",
+  "minimal-mobile@@mobile-toolbar-off": true
 }
