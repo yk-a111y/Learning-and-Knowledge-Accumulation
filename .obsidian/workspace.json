@@ -21,8 +21,19 @@
               "icon": "lucide-file",
               "title": "1- JS基础"
             }
+          },
+          {
+            "id": "d9e10eb9e40eac95",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +153,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline"
             }
           },
           {
@@ -214,7 +224,7 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "6cded3ebb822e7a7",
+  "active": "d9e10eb9e40eac95",
   "lastOpenFiles": [
     "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
