@@ -21,19 +21,8 @@
               "icon": "lucide-file",
               "title": "3- 浏览器原理"
             }
-          },
-          {
-            "id": "ce5219e4d0959dfc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "1 - JS/3- 浏览器原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 3- 浏览器原理"
             }
           },
           {
@@ -224,7 +214,7 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "ce5219e4d0959dfc",
+  "active": "6cded3ebb822e7a7",
   "lastOpenFiles": [
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/1- JS基础.md",
