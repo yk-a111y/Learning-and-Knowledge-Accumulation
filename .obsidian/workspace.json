@@ -21,8 +21,19 @@
               "icon": "lucide-file",
               "title": "3- 浏览器原理"
             }
+          },
+          {
+            "id": "ce5219e4d0959dfc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +153,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- 浏览器原理"
+              "title": "Outline"
             }
           },
           {
@@ -214,8 +224,9 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "6cded3ebb822e7a7",
+  "active": "ce5219e4d0959dfc",
   "lastOpenFiles": [
+    "1 - JS/3- 浏览器原理.md",
     "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
     "README.md",
@@ -228,7 +239,6 @@
     "image/img Nest",
     "image/img Nest/Pasted image 20250207194509.png",
     "10 - Nest/Nest基础.md",
-    "1 - JS/3- 浏览器原理.md",
     "11 -  实际问题 & 案例/杂项.md",
     "10 - Nest",
     "Untitled.md",
