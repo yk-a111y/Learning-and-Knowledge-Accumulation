@@ -67,7 +67,8 @@
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsInLinksEnabled": true,
     "debugMode": false,
-    "lucideIconPackType": "native"
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "1 - 基础篇/2 - 起源Component.md": "IbSquareAndPencil",
   "1 - 基础篇/3 - 组件的通信方式.md": "IbSquareAndPencil",

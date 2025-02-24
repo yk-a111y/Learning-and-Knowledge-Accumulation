@@ -4,11 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "a6db413357bae9d3",
+        "id": "5302177e773e4d7f",
         "type": "tabs",
         "children": [
           {
-            "id": "6cded3ebb822e7a7",
+            "id": "5ab454615667a3fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/1- JS基础.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1- JS基础"
+            }
+          },
+          {
+            "id": "9c7c8e26ee77a83c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/2- 前端性能优化.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2- 前端性能优化"
+            }
+          },
+          {
+            "id": "6dcc128c49cfe6c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,16 +50,6 @@
               },
               "icon": "lucide-file",
               "title": "3- 浏览器原理"
-            }
-          },
-          {
-            "id": "a442726a3a6ba4a3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
             }
           }
         ],
@@ -52,7 +72,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
@@ -153,12 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "1 - JS/2- 前端性能优化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2- 前端性能优化"
             }
           },
           {
@@ -206,7 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 247.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,14 +242,18 @@
       "obsidian-git:Open Git source control": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "card-board:CardBoard": false
+      "card-board:CardBoard": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a442726a3a6ba4a3",
+  "active": "9c7c8e26ee77a83c",
   "lastOpenFiles": [
     "1 - JS/3- 浏览器原理.md",
-    "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
+    "image/img 前端性能优化/Pasted image 20250224152400.png",
+    "1 - JS/1- JS基础.md",
+    "11 -  实际问题 & 案例/杂项.md",
+    "11 -  实际问题 & 案例/Untitled.md",
     "README.md",
     "2025-02-18.md",
     "Excalidraw/1- JS基础 2024-05-20 21.18.24.excalidraw.md",
@@ -239,7 +264,6 @@
     "image/img Nest",
     "image/img Nest/Pasted image 20250207194509.png",
     "10 - Nest/Nest基础.md",
-    "11 -  实际问题 & 案例/杂项.md",
     "10 - Nest",
     "Untitled.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
@@ -250,7 +274,6 @@
     "image/img JS基础/Pasted image 20240424114625.png",
     "image/img JS基础/Pasted image 20240813154749.png",
     "image/img JS基础/Pasted image 20240325214241.png",
-    "image/img JS基础/Pasted image 20240313213026.png",
     "4 - 打包 & 工具链/babel原理综述.md",
     "4 - 打包 & 工具链/webpack基础.md",
     "INP -- Interaction to Next Paint 在2024年Chrome体验报告中替代了FID，这一指标代表了用户所经历的所有交互的全部延迟，INP范围更广，更能反应用户完整体验。.md",
@@ -265,8 +288,6 @@
     "3 - VUE/reactivity/4 - ref相关.md",
     "3 - VUE/reactivity/3- effect具备的能力.md",
     "3 - VUE/reactivity/2- 收集依赖与触发依赖.md",
-    "3 - VUE/Vue基础.md",
-    "Excalidraw/收集依赖与触发依赖 trigger.md",
     "4 - 打包 & 工具链/Vite",
     "image/img 跨端开发",
     "image/img 微前端",
