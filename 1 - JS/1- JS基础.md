@@ -596,9 +596,6 @@ self.addEventListener('message', event => {
 });
 ```
 MessageChannel
-```js
-
-```
 ##### 存储机制
 `caches.open`方法用于在Cache Storage中打开一个缓存对象，并返回一个Promise
 ```js
