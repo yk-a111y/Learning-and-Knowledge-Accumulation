@@ -66,19 +66,9 @@
               "icon": "lucide-file",
               "title": "杂项"
             }
-          },
-          {
-            "id": "68290ee496f5f6da",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,12 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "1 - JS/3- 浏览器原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 3- 浏览器原理"
             }
           },
           {
@@ -269,7 +260,7 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "68290ee496f5f6da",
+  "active": "6dcc128c49cfe6c1",
   "lastOpenFiles": [
     "11 -  实际问题 & 案例/杂项.md",
     "1 - JS/1- JS基础.md",
