@@ -53,6 +53,16 @@
             }
           },
           {
+            "id": "566b75af4e81c561",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
             "id": "e8eae090d1d6c685",
             "type": "leaf",
             "state": {
@@ -68,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,13 +198,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- 浏览器原理"
+              "title": "Outline"
             }
           },
           {
@@ -260,10 +269,10 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "6dcc128c49cfe6c1",
+  "active": "566b75af4e81c561",
   "lastOpenFiles": [
-    "1 - JS/1- JS基础.md",
     "1 - JS/3- 浏览器原理.md",
+    "1 - JS/1- JS基础.md",
     "11 -  实际问题 & 案例/杂项.md",
     "1 - JS/2- 前端性能优化.md",
     "5 - 计算机网络/1 - 计网基础.md",
