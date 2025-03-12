@@ -1222,7 +1222,9 @@ function groupBy(collection, by) {
 }
 ```
 #### 函数柯里化
-核心理念是：柯里化后的函数，如果参数达到length，执行原函数。否则，返回新函数。
+柯里化将多参数函数转换为一元（单参数）函数，当你提供一个参数时，就会弹出一个新的函数，期待下一个参数。
+
+**核心理念是**：柯里化后的函数，如果参数达到length，执行原函数。否则，返回新函数。
 ```js
 function curry(fn) {
 	return function curried(...args) {
