@@ -10,8 +10,8 @@ typeof NaN =\=\= 'number'
 2. **instanceof**：x instanceof y 判断构造函数y的Prototype是否在x的原型链上(能准确判断引用类型，不能精准判断原始数据类型)
 ```jsx
 function instanceof (x, y) {
-  let proto = Object.getPrototypeOf(x); // 获取x原型
-  let prototype = y.prototype; // 获取构造函数y的prototype
+  let proto = Object.getPrototypeOf(x); // 获取x对象的原型
+  let prototype = y.prototype; // 获取构造函数y的prototype属性
 
   while (true) {
     if (!proto) return false;
@@ -42,6 +42,7 @@ a.__proto__.hasOwnProperty(constructor) // true
 - undefined的含义是未定义。声明后的变量如果未定义，返回undefined。
 #### new 对象的过程
 ```js
+// fn => 构造函数; args => 构造函数的传参
 function myNew(fn, ...args) {
 	// 1. 新建对象
 	let obj = {};

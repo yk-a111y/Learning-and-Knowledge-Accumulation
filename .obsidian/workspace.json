@@ -23,16 +23,6 @@
             }
           },
           {
-            "id": "00a1a3f1b077dd3b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "9c7c8e26ee77a83c",
             "type": "leaf",
             "state": {
@@ -62,8 +52,7 @@
               "title": "3- 浏览器原理"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,12 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -255,7 +245,7 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "00a1a3f1b077dd3b",
+  "active": "5ab454615667a3fa",
   "lastOpenFiles": [
     "1 - JS/1- JS基础.md",
     "1 - JS/3- 浏览器原理.md",
