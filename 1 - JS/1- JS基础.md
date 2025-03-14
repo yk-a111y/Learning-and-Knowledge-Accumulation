@@ -155,6 +155,9 @@ Array.prototype.myForEach = function(fn){
 
 无法遍历Symbol属性(不可枚举)，Symbol需要用Object.getOwnPropertySymbols('obj')来获取
 ```js
+// 获取自身所有属性 + Symbol属性
+let arr = [...Object.getOwnPropertyNames(obj), ...Object.getOwnPropertySymbols(obj)]
+// 获取自身可枚举 + Symbol 属性
 let arr = Object.keys(obj).concat(Object.getOwnPropertySymbols(obj))
 ```
 ##### for of 循环
@@ -302,7 +305,7 @@ Reflect.getOwnPropertyDescriptors(myObj, 'hidden');
 ```
 #### Map 和 WeakMap
 
-Map可以使用任何类型作为key，来形成key-value的结构。其内部原理是维护了两个数组，分别存储key和value，故垃圾回收机制无法回收。可以调用keys()、values()、entries()方法。
+Map可以使用任何类型作为key，来形成key-value的结构。其内部原理是维护了两个数组or哈希表，分别存储key和value，一直保持对它们的引用，故垃圾回收机制无法回收。可以调用keys()、values()、entries()方法。
 
 WeakMap只可以使用`引用数据类型`作为key，作为`弱引用`数据结构，不可以调用keys等方法和size属性。因为它的内容取决于GC是否执行，执行前后的内容会发生变化；初始化之后可以使用set()方法添加新的键值对，也可以使用get/has查询。
 
@@ -313,7 +316,7 @@ const wm = new WeakMap();
 const loginBtn = document.querySelector('#login');
 wm.set(loginBtn, { disable: true })
 
-上述代码会改变DOM结构，是的loginBtn不可见；如果是Map结构，由于loginBtn还在被引用，该DOM会保留在内存中。但如果是WeakMap的弱引用，该DOM会被回收。
+上述代码会改变DOM结构，使得loginBtn不可见；如果是Map结构，由于loginBtn还在被引用，该DOM会保留在内存中。但如果是WeakMap的弱引用，该DOM会被回收。
 ```
 
 WeakMap的常用场景：
@@ -351,8 +354,8 @@ arr.splice(start, num, item1, item2, ...)
 ##### 不改变原数组的方法
 即操作的过程中会返回新数组
 
-1. slice(start, end): 返回新数组，包含\[start, end)的所有元素 **浅拷贝** [[1- 基础方法与属性#浅拷贝方法]]
-2. concat(data): 连接两个或多个数组，且不改变现有数组，返回被连接数组的副本 **浅拷贝**[[1- 基础方法与属性#浅拷贝方法]]
+1. slice(start, end): 返回新数组，包含\[start, end)的所有元素 **浅拷贝** [[1- JS基础#浅拷贝方法]]
+2. concat(data): 连接两个或多个数组，且不改变现有数组，返回被连接数组的副本 **浅拷贝**[[1- JS基础#浅拷贝方法]]
 ```js
 let arr1 [1, 2], let arr2 = [3]
 let arr3 = arr1.concat(arr2)  // [1, 2, 3]
