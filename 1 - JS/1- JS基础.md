@@ -66,11 +66,10 @@ function myNew(fn, ...args) {
 ```javascript
 let person = {
   name: 'yk',
-  age: 18
+  age: 18,
 }
 
-let p1 = Object.create(person) 
-
+let p1 = Object.create(person)
 // 缺点：子类的实例共享了父类的引用属性，可以通过盗用构造函数解决
 ```
 > Object.create() => 以现有对象为原型，创建一个新对象
@@ -149,9 +148,9 @@ Array.prototype.myForEach = function(fn){
 ```
 由源码可知，forEach并没有创建新的数组，只是单纯的遍历操作。并且没有对原数组的值进行更改(除引用值外)。若想对原数组进行操作，可以使用第二、第三个参数index和arr
 ##### for in 循环
-性能较差，因为会遍历自身和原型上所有的可枚举属性(Enumerable为true)；而`Object.keys()`只返回对象自身的可枚举属性。
+性能较差，因为会遍历`自身和原型上所有的可枚举属性`(Enumerable为true)；而`Object.keys()`只返回对象`自身的可枚举属性`。`Object.entries()`返回一个数组，其中每个元素是一个包含`自身可枚举属性`键值对的数组
 
-遍历时可能发生乱序（数字属性按照索引值大小，字符串属性根据创建的顺序排列，详见[[3- 浏览器原理#排序属性和常规属性|排序属性与常规属性]]）。与之相对的，Object.getOwnPropertyNames(获取自身所有实例属性，无论是否可枚举) 与getOwnPropertySymbols的枚举顺序确定: 升序枚举数值键，然后字符串键和Symbol。
+遍历时可能发生乱序（数字属性按照索引值大小，字符串属性根据创建的顺序排列，详见[[3- 浏览器原理#排序属性和常规属性|排序属性与常规属性]]）。与之相对的，Object.getOwnPropertyNames(获取`自身所有实例属性`，无论是否可枚举) 与getOwnPropertySymbols的枚举顺序确定: 升序枚举数值键，然后字符串键和Symbol。
 
 无法遍历Symbol属性(不可枚举)，Symbol需要用Object.getOwnPropertySymbols('obj')来获取
 ```js
