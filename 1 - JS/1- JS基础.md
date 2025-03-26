@@ -525,7 +525,7 @@ options - type: 指定worker类型默认为classic；name：表示worker scope�
 const worker = new Worker('./test.js');
 
 worker.postMessage(...args) // 向worker发送消息
-sliceFileWorker.onmessage = (e) => {
+worker.onmessage = (e) => {
 	// 接收worker的返回值
 }
 
