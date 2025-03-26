@@ -184,12 +184,99 @@ arr[Symbol.iterator] = function () {
   }
 }
 ```
-即使不能for of的类数组对象，只要满足两个条件: 具备0,1,2...的顺序索引，具备length属性，再添加Symbol.iterator就可以被遍历。
+不能for of的类数组对象，需要重写或用defineProerty定义迭代器，也可以使用[...obj] / for key of obj。
 ```js
-let obj = { 0: 10, 1: 11, 2: 12, length: 3}
-obj[Symbol.iterator] = Array.prototype[Symbol.iterator]
-for (const value of obj) {
-  console.log(value) // 10, 11, 12
+const person = {
+  name: "John",
+  age: 30,
+  "123": "数字键",
+  "user-id": "特殊字符键"
+};
+
+// 自定义迭代器
+person[Symbol.iterator] = function () {
+  const keys = Object.keys(this);
+  let index = 0;
+
+  return {
+    next: () => {
+      if (index < keys.length) {
+        const key = keys[index];
+        const value = this[key];
+        index++;
+        return {
+          value: [key, value],
+          done: false,
+        };
+      } else {
+        return {
+          done: true,
+        };
+      }
+    },
+  };
+};
+
+// defineProperty定义
+Object.defineProperty(person, Symbol.iterator, {
+		// 不可枚举（在Object.keys等方法中不会显示）
+		enumerable: false,
+		// 可以重新赋值
+		writable: true,
+		// 可以删除或重新定义
+		configurable: true,
+		// 迭代器函数
+		value: function () {
+			// 逻辑同上
+	    };
+	}
+})
+```
+实际在项目中使用，可以创建类似Map的可迭代对象
+```js
+class IterableObj {
+  constructor() {
+    this.entries = {};
+  }
+  
+  set(key, value) {
+    this.entries[key] = value;
+    return this;
+  }
+  
+  get(key) {
+    return this.entries[key];
+  }
+  
+  // 实现迭代器
+  [Symbol.iterator]() {
+    const keys = Object.keys(this.entries);
+    let index = 0;
+    
+    return {
+      next: () => {
+        if (index < keys.length) {
+          const key = keys[index++];
+          return {
+            value: [key, this.entries[key]],
+            done: false
+          };
+        }
+        return { done: true };
+      }
+    };
+  }
+}
+
+// 使用示例
+const userRoles = new IterableMap()
+  .set('alice', 'admin')
+  .set('bob', 'editor')
+  .set('charlie', 'viewer');
+
+// 迭代对象
+for (const [user, role] of userRoles) {
+  console.log(`${user} is a ${role}`);
 }
 ```
 #### 闭包
