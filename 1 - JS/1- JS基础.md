@@ -1186,6 +1186,8 @@ function cloneFunction(func) {
 }
 ```
 
+#### Array的sort方法
+
 #### deepEqual
 ```js
 function deepEqual(a, b) {
