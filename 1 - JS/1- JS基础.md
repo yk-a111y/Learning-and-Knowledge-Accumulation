@@ -1187,7 +1187,30 @@ function cloneFunction(func) {
 ```
 
 #### Array的sort方法
+不传入 compareFunction，则元素按照转换为字符串的各个字符的 Unicode 位点进行排序，这一点在整数排序上要尤其注意。
+```js
+const array1 = [1, 30, 4, 21, 100000];
+array1.sort();
 
+console.log(array1);
+// [1, 100000, 21, 30, 4]
+```
+传入compareFunction后，数组会按照其返回值排序，有以下几种情况：
+- compareFunction（a, b）< 0，a 会被排列到 b 之前
+- compareFunction（a, b）=== 0，a 和 b 的相对位置不变
+- compareFunction（a, b）> 0，b 会被排列到 a 之前
+
+排序时，采取的排序算法是几种经典算法的结合（V8引擎）。
+
+1.`小数组`（length < 10）使用插入排序；
+
+2.`中等长度`数组(10 < length < 1000)使用快速排序;
+
+V8对于快排的优化有一下几点：**首先**，采用`三数取中法`，选取左、中、右三个元素计算平均值作为枢轴，大大减少了在已排序或反向排序数组上出现最坏情况的可能性。**其次**，将整个数组分为三部分（大于枢轴、等于枢轴、小于枢轴），这种`三路快排`适合处理有大量重复元素的数组。以上的优化都是防止快排退化，导致时间复杂度为On<sup>2</sup>的情况出现。
+
+快排的特点在于中庸，即比插入排序时间复杂度低（Onlogn VS On<sup>2</sup>），比归并排序更节省内存（Ologn vs On<sup>2</sup>）
+
+3.长数组使用TimeSort这种混合排序算法；
 #### deepEqual
 ```js
 function deepEqual(a, b) {
@@ -1583,9 +1606,9 @@ addTask(400, "4");
 #### EventBus
 >基础版本实现：
 
-1. eventMap集合来存储事件， key：事件名，value：事件数组列表
-2. 订阅功能：subscribe
-3. 发布功能：emit
+2. eventMap集合来存储事件， key：事件名，value：事件数组列表
+3. 订阅功能：subscribe
+4. 发布功能：emit
 
 **进阶一**：最大订阅数量限制 & 支持emit执行时的额外参数
 **进阶二**：取消订阅 & 清空事件 & 订阅一次功能
@@ -1987,7 +2010,7 @@ JS管理内存主要有以下两方面：
 
 **好处：**
 
-1. 不同层各司其职，前端只负责页面显示，后端负责controller逻辑处理（**模型与视图完全分离——即解耦**）
+5. 不同层各司其职，前端只负责页面显示，后端负责controller逻辑处理（**模型与视图完全分离——即解耦**）
 ##### MVP框架
 **演变历史：**最开始MVC的View依赖Model，实际降低了View的可复用性。所以后来View与Model解绑，不再进行通讯，统一由Controller处理(MVP)。
 ![Snipaste_2023-09-11_13-31-07.png](https://cdn.nlark.com/yuque/0/2023/png/25949356/1694410280588-d064e90d-e593-4f17-bf79-8c2d58f59617.png#averageHue=%23fafaee&clientId=u2b5324c2-3eba-4&from=drop&height=163&id=u4b7e5d3f&originHeight=413&originWidth=726&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=57736&status=done&style=none&taskId=ucbdcf7d6-d976-41c5-a778-907a529bdbf&title=&width=287)
