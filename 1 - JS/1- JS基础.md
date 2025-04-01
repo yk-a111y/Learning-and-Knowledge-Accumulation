@@ -1283,6 +1283,67 @@ Function.prototype.myBind = function (context, ...args) {
 		return fn.apply(context, [...args, ...newArgs]);
 	}
 }
+
+// 完美版代码
+Function.prototype.myBind = function (context, ...bindArgs) {
+	const originalFn = this;
+	if (typeof originalFn !== 'Function') throw new TypeError(originalFn, 'not a Function');
+
+	const boundContext = context ?? globalThis;
+	const boundFn = function (...callArgs) {
+		const args = [...bindArgs, ...callArgs];
+	
+		// 判断是否为构造函数调用（使用 new 操作符）
+	    const isConstructorCall = this instanceof boundFunction;
+		// 使用new调用bindFn时，忽略Context
+		return isConstructorCall ? new originalFn(...args) : originalFn.apply(boundCoontext, ...args);
+	}
+
+	// 创建空函数继承原型链
+	const emptyFn = function () {}
+	if (originalFn.prototype) {
+		EmptyFn.prototype = originalFn.prototype;
+		boundFn.prototype = new EmptyFn();
+		// 保持 constructor 属性指向正确的构造函数
+		boundFn.prototype.constructor = originalFn;
+	}
+
+	for (const prop of Object.getOwnPropertyNames(originalFn)) {
+		const descriptor = Object.getOwnPropertyDescriptor(originalFunction, prop);
+		if (descriptor && prop !== 'prototype' && prop !== 'arguments' && prop !== 'caller') {
+	      Object.defineProperty(boundFn, prop, descriptor);
+	    }
+	}
+
+	// 定义name和length属性
+	Object.defineProperty(boundFn, {
+		name: {
+			value: `bound ${originalFn.name || ''}`
+			configurable: true
+		},
+		// Bind函数的length是用原始函数的length 减去 bind参数
+		length: {
+			value: Math.max(0, originalFn.length - bindArgs.length),
+			configurable: true
+		}
+	})
+
+	return boundFn;
+}
+```
+
+```ad-cmt
+上述方法为什么需要创建空函数继承原型链？
+
+因为ES规定，使用 new 操作符调用 bind 创建的函数时
+- 创建的对象必须继承原始函数的原型属性
+- instanceof正常工作
+- boundFn.prototype = originalFn.prototype不行，因为修改boundFn会影响到originalFn
+
+空函数作为中间人，解决了以下问题：
+- emptyFn作为中间层，隔离了originalFn的原型和bindFn的原型
+- 不直接使用new originalFn直接创建对象，避免了可能的副作用
+- 确保bindFn能通过原型链正确访问到originalFn.prototype上的方法
 ```
 
 #### lodash的get方法

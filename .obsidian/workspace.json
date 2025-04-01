@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5,
-    "collapsed": true
+    "width": 228.5
   },
   "right": {
     "id": "2114abde7063af78",
@@ -227,7 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,8 +246,10 @@
   },
   "active": "5ab454615667a3fa",
   "lastOpenFiles": [
-    "1 - JS/3- 浏览器原理.md",
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "1 - JS/1- JS基础.md",
+    "1 - JS/3- 浏览器原理.md",
     "1 - JS/2- 前端性能优化.md",
     "11 -  实际问题 & 案例/杂项.md",
     "6 - 低代码项目/1 - 流程综述.md",
@@ -268,8 +269,6 @@
     "image/img Nest/Pasted image 20250207194509.png",
     "10 - Nest/Nest基础.md",
     "10 - Nest",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
     "image/img 前端全链路监控/Pasted image 20250108195047.png",
     "image/img 前端全链路监控/Pasted image 20250107164957.png",
     "image/img 前端全链路监控/Pasted image 20250107150942.png",
