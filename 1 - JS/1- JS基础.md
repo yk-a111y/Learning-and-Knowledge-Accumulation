@@ -1255,6 +1255,28 @@ Function.prototype.myCall = function (context, ...args) {
 
 	return res;
 }
+
+// 完美版
+Function.prototype.myCall = function (context, ...args) {
+	if (context === null || context === undefined) {
+		context = typeof window !== 'undefined' ? window : global;
+	}
+
+	// context转为对象(primitive也会被封箱)
+	context = Object(context);
+
+	// 创建唯一键名，避免属性冲突
+	const uniqueSymbol = Symbol('uniqueProp');
+	context[uniqueSymbol] = this;
+
+	try {
+		const res = context[uniqueSymbol](...args);
+		return res;
+	} finally {
+		// 无论执行是否发生错误，都要删除临时shu'xing
+		delete context[uniqueSymbol];
+	}
+}
 ```
 
 apply => 只在传参上与call有出入
