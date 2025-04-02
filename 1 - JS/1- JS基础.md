@@ -1316,13 +1316,13 @@ Function.prototype.myBind = function (context, ...bindArgs) {
 	const boundFn = function (...callArgs) {
 		const args = [...bindArgs, ...callArgs];
 	
-		// 判断是否为构造函数调用（使用 new 操作符），因为在new调用时，boundFn内部的this会改变指向。
+		// 在new调用boundFn时，boundFn内部的this会指向新对象，而这个新对象是基于boundFn创建的。
 	    const isConstructorCall = this instanceof boundFn;
 		// 使用new调用bindFn时，忽略Context
 		return isConstructorCall ? new originalFn(...args) : originalFn.apply(boundContext, args);
 	}
 
-	// 创建空函数继承原型链
+	// 创建空函数继承原型链，处理originalFn是构造函数的情况
 	const emptyFn = function () {}
 	if (originalFn.prototype) {
 		emptyFn.prototype = originalFn.prototype;
@@ -1354,6 +1354,7 @@ Function.prototype.myBind = function (context, ...bindArgs) {
 	return boundFn;
 }
 ```
+
 
 ```ad-cmt
 上述方法为什么需要创建空函数继承原型链？
