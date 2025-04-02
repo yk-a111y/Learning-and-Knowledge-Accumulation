@@ -1261,7 +1261,6 @@ Function.prototype.myCall = function (context, ...args) {
 	if (context === null || context === undefined) {
 		context = typeof window !== 'undefined' ? window : global;
 	}
-
 	// context转为对象(primitive也会被封箱)
 	context = Object(context);
 
@@ -1273,12 +1272,11 @@ Function.prototype.myCall = function (context, ...args) {
 		const res = context[uniqueSymbol](...args);
 		return res;
 	} finally {
-		// 无论执行是否发生错误，都要删除临时shu'xing
+		// 无论执行是否发生错误，都要删除临时属性
 		delete context[uniqueSymbol];
 	}
 }
 ```
-
 apply => 只在传参上与call有出入
 ```js
 Function.prototype.myApply = function (context, ...args) {
@@ -1306,6 +1304,9 @@ Function.prototype.myBind = function (context, ...args) {
 	}
 }
 
+const boundFn = fn.bind(context, args);
+const res = new boundFn();
+
 // 完美版代码
 Function.prototype.myBind = function (context, ...bindArgs) {
 	const originalFn = this;
@@ -1315,10 +1316,10 @@ Function.prototype.myBind = function (context, ...bindArgs) {
 	const boundFn = function (...callArgs) {
 		const args = [...bindArgs, ...callArgs];
 	
-		// 判断是否为构造函数调用（使用 new 操作符）
-	    const isConstructorCall = this instanceof boundFunction;
+		// 判断是否为构造函数调用（使用 new 操作符），因为在new调用时，boundFn内部的this会改变指向。
+	    const isConstructorCall = this instanceof boundFn;
 		// 使用new调用bindFn时，忽略Context
-		return isConstructorCall ? new originalFn(...args) : originalFn.apply(boundCoontext, ...args);
+		return isConstructorCall ? new originalFn(...args) : originalFn.apply(boundContext, args);
 	}
 
 	// 创建空函数继承原型链
