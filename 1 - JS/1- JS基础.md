@@ -1310,7 +1310,7 @@ const res = new boundFn();
 // 完美版代码
 Function.prototype.myBind = function (context, ...bindArgs) {
 	const originalFn = this;
-	if (typeof originalFn !== 'Function') throw new TypeError(originalFn, 'not a Function');
+	if (typeof originalFn !== 'function') throw new TypeError(originalFn, 'not a Function');
 
 	const boundContext = context ?? globalThis;
 	const boundFn = function (...callArgs) {
@@ -1325,8 +1325,8 @@ Function.prototype.myBind = function (context, ...bindArgs) {
 	// 创建空函数继承原型链
 	const emptyFn = function () {}
 	if (originalFn.prototype) {
-		EmptyFn.prototype = originalFn.prototype;
-		boundFn.prototype = new EmptyFn();
+		emptyFn.prototype = originalFn.prototype;
+		boundFn.prototype = new emptyFn();
 		// 保持 constructor 属性指向正确的构造函数
 		boundFn.prototype.constructor = originalFn;
 	}
