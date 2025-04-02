@@ -74,7 +74,6 @@ let p1 = Object.create(person)
 ```
 > Object.create() => 以现有对象为原型，创建一个新对象
 
-
  ![[1- JS基础方法与属性 2024-02-07 21.17.00.excalidraw]]
 
 ##### 组合继承--原型继承+盗用构造函数
@@ -952,7 +951,7 @@ function flatten(arr) {
 	let res = [];
 	for (const ele of arr) {
 		if (Array.isArray(ele)) {
-			res.concat(flatten(arr));
+			res = res.concat(flatten(arr));
 		} else {
 			res.push(ele);
 		}
@@ -1180,14 +1179,14 @@ function deepClone(target, map = new Map()) {
 }
 
 // 拷贝Symbol的方法
-function cloneSymbol(targe) {
-    return Object(Symbol.prototype.valueOf.call(targe));
+function cloneSymbol(target) {
+    return Object(Symbol.prototype.valueOf.call(target));
 }
 // 拷贝RegExp的方法
-function cloneReg(targe) {
+function cloneReg(target) {
     const reFlags = /\w*$/;
-    const result = new targe.constructor(targe.source, reFlags.exec(targe));
-    result.lastIndex = targe.lastIndex;
+    const result = new target.constructor(target.source, reFlags.exec(target));
+    result.lastIndex = target.lastIndex;
     return result;
 }
 // 拷贝Function的方法
@@ -1354,12 +1353,12 @@ Function.prototype.myBind = function (context, ...bindArgs) {
 	return boundFn;
 }
 ```
-
-
+![[1- JS基础 2025-04-02 16.36.02.excalidraw]]
 ```ad-cmt
 上述方法为什么需要创建空函数继承原型链？
 
-因为ES规定，使用 new 操作符调用 bind 创建的函数时
+
+因为ES规定，被绑定的函数 originalFn 是一个构造函数时 => 当 bind 返回的新函数 boundFn 被用作构造函数（使用 new 操作符调用）时，需要确保原始构造函数的原型链被正确继承
 - 创建的对象必须继承原始函数的原型属性
 - instanceof正常工作
 - boundFn.prototype = originalFn.prototype不行，因为修改boundFn会影响到originalFn
