@@ -960,6 +960,18 @@ function flatten(arr) {
 	return res;
 }
 ```
+##### 指定深度的数组扁平
+```js
+function flattenIterative(arr, depth = 1) {
+	if (depth <= 0) return arr.slice();
+	const res = [];
+	// 使用栈存储待处理的项和其当前深度
+	const stack = arr.map(item => [item, 0]);
+	while (stack.length) {
+		const [current, currentDepth] = stack.pop();
+	}
+}
+```
 ##### 数组去重
 ```js
 // 1. forEach + indexOf
