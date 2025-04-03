@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "面试问题.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "right": {
     "id": "2114abde7063af78",
@@ -231,8 +232,17 @@
   },
   "active": "3eec7b5bab60237f",
   "lastOpenFiles": [
+    "Pasted image 20250403144545.png",
+    "面试_image/Pasted image 20250403144520.png",
+    "面试_image/Pasted image 20250403144509.png",
+    "面试_image/Pasted image 20250403144443.png",
+    "面试_image/Pasted image 20250403144422.png",
     "11 -  实际问题 & 案例/杂项.md",
     "面试问题.md",
+    "面试_image/Pasted image 20250403143247.png",
+    "面试_image/Pasted image 20250403143224.png",
+    "面试_image/Pasted image 20250403142708.png",
+    "面试_image/Pasted image 20250403142629.png",
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/2- 前端性能优化.md",
     "5 - 计算机基础/1 - 计网基础.md",
@@ -254,20 +264,12 @@
     "6 - 低代码项目/1 - 流程综述.md",
     "8 - 微前端/1 - 方案综述.md",
     "Untitled 1.md",
-    "image/img 前端性能优化/Pasted image 20250224152400.png",
     "11 -  实际问题 & 案例/Untitled.md",
     "2025-02-18.md",
     "10 - Nest/工程实践.md",
-    "image/img 计网基础/Pasted image 20250206152913.png",
-    "image/img Nest/Pasted image 20250207194921.png",
     "image/img Nest",
-    "image/img Nest/Pasted image 20250207194509.png",
     "10 - Nest/Nest基础.md",
     "10 - Nest",
-    "image/img 前端全链路监控/Pasted image 20250108195047.png",
-    "image/img 前端全链路监控/Pasted image 20250107164957.png",
-    "image/img 前端全链路监控/Pasted image 20250107150942.png",
-    "image/img JS基础/Pasted image 20240424114625.png",
     "4 - 打包 & 工具链/babel原理综述.md",
     "image/img 实际问题 & 案例",
     "10 - 实际问题 & 案例/Untitled",
