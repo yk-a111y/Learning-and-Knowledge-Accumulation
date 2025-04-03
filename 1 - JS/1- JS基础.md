@@ -962,6 +962,7 @@ function flatten(arr) {
 ```
 ##### 指定深度的数组扁平
 ```js
+// stack
 function flattenIterative(arr, depth = 1) {
 	if (depth <= 0) return arr.slice();
 	const res = [];
@@ -969,7 +970,28 @@ function flattenIterative(arr, depth = 1) {
 	const stack = arr.map(item => [item, 0]);
 	while (stack.length) {
 		const [current, currentDepth] = stack.pop();
+		if (Array.isArray(current) && currentDepth < depth) {
+			for (let i = current.length - 1; i >= 0; i--) {
+		        stack.push([current[i], currentDepth + 1]);
+		      }
+		} else {
+			res.unshift(current);
+		}
 	}
+
+	return res;
+}
+
+// reduce 方法
+function flattenIterative(arr, depth = 1) {
+	if (depth <= 0) return arr.alice();
+	return arr.reduce((res, current) => {
+		return res.concat(
+			Array.isArray(current) && depth > 0 
+			? flattenIterative(current, depth - 1) 
+			: current
+		)
+	}, [])
 }
 ```
 ##### 数组去重
