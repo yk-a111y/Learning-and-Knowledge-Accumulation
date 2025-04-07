@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a8f253978d037f90",
+        "id": "23043f6ceca4f4a4",
         "type": "tabs",
         "children": [
           {
-            "id": "40dac1fdd278a4ed",
+            "id": "20d7a45ab86d672f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -204,11 +204,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "card-board:CardBoard": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "69248991cb63ec3f",
+  "active": "20d7a45ab86d672f",
   "lastOpenFiles": [
     "面试",
     "面试/面试_image/Pasted image 20250403144545.png",
