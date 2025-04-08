@@ -8,18 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77245eb4d2b831d9",
+            "id": "c471518cac23d3c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - CSS/1 - CSS基础.md",
+                "file": "1 - JS/1- JS基础.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1 - CSS基础"
+              "title": "1- JS基础"
+            }
+          },
+          {
+            "id": "807a341440501be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/2- 前端性能优化.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2- 前端性能优化"
+            }
+          },
+          {
+            "id": "beb3940a3f99d5cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - JS/3- 浏览器原理.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "3- 浏览器原理"
             }
           }
         ]
@@ -142,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - CSS/1 - CSS基础.md",
+                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1 - CSS基础"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -214,10 +244,11 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "77245eb4d2b831d9",
+  "active": "c471518cac23d3c5",
   "lastOpenFiles": [
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/2- 前端性能优化.md",
+    "2 - CSS/1 - CSS基础.md",
     "1 - JS/1- JS基础.md",
     "面试/面试问题.md",
     "面试/面试_image/Pasted image 20250407105556.png",
