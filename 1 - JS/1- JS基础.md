@@ -1726,89 +1726,63 @@ addTask(400, "4");
 #### EventBus
 >基础版本实现：
 
-10. eventMap集合来存储事件， key：事件名，value：事件数组列表
-11. 订阅功能：subscribe
-12. 发布功能：emit
+1. eventMap集合来存储事件， key：事件名，value：事件数组列表
+2. 订阅功能：subscribe
+3. 发布功能：emit
 
 **进阶一**：最大订阅数量限制 & 支持emit执行时的额外参数
 **进阶二**：取消订阅 & 清空事件 & 订阅一次功能
 **eventMap结构：**
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/25949356/1697523081694-f69a775e-a4a7-4222-9142-bdbdc3b5a640.png#averageHue=%23fafafa&clientId=uccedb30b-227c-4&from=paste&height=353&id=uc0c69ef2&originHeight=529&originWidth=875&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=38872&status=done&style=none&taskId=uc5751014-43c2-46ec-bfdf-78468a25298&title=&width=583.3333333333334)
-代码实现：
+代码实现（基础版）：
 ```javascript
-class BusService {
-	constructor(maxListeners) {
-		this.eventMap = {};
-		// eventName最大监听数量
-		this.maxListeners = maxListeners || Infinity;
-		// 标识Id
-		this.callbackId = 0;
-	}
+class EventBus {
+  private events: Map<string, any>;
 
-	// on 注册事件
-	subScribe(eventName, cb) {
-		if(!Reflect.has(this.eventMap, eventName)) {
-			Reflect.set(this.eventMap, eventName, {});
-		}
-		// 订阅最大数量检测
-		if (this.maxListeners !== Infinity && Object.keys(this.eventMap[eventName]).length >= this.maxListeners) {
-			console.log(`事件${eventName}超过了可订阅数量`);
-			return;
-		}
-		this.callback += 1;
-		this.eventMap[eventName][this.callbackId] = cb;
+  constructor() {
+    this.events = new Map();
+  }
 
-		// 取消订阅的函数
-		const unSubscribe = () => {
-			delete this.eventMap[eventName][this.callbackId];
-			if (Object.keys(this.eventMap[eventName]).length === 0){
-				delete this.eventMap[eventName];
-			}
-		}
+  // 订阅
+  subscribe(eventName: string, handler): void {
+    if (!this.events.has(eventName)) {
+      this.events.set(eventName, new Set());
+    }
 
-		return unSubscribe;
-	}
+    const handlerSet = this.events.get(eventName)!;
 
-	// emit 触发事件
-	emit(eventName, ...params) {
-		if(!Reflect.has(this.eventMap,eventName)){
-	      console.warn(`从未订阅过此事件${eventName}`);
-	      return 
-	    }
-	    this.callbackList = this.eventMap[eventName];
-	    for (const [id, fn] of Object.entries(callbackList)) {
-		    fn.call(this, ...params);
-		    if (id.startsWith('once')) {
-			    delete callbackList[id];
-		    }
-	    }
-	}
+    handlerSet.add(handler);
+  }
 
-	// 仅订阅一次
-	subscribeOnce(eventName, cb) {
-		if (!this.eventMap[eventName]) {
-			this.eventMap[eventName] = {};
-		}
-		const onceCallbackId = 'once' + this.callbackId++;
-		this.eventMap[eventName][onceCallbackId] = cb;
+  // 取消订阅
+  off(eventName: string, handler): void {
+    const handlers = this.events.get(eventName);
 
-		// 取消订阅的函数
-		const unSubscribe = () => {
-			delete this.eventMap[eventName][this.callbackId];
-			if (Object.keys(this.eventMap[eventName]).length === 0){
-				delete this.eventMap[eventName];
-			}
-		}
+    if (handlers) {
+      handlers.delete(handler);
+      if (handlers.size === 0) {
+        this.events.delete(eventName);
+      }
+    }
+  }
 
-		return unSubscribe;
-	}
-	
-	// 清空某事件
-	// 清空所有
+  // 触发事件
+  emit(eventName: string, data?): void {
+    const handlers = this.events.get(eventName);
+    if (handlers) {
+      handlers.forEach((handler) => {
+        handler(data);
+      });
+    }
+  }
+
+  // 清空
+  clear() {
+    this.events.clear();
+  }
 }
 
-// 导出实例
-export default new BusService();
+const eventBus = new EventBus();
 ```
 #### 遍历DOM节点
 即DOM版本的层序遍历
