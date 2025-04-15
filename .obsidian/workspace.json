@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "5f9fded8eb7671d7",
+            "id": "b415b23b2d17d828",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -154,13 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试问题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 面试问题"
+              "title": "Outline"
             }
           },
           {
@@ -208,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,7 +225,7 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "5f9fded8eb7671d7",
+  "active": "b415b23b2d17d828",
   "lastOpenFiles": [
     "面试/面试问题.md",
     "1 - JS/1- JS基础.md",
