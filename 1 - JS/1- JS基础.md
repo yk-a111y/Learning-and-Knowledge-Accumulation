@@ -1730,10 +1730,6 @@ addTask(400, "4");
 2. 订阅功能：subscribe
 3. 发布功能：emit
 
-**进阶一**：最大订阅数量限制 & 支持emit执行时的额外参数
-**进阶二**：取消订阅 & 清空事件 & 订阅一次功能
-**eventMap结构：**
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/25949356/1697523081694-f69a775e-a4a7-4222-9142-bdbdc3b5a640.png#averageHue=%23fafafa&clientId=uccedb30b-227c-4&from=paste&height=353&id=uc0c69ef2&originHeight=529&originWidth=875&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=38872&status=done&style=none&taskId=uc5751014-43c2-46ec-bfdf-78468a25298&title=&width=583.3333333333334)
 代码实现（基础版）：
 ```javascript
 class EventBus {
@@ -1783,6 +1779,11 @@ class EventBus {
 }
 
 const eventBus = new EventBus();
+```
+进阶版 
+- 支持最大订阅数量限制 & 订阅一次功能 & subscribe返回cleanup函数
+```js
+
 ```
 #### 遍历DOM节点
 即DOM版本的层序遍历
