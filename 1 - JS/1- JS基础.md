@@ -1783,7 +1783,91 @@ const eventBus = new EventBus();
 进阶版 
 - 支持最大订阅数量限制 & 订阅一次功能 & subscribe返回cleanup函数
 ```js
+class EventBusComplex {
+  private events: Map<string, any>;
+  private maxListener: number;
 
+  constructor(maxListener = 10) {
+    this.events = new Map();
+    this.maxListener = maxListener;
+  }
+
+  // 订阅
+  subscribe(eventName: string, handler, options) {
+    if (!this.events.has(eventName)) {
+      this.events.set(eventName, new Set());
+    }
+
+    const handlerSet = this.events.get(eventName)!;
+
+    if (handlerSet.size > this.maxListener) {
+      console.warn(
+        `警告: ${eventName} 的订阅数量超过最大限制 ${this.maxListener}`
+      );
+      return () => {}; // 返回空清理函数
+    }
+
+    // 处理一次订阅
+    if (options.once) {
+      const onceHandler = (...args) => {
+        handler(...args);
+        this.off(eventName, onceHandler);
+      };
+      handlerSet.add(onceHandler);
+      return () => this.off(eventName, onceHandler);
+    }
+
+    handlerSet.add(handler);
+
+    // 返回cleanup函数
+    return () => this.off(eventName, handler);
+  }
+
+  // 一次性订阅的快捷方法
+  once(eventName, handler) {
+    return this.subscribe(eventName, handler, { once: true });
+  }
+
+  // 取消订阅
+  off(eventName: string, handler): void {
+    const handlers = this.events.get(eventName);
+
+    if (handlers) {
+      handlers.delete(handler);
+      if (handlers.size === 0) {
+        this.events.delete(eventName);
+      }
+    }
+  }
+
+  // 触发事件
+  emit(eventName: string, data?): void {
+    const handlers = this.events.get(eventName);
+    if (handlers) {
+      handlers.forEach((handler) => {
+        handler(data);
+      });
+    }
+  }
+
+  // 清空
+  clear() {
+    this.events.clear();
+  }
+
+  getListener(eventName: string) {
+    const handlerSet = this.events.get(eventName);
+    return handlerSet ? handlerSet.size : 0;
+  }
+}
+
+const eventBus = new EventBusComplex();
+
+eventBus.once("once", (data) => {
+  console.log("一次性事件", data);
+});
+
+eventBus.emit("once", 1);
 ```
 #### 遍历DOM节点
 即DOM版本的层序遍历
