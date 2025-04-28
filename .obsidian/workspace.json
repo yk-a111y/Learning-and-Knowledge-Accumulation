@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8b98950842eaae72",
+        "id": "d4ab51d91267cf5d",
         "type": "tabs",
         "children": [
           {
-            "id": "5dc3d98276f98f3e",
+            "id": "a21cafc0b98af456",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试问题.md",
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "面试问题"
+              "title": "1 - 监控流程设计"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试问题.md",
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 面试问题"
+              "title": "Outline of 1 - 监控流程设计"
             }
           },
           {
@@ -215,11 +215,11 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "5dc3d98276f98f3e",
+  "active": "a21cafc0b98af456",
   "lastOpenFiles": [
+    "面试/面试问题.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
-    "面试/面试问题.md",
     "Pasted image 20250427113228.png",
     "Pasted image 20250427113147.png",
     "5 - 计算机基础/1 - 计网基础.md",
