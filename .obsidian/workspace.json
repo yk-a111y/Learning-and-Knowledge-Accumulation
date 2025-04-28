@@ -21,8 +21,19 @@
               "icon": "lucide-file",
               "title": "面试问题"
             }
+          },
+          {
+            "id": "1c79e32cd39d5113",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,13 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试问题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 面试问题"
+              "title": "Outline"
             }
           },
           {
@@ -215,8 +225,9 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "456fcd1d688f76ec",
+  "active": "1c79e32cd39d5113",
   "lastOpenFiles": [
+    "面试/面试问题.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
     "Pasted image 20250427113228.png",
@@ -231,7 +242,6 @@
     "image/img JS基础/Pasted image 20240313213026.png",
     "image/img JS基础/Pasted image 20240424114625.png",
     "image/img JS基础/Pasted image 20240325214241.png",
-    "面试/面试问题.md",
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/2- 前端性能优化.md",
     "2 - CSS/1 - CSS基础.md",
