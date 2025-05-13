@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -247,8 +247,8 @@
   },
   "active": "1f49350596b292ba",
   "lastOpenFiles": [
-    "1 - JS/1- JS基础.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
     "面试/面试问题.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
