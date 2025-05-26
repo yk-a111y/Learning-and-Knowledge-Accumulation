@@ -37,8 +37,7 @@
               "title": "2 - 数据结构设计"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 - 前端全链路监控/2 - 数据结构设计.md",
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2 - 数据结构设计"
+              "title": "Outline of 1 - 监控流程设计"
             }
           },
           {
@@ -231,12 +230,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "55a2cccf85473e1c",
+  "active": "47131cf274a55528",
   "lastOpenFiles": [
+    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
     "6 - 低代码项目/1 - 流程综述.md",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "11 -  实际问题 & 案例/Vanilla_img/image4-2025-04-18-06-54-15.png",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "11 -  实际问题 & 案例/Vanilla_img/image1-2025-04-17-21-41-07.png",
