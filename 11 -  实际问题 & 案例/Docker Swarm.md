@@ -32,5 +32,26 @@ Task: 指运行一个容器的任务，是Swarm执行命令的最小单元。 �
 - **零停机更新**：促销期间发现bug需要紧急修复，使用docker service update --image newversion:v2 web可以执行滚动更新，一次替换一个容器，确保服务持续可用。
 - 自动故障恢复：如果某个节点因高负载崩溃，Swarm会自动将该节点上的容器迁移到健康节点，无需人工干预。
 - 部署简单：整个应用栈(Web、API、数据库、缓存等)可以通过一个docker-compose.yml文件定义并一键部署：docker stack deploy -c docker-compose.yml ecommerce
+## Swarm命令
+`docker swarm init` -- 初始化swarm集群
+
+`docker swarm init --advertise-addr <IP地址>` -- 多网卡初始化
+
+`docker service create --name web --replicas 3 -p 80:80 nginx` -- 部署3副本的web服务
+
+`docker service ls` -- 查看服务列表
+
+`docker service ps web` -- 查看特定服务详情
+
+`docker service scale web=5` -- 服务器扩容至5个实例
+
+离开Swarm的命令
+`docker stack rm <stack_name>` -- 清理Stack资源
+
+`docker service rm $(docker service ls -q)` -- 移除服务资源
+
+`docker swarm leave --force` -- 回到标准的单机Docker
+
+
 
 
