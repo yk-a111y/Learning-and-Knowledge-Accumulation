@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "1 - JS/3- 浏览器原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2- 前端性能优化"
+              "title": "Outline of 3- 浏览器原理"
             }
           },
           {
@@ -245,12 +245,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "f01ec129ea1d4503",
+  "active": "419c9c2cfe39bb19",
   "lastOpenFiles": [
+    "1 - JS/2- 前端性能优化.md",
+    "1 - JS/3- 浏览器原理.md",
     "11 -  实际问题 & 案例/杂项.md",
     "1 - JS/1- JS基础.md",
-    "1 - JS/3- 浏览器原理.md",
-    "1 - JS/2- 前端性能优化.md",
     "README.md",
     "11 -  实际问题 & 案例/Vanilla_img/Pasted image 20250527174658.png",
     "11 -  实际问题 & 案例/Docker Swarm.md",
