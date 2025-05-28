@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - JS/2- 前端性能优化.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "1 - JS/2- 前端性能优化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- 浏览器原理"
+              "title": "Outline of 2- 前端性能优化"
             }
           },
           {
@@ -245,11 +245,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "419c9c2cfe39bb19",
+  "active": "f01ec129ea1d4503",
   "lastOpenFiles": [
-    "1 - JS/2- 前端性能优化.md",
-    "1 - JS/3- 浏览器原理.md",
+    "11 -  实际问题 & 案例/杂项.md",
     "1 - JS/1- JS基础.md",
+    "1 - JS/3- 浏览器原理.md",
+    "1 - JS/2- 前端性能优化.md",
     "README.md",
     "11 -  实际问题 & 案例/Vanilla_img/Pasted image 20250527174658.png",
     "11 -  实际问题 & 案例/Docker Swarm.md",
@@ -275,7 +276,6 @@
     "Agent_面试/面试问题.md",
     "2 - CSS/1 - CSS基础.md",
     "Agent_面试",
-    "11 -  实际问题 & 案例/杂项.md",
     "Excalidraw/1- JS基础 2025-04-02 16.36.02.excalidraw.md",
     "Drawing 2025-04-02 16.30.48.excalidraw.md",
     "Excalidraw/Drawing 2025-04-02 16.30.48.excalidraw.md",
