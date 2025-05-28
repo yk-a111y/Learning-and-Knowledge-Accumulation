@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "system",
   "cssTheme": "Minimal",
-  "baseFontSize": 20,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "nowrap"
   ],
