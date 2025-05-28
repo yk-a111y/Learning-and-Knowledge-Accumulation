@@ -30,8 +30,9 @@ Task: 指运行一个容器的任务，是Swarm执行命令的最小单元。 �
 
 - **弹性扩展**: 促销前，你可以简单地执行docker service scale web=20将Web服务从3个实例扩展到20个，应对流量高峰。促销结束后，同样简单地缩减回来。
 - **零停机更新**：促销期间发现bug需要紧急修复，使用docker service update --image newversion:v2 web可以执行滚动更新，一次替换一个容器，确保服务持续可用。
-- 自动故障恢复：如果某个节点因高负载崩溃，Swarm会自动将该节点上的容器迁移到健康节点，无需人工干预。
-- 部署简单：整个应用栈(Web、API、数据库、缓存等)可以通过一个docker-compose.yml文件定义并一键部署：docker stack deploy -c docker-compose.yml ecommerce
+- **自动故障恢复**：如果某个节点因高负载崩溃，Swarm会自动将该节点上的容器迁移到健康节点，无需人工干预。
+- **部署简单**：整个应用栈(Web、API、数据库、缓存等)可以通过一个[[#yaml | docker-compose.yml]]文件定义并一键部署：docker stack deploy -c docker-compose.yml ecommerce
+![[Pasted image 20250528203959.png]]
 ## Swarm命令
 `docker swarm init` -- 初始化swarm集群
 
@@ -46,12 +47,47 @@ Task: 指运行一个容器的任务，是Swarm执行命令的最小单元。 �
 `docker service scale web=5` -- 服务器扩容至5个实例
 
 离开Swarm的命令
+
 `docker stack rm <stack_name>` -- 清理Stack资源
 
 `docker service rm $(docker service ls -q)` -- 移除服务资源
 
 `docker swarm leave --force` -- 回到标准的单机Docker
 
+
+
+### yaml
+```yaml
+version: '3.8'
+
+services:
+  web:
+    image: nginx:latest
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+  api:
+    image: node:14-alpine
+    command: npm start
+    deploy:
+      replicas: 2
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+    environment:
+      - NODE_ENV=production
+
+networks:
+  app-network:
+    driver: overlay
+```
 
 
 
