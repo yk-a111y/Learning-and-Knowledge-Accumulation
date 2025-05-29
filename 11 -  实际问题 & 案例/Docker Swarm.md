@@ -3,15 +3,15 @@ Docker Swarm是Docker官方的容器编排工具，将多台Docker主机组成�
 
 一个Swarm集群的构成：
 
-Swarm：计算机集群（cluster）在用Docker连接后的状态，docker swarm命令可以创建、加入、离开一个集群；
+**Swarm**：计算机集群（cluster）在用Docker连接后的状态，docker swarm命令可以创建、加入、离开一个集群；
 
-Node：分为Manager和Worker。一个Swarm至少要有一个Manager，才能执行管理其他Node相关命令。
+**Node**：分为Manager和Worker。一个Swarm至少要有一个Manager，才能执行管理其他Node相关命令。
 
-Stack：一组Service， 默认情况下，一个Stack共用一个Network，相互可访问，与其它Stack网络隔绝。 这个概念只是为了编排的方便。 docker stack命令可以方便地操作一个Stack，而不用一个一个地操作Service
+**Stack**：一组Service， 默认情况下，一个Stack共用一个Network，相互可访问，与其它Stack网络隔绝。 这个概念只是为了编排的方便。 docker stack命令可以方便地操作一个Stack，而不用一个一个地操作Service
 
-Service：一类容器，一般来讲Service有两种模式。replicated，指定一个Service运行容器的数量；global，在所有符合运行条件的Node上，都运行一个这类容器；docker service这一类命令可以操作service。
+**Service**：一类容器，一般来讲Service有两种模式。replicated，指定一个Service运行容器的数量；global，在所有符合运行条件的Node上，都运行一个这类容器；docker service这一类命令可以操作service。
 
-Task: 指运行一个容器的任务，是Swarm执行命令的最小单元。 要成功运行一个Service，需要执行一个或多个Task（取决于一个Service的容器数量），确保每一个容器都顺利启动。 通常用户操作的是Service，而非Task
+**Task**: 指运行一个容器的任务，是Swarm执行命令的最小单元。 要成功运行一个Service，需要执行一个或多个Task（取决于一个Service的容器数量），确保每一个容器都顺利启动。 通常用户操作的是Service，而非Task
 
 
 
