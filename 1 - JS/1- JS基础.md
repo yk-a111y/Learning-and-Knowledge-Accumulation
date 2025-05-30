@@ -1752,7 +1752,7 @@ addTask(400, "4");
 代码实现（基础版）：
 ```javascript
 class EventBus {
-  private events: Map<string, any>;
+  private events;
 
   constructor() {
     this.events = new Map();
