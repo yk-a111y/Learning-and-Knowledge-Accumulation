@@ -197,8 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
-    "collapsed": true
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,6 +217,10 @@
   },
   "active": "1ddba3d6459eb608",
   "lastOpenFiles": [
+    "1 - JS/3- 浏览器原理.md",
+    "7 - 前端全链路监控/1 - 监控流程设计.md",
+    "7 - 前端全链路监控/2 - 数据结构设计.md",
+    "1 - JS/2- 前端性能优化.md",
     "4 - 打包 & 工具链/babel原理综述.md",
     "4 - 打包 & 工具链/vite基础.md",
     "4 - 打包 & 工具链/webpack基础.md",
@@ -225,8 +228,6 @@
     "Excalidraw/webpack基础 2024-11-11 15.20.19.excalidraw.md",
     "1 - JS/1- JS基础.md",
     "6 - 低代码项目/1 - 流程综述.md",
-    "1 - JS/3- 浏览器原理.md",
-    "1 - JS/2- 前端性能优化.md",
     "README.md",
     "11 -  实际问题 & 案例/Vanilla_img/Pasted image 20250528203959.png",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
@@ -235,8 +236,6 @@
     "image/img 浏览器原理/Pasted image 20250528194642.png",
     "11 -  实际问题 & 案例/杂项.md",
     "11 -  实际问题 & 案例/Vanilla_img/Pasted image 20250527174658.png",
-    "7 - 前端全链路监控/1 - 监控流程设计.md",
-    "7 - 前端全链路监控/2 - 数据结构设计.md",
     "6 - 低代码项目/2 - 低代码CLI工具.md",
     "11 -  实际问题 & 案例/Vanilla_img/image4-2025-04-18-06-54-15.png",
     "11 -  实际问题 & 案例/Vanilla_img/image1-2025-04-17-21-41-07.png",
