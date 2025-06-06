@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5,
-    "collapsed": true
+    "width": 216.5
   },
   "right": {
     "id": "2114abde7063af78",
@@ -217,6 +216,8 @@
   },
   "active": "984989a48fd6d28a",
   "lastOpenFiles": [
+    "5 - 计算机基础/1 - 计网基础.md",
+    "1 - JS/2- 前端性能优化.md",
     "1 - JS/1- JS基础.md",
     "Excalidraw/1- JS基础 2025-04-02 16.36.02.excalidraw.md",
     "11 -  实际问题 & 案例/面试.md",
@@ -240,10 +241,8 @@
     "11 -  实际问题 & 案例/Vanilla_img",
     "11 -  实际问题 & 案例/Docker Swarm.md",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
-    "1 - JS/2- 前端性能优化.md",
     "面试/面试问题.md",
     "7 - 前端全链路监控/2 - 数据结构设计.md",
-    "5 - 计算机基础/1 - 计网基础.md",
     "2 - CSS/1 - CSS基础.md",
     "面试",
     "11 -  实际问题 & 案例/杂项.md",
