@@ -1323,7 +1323,9 @@ Function.prototype.myCall = function (context, ...args) {
 	// 给context添加一个fn属性，this即调用call的函数
 	const fn = Symbol();
 	context[fn] = this;
+	
 	const res = context[fn](...args);
+	
 	// 删除fn
 	delete context[fn];
 
@@ -1356,11 +1358,14 @@ apply => 只在传参上与call有出入
 Function.prototype.myApply = function (context, ...args) {
 	context = context || window;
 	
-	// 给context添加一个fn属性，为当前调用call的函数对象
-	context.fn = this;
-	const res = context.fn(args);
+	// 给context添加一个fn属性，this即调用call的函数
+	const fn = Symbol();
+	context[fn] = this;
+	
+	const res = context[fn](args);
+	
 	// 删除fn
-	delete context.fn;
+	delete context[fn];
 
 	return res;
 }
@@ -1371,9 +1376,12 @@ Function.prototype.myBind = function (context, ...args) {
 	const fn = this;
 	// bind 返回的是一个函数
 	return function bindFn(...newArgs) {
+		// 当前函数被new调用时
 		if (this instanceof bindFn) {
 			return fn.apply(this, [...args, ...newArgs]);
 		}
+
+		// 正常调用
 		return fn.apply(context, [...args, ...newArgs]);
 	}
 }
@@ -1487,10 +1495,10 @@ function get(obj, path, defaultValue = undefined) {
 ```js
 function groupBy(collection, by) {
 	return collection.reduce((pre, cur) => {
-		if (pre[by(x)]) {
-			pre[by(x)].push(cur);
+		if (pre[by(cur)]) {
+			pre[by(cur)].push(cur);
 		} else {
-			pre[by(x)] = [cur];
+			pre[by(cur)] = [cur];
 		}
 
 		return pre;
