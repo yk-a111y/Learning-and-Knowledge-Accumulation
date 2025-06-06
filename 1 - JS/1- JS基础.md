@@ -1265,6 +1265,28 @@ function cloneFunction(func) {
     }
 }
 ```
+
+基础版本
+```js
+const deepClone = (obj) => {
+  if (obj === null || typeof obj !== 'object') {
+	return obj;
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map(item => deepClone(item));
+  }
+
+  let cloned = {}
+  for (key in obj) {
+	if (obj.hasOwnProperty(key)) {
+      cloned[key] = deepClone(obj[key]);
+    }
+  }
+
+  return cloned;
+}
+```
 #### deepEqual
 ```js
 function deepEqual(a, b) {
