@@ -1587,7 +1587,7 @@ function myPromiseAll (array, limit) {
 ##### 手写Promise Race
 ```js
 function myPromiseRace(array) {
-	return Promise((resolve, reject) => {
+	return new Promise((resolve, reject) => {
 		for (let i = 0; i < array.length; i++) {
 			// array数组中任一一个Promise函数状态改变，就可以返回
 			Promise.resolve(array[i]).then(data => {
