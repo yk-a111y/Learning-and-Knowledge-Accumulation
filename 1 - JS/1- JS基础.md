@@ -1075,7 +1075,7 @@ Reduce还有其他几种用法：
 - 数组求和 & 扁平化 & 统计元素出现次数 & 计算数组平均值
 - 根据属性分类对象
 	```js
-	const groupBy = (attr) => arr.reduce((acc, cur) => {
+	const groupBy = (arr, attr) => arr.reduce((acc, cur) => {
 		if (!acc[cur.attr]) {
 			acc[cur.attr] = [];
 		}
