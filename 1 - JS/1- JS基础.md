@@ -1548,6 +1548,67 @@ function promisify(fn) {
 ```
 
 使用相关
+```js
+// 模拟一个读取用户信息的函数（老式回调写法）
+function getUserInfo(userId, callback) {
+    console.log(`开始获取用户 ${userId} 的信息...`);
+    
+    // 模拟异步操作（比如从数据库读取）
+    setTimeout(() => {
+        if (userId === 'invalid') {
+            // 模拟错误情况
+            callback(new Error('用户ID无效'));
+        } else {
+            // 模拟成功情况
+            const userInfo = {
+                id: userId,
+                name: '张三',
+                email: 'zhangsan@example.com',
+                age: 25
+            };
+            callback(null, userInfo);  // 第一个参数是错误，第二个是结果
+        }
+    }, 1000);  // 1秒后返回结果
+}
+
+// 旧调用方式(*存在嵌套*)
+getUserInfo('user123', (err, userInfo) => {
+    if (err) {
+        console.error('获取用户信息失败:', err.message);
+        return;
+    }
+    
+    console.log('用户信息:', userInfo);
+    
+    // 如果还需要获取其他信息，就会嵌套...
+    getUserInfo('user456', (err, anotherUser) => {
+        if (err) {
+            console.error('获取第二个用户失败:', err.message);
+            return;
+        }
+        
+        console.log('第二个用户:', anotherUser);
+        console.log('两个用户都获取完成');
+    });
+});
+
+// 将回调函数转换为Promise函数
+const getUserInfoAsync = promisify(getUserInfo);
+
+// 新的调用方式
+getUserInfoAsync('user123')
+    .then(userInfo => {
+        console.log('用户信息:', userInfo);
+        return getUserInfoAsync('user456');  // 返回新的Promise
+    })
+    .then(anotherUser => {
+        console.log('第二个用户:', anotherUser);
+        console.log('两个用户都获取完成');
+    })
+    .catch(err => {
+        console.error('操作失败:', err.message);
+    });
+```
 
 #### Promise相关
 都是将含有多个Promise实例组成的数组包装成一个Promise对象。Promise.all中的所有Promise都成功，则按顺序返回结果数组，出现失败，则整个过程直接结束，返回失败态的Promise。Promise.race为多个Promise对象竞争，返回率先完成执行的Promise的状态
@@ -2134,6 +2195,29 @@ async function sliceFile(targetFile, baseChunkSize = 1) {
     //与之前一样
     ...
 }
+```
+#### TS类型体操
+##### Pick
+```ts
+type MyPick<T, K extends keyof T> = {
+  [P in K]: T[P] // P - Property 属性名
+}
+
+interface Person {
+    name: string;
+    age: number;
+    email: string;
+    phone: string;
+}
+
+type PersonName = MyPick<Person, 'name'>;
+// type PersonName = { name: string; }
+
+type PersonContact = MyPick<Person, 'email' | 'phone'>;
+// type PersonContact = { 
+//     email: string; 
+//     phone: string; 
+// }
 ```
 ### JS配套技术
 #### JS模块化

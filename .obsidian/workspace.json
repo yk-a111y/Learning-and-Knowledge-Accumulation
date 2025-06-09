@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - JS/1- JS基础.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -67,8 +67,7 @@
               "title": "3- 浏览器原理"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "11 -  实际问题 & 案例/面试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline of 面试"
             }
           },
           {
@@ -260,18 +259,18 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "c023b1d2d6c362e7",
+  "active": "984989a48fd6d28a",
   "lastOpenFiles": [
-    "11 -  实际问题 & 案例/面试.md",
+    "1 - JS/1- JS基础.md",
+    "1 - JS/2- 前端性能优化.md",
     "1 - JS/3- 浏览器原理.md",
+    "11 -  实际问题 & 案例/面试.md",
     "image/img 浏览器原理/Pasted image 20250608223138.png",
     "image/img 浏览器原理/Pasted image 20240423130235.png",
-    "1 - JS/2- 前端性能优化.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "11 -  实际问题 & 案例/Docker Swarm.md",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "5 - 计算机基础/1 - 计网基础.md",
-    "1 - JS/1- JS基础.md",
     "Excalidraw/1- JS基础 2025-04-02 16.36.02.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "image/img 浏览器原理/Pasted image 20250528194642.png",
