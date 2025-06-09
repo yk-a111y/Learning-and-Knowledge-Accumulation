@@ -1527,6 +1527,28 @@ function curry(fn) {
 }
 ```
 
+#### promisify
+
+```js
+// 🌟 基础版本 - 处理标准的错误优先回调
+function promisify(fn) {
+    return function(...args) {
+        return new Promise((resolve, reject) => {
+            // 添加回调函数到参数末尾
+            fn.call(this, ...args, (err, result) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(result);
+                }
+            });
+        });
+    };
+}
+```
+
+使用相关
+
 #### Promise相关
 都是将含有多个Promise实例组成的数组包装成一个Promise对象。Promise.all中的所有Promise都成功，则按顺序返回结果数组，出现失败，则整个过程直接结束，返回失败态的Promise。Promise.race为多个Promise对象竞争，返回率先完成执行的Promise的状态
 ##### 手写Promise All
