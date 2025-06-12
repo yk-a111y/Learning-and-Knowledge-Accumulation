@@ -82,7 +82,8 @@
               "title": "1 - 计网基础"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,13 +203,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11 -  实际问题 & 案例/面试.md",
+                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 面试"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -274,13 +275,13 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "984989a48fd6d28a",
+  "active": "c023b1d2d6c362e7",
   "lastOpenFiles": [
+    "11 -  实际问题 & 案例/面试.md",
     "1 - JS/3- 浏览器原理.md",
     "5 - 计算机基础/1 - 计网基础.md",
     "1 - JS/2- 前端性能优化.md",
     "1 - JS/1- JS基础.md",
-    "11 -  实际问题 & 案例/面试.md",
     "image/img 浏览器原理/Pasted image 20250608223138.png",
     "image/img 浏览器原理/Pasted image 20240423130235.png",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
