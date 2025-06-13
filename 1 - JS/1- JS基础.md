@@ -2219,6 +2219,12 @@ type PersonContact = MyPick<Person, 'email' | 'phone'>;
 //     phone: string; 
 // }
 ```
+##### DeepReadonly
+```ts
+type DeepReadonly<T> = {
+  readonly [P in keyof T]: T[P] extends object ? DeepReadonly<T[P]> : T[P]
+}
+```
 ### JS配套技术
 #### JS模块化
 ##### **script 标签 => 原始的模块化**
