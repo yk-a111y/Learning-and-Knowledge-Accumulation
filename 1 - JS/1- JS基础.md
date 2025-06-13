@@ -1663,6 +1663,34 @@ function myPromiseAll(array) {
   });
 }
 ```
+将这个PromiseAll方法改成TS版本
+```ts
+function myPromiseAll<T extends readonly unknown[] | []>(
+  array: T
+): Promise< { -readonly [P in keyof T]: Awaited<T[P]> } > {
+  return new Promise((resolve, reject) => {
+    const res = [];
+    let count = 0;
+
+    function addData(index: number, value: Awaited<T[number]>) {
+      res[index] = value;
+      count++;
+
+	  if (count === array.length) {
+	    resolve(res as { -readonly [P in keyof T]: Awaited<T[P]> });
+	  }
+    }
+
+    for (let i = 0; i < arr.length; i++) {
+      const currentPromise = array[i];
+      Promise.resolve(currentPromise).then(
+        (value) => addData(i, value),
+        reject
+      )
+    }
+  })
+}
+```
 ##### 带并发限制的Promise.All
 ```js
 function myPromiseAll (array, limit) {
