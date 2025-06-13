@@ -1133,6 +1133,31 @@ function shuffle(arr) {
 	return res;
 }
 ```
+#### 去重 + 排序的应用
+在一个文档管理系统中，有多个用户上传了同一文档的不同版本。请实现一个函数，接收一个文档列表，根据文档的内容哈希值去重，并按照最后修改时间排序。
+```ts
+interface Document {
+  id: string;
+  contentHash: string;
+  lastModified: number; // 时间戳
+  fileName: string;
+}
+
+function deduplicateAndSort(documents: Document[]): Document[] {
+  const uniqueDocMap = new Map<string, Document>();
+
+  for (const doc of documents) {
+    const existingDoc = uniqueDocMap.get(doc.contentHash);
+    
+	// 如果该 contentHash 不存在，或者当前文档更新，则更新 Map
+	if (!existingDoc || doc.lastModified > existingDoc.lastModified) {
+	  uniqueDocs.set(doc.contentHash, doc);
+	}
+  }
+
+  return Array.from(uniqueDocMap.values()).sort((a, b) => b.lastModified - a.lastModified)
+}
+```
 #### 浅拷贝、深拷贝
 >二者的区别: 
 >- 浅拷贝创建一个原始对象的精确拷贝，原始对象的属性为基本类型，则拷贝值。为引用类型，拷贝该引用的地址。所以，拷贝对象和原始对象任意一方改变该引用地址的内部信息时，都会影响到另一方。
