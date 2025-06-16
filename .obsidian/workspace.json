@@ -82,8 +82,7 @@
               "title": "1 - 监控流程设计"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "11 -  实际问题 & 案例/面试.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +165,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1- JS基础"
+              "title": "Backlinks for 面试"
             }
           },
           {
@@ -175,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "11 -  实际问题 & 案例/面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1- JS基础"
+              "title": "Outgoing links from 面试"
             }
           },
           {
@@ -204,13 +203,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "11 -  实际问题 & 案例/面试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline of 面试"
             }
           },
           {
@@ -276,11 +275,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "c023b1d2d6c362e7",
+  "active": "984989a48fd6d28a",
   "lastOpenFiles": [
+    "Untitled.md",
     "11 -  实际问题 & 案例/面试.md",
-    "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "1 - JS/1- JS基础.md",
+    "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "1 - JS/2- 前端性能优化.md",
     "1 - JS/3- 浏览器原理.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
