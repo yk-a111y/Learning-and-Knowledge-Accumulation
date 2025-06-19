@@ -1339,6 +1339,62 @@ function deepEqual(a, b) {
   }
 }
 ```
+#### Diff Json
+```js
+const diffJSON = (json1, json2) => {
+  const result = {};
+  
+  compare(json1, json2, res);
+
+  return res;
+}
+
+const compare = (obj1, obj2, res) => {
+  const keys1 = obj1 ? Object.keys(obj1) : [];
+  const keys2 = obj2 ? Object.keys(obj2) : [];
+  const allKeys = [...new Set([...keys1, ...keys2])];
+
+  allKeys.forEach((key) => {
+    const val1 = obj1 ? obj1[key] : undefined;
+    const val2 = obj2 ? obj2[key] : undefined;
+
+	const hasKey1 = obj1 && obj1.hasOwnProperty(key);
+    const hasKey2 = obj2 && obj2.hasOwnProperty(key);
+
+	if (!hasKey1 && hasKey2) {
+	  // 新增
+	  result[key] = {
+		type: "added",
+		oldVal: undefined,
+		newVal: val2,
+	  };
+	} else if (hasKey1 && !hasKey2) {
+	  // 删除
+	  result[key] = {
+		type: "removed",
+		oldVal: val1,
+		newVal: undefined,
+	  };
+	} else if (hasKey1 && hasKey2) {
+	  if (val1 === val2) return; // forEach 的 return 相当于正常遍历的continue
+	  
+	  if (typeof val1 === 'object' && typeof val1 === 'object'
+	      val1 !== null && val2 !== null
+	  ) {
+	    result[key] = {};
+	    compare(val1, val2, result[key]); // 递归处理 对象 & 数组
+	  } else {
+	    // 修改
+	    result[key] = {
+		  type: "modified",
+		  oldVal: val1,
+		  newVal: val2,
+	    };
+	  }
+	}
+  })
+}
+```
 #### call apply bind
 call
 ```js

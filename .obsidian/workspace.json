@@ -97,7 +97,8 @@
               "title": "1 - 监控流程设计"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "right": {
     "id": "2114abde7063af78",
@@ -170,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agent_面试/面试问题.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +182,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 面试问题"
+              "title": "Backlinks for 1- JS基础"
             }
           },
           {
@@ -189,12 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agent_面试/面试问题.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 面试问题"
+              "title": "Outgoing links from 1- JS基础"
             }
           },
           {
@@ -218,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agent_面试/面试问题.md",
+                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 面试问题"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -290,8 +292,9 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "984989a48fd6d28a",
+  "active": "c023b1d2d6c362e7",
   "lastOpenFiles": [
+    "Agent_面试/面试问题.md",
     "11 -  实际问题 & 案例/面试.md",
     "1 - JS/2- 前端性能优化.md",
     "1 - JS/3- 浏览器原理.md",
@@ -313,7 +316,6 @@
     "Agent_面试/面试_image/Pasted image 20250407104716.png",
     "Agent_面试/面试_image/Pasted image 20250407104325.png",
     "Agent_面试/面试_image/Pasted image 20250407104140.png",
-    "Agent_面试/面试问题.md",
     "Agent_面试/面试_image",
     "Agent_面试",
     "4 - 打包 & 工具链/vite基础.md",
