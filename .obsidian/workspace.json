@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "11 -  实际问题 & 案例/面试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -97,7 +97,8 @@
               "title": "1 - 监控流程设计"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11 -  实际问题 & 案例/面试.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 面试"
+              "title": "Backlinks for 1- JS基础"
             }
           },
           {
@@ -189,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11 -  实际问题 & 案例/面试.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 面试"
+              "title": "Outgoing links from 1- JS基础"
             }
           },
           {
@@ -218,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11 -  实际问题 & 案例/面试.md",
+                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 面试"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -290,11 +291,11 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "984989a48fd6d28a",
+  "active": "c023b1d2d6c362e7",
   "lastOpenFiles": [
+    "11 -  实际问题 & 案例/面试.md",
     "Agent_面试/面试问题.md",
     "1 - JS/1- JS基础.md",
-    "11 -  实际问题 & 案例/面试.md",
     "1 - JS/2- 前端性能优化.md",
     "1 - JS/3- 浏览器原理.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",

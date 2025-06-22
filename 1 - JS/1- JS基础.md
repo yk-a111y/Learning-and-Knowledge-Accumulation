@@ -2144,6 +2144,51 @@ const traverse = (node) => {
   return res
 }
 ```
+#### 二叉树叶子节点是否构成等差数列
+```js
+function isLeafNodesAp(root) {
+  if (!root) return false;  
+
+  const state = {
+    leafCount: 0,
+    firstLeaf: null,
+    secondLeaf: null,
+    commonDiff: null,
+    isValid: true
+  };
+
+  dfs(root, state)
+
+  return state.isValid;
+}
+
+function dfs(node, state) {
+  if (!node || !state.isValid) return;
+
+  if (!node.left && !node.right) {
+    state.leafCount++;
+
+	// 等差数列逻辑判断
+	if (state.leafCount === 1) {
+	 state.firstLeaf = node.val;
+	} else if (state.leafCount === 2) {
+	  state.secondLeaf = node.val;
+	  state.commonDiff = state.secondLeaf - state.firstLeaf;
+	} else {
+	  const expectedValue = state.firstLeaf + state.commonDiff * (state.leafCount - 1);
+	  if (node.val !== expectedValue) {
+	   state.isValid = false;
+	   return;
+	  }
+	}
+
+	return;
+  }
+
+  if(node.left) dfs(node.left, state);
+  if(node.right && state.isValid) dfs(node.right, state);
+}
+```
 #### 大文件分片渲染
 大文件分片的背景：传输视频时，上传过程出现网络波动需要重新开始。上传时间过长影响用户体验。
 
