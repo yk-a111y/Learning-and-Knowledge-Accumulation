@@ -424,10 +424,14 @@ module.exports = {
 ```
 
 #### Tree Shaking
+TreeShaking 的核心在于对代码的`静态分析`，即在不执行程序的情况下，通过分析源代码或编译后的代码来理解程序行为、发现问题或提取信息；首先，TreeShaking会进行`代码 -> AST`的转换，之后分析转换后的AST，移除相关的无用代码。
+
+移除的规则：如果是`纯函数`的导入，未被使用会被移除；如果是`副作用函数`的导入（如：console.log在控制台打印），该模块会被视为有副作用而得以保留。
+
 webpack实现JS的Tree Shaking的两种方案：usedExports 和sideEffects。实现CSS TreeShaking的方案：purgeCss插件。
 
 ##### usedExports
-设置usedExports为true，webpack会帮我们分析模块中哪些函数未被使用，从而删除这些无用代码。仅设置该属性，打包产物内会将无用代码标记，还需要与terser联动，进行删除。
+设置usedExports为true，webpack会帮我们分析模块中哪些函数未被使用，从而删除这些无用代码。仅设置该属性，打包产物内会将无用代码标记（即只在打包产物中用注释标记哪些代码未被使用），还需要与terser联动，进行删除。
 ```js
 module.exports = {
 	...,
