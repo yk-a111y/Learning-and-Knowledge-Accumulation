@@ -51,6 +51,57 @@ self.source_code.components = []
 self.source_code.modules = []
 ```
 可以看到，上述代码中，页面结构被存放在self.source_code.pages这个数组中；组件和其他的JS代码被分别存放在components和modules数组中。
+
+### 小程序为什么是双引擎架构？
+浏览器因为一些历史问题，从设计之初就支持JS操作DOM，所以渲染和逻辑两个线程是互斥的，后期通过web Worker等技术弥补在复杂计算方面的不足，是一个渐进式更新的情况。
+
+而小程序的从0-1设计，摒弃了浏览器的一些包袱，双引擎的架构有以下几点考虑：
+
+#### 安全性
+隔离恶意代码
+```js
+// 逻辑层：只能处理数据和业务逻辑
+Page({
+  data: { message: 'Hello' },
+  onLoad() {
+    // ❌ 无法直接操作 DOM
+    // document.getElementById() // 不存在
+    
+    // ✅ 只能通过 setData 更新视图
+    this.setData({ message: 'Updated' });
+  }
+});
+
+// 渲染层：只负责展示，无法执行复杂逻辑
+<!-- WXML 模板，无法执行 JavaScript -->
+<view>{{message}}</view>
+```
+
+#### 性能优化
+```js
+// 逻辑层：处理计算（独立线程）
+Page({
+  onLoad() {
+    // 大量计算在逻辑层进行，不阻塞渲染
+    this.heavyComputation().then(result => {
+      this.setData({ result }); // 只在必要时更新视图
+    });
+  }
+});
+
+// 渲染层：专注渲染（独立线程）
+// 用户交互始终流畅响应
+```
+#### 内存分离式管理
+逻辑层内存：
+- JavaScript 执行环境
+- 业务数据存储
+- API 调用缓存
+
+渲染层内存：
+- DOM 树结构
+- CSS 样式计算
+- 渲染缓存
 ## 通信设计
 WebView的本质就是由移动端提供可以内嵌Web应用的组件。目前有两种应用方式：APP中打开H5页面（Hybird）和小程序。无论哪一种方式，都涉及到WebView和Native之间的通信。
 
