@@ -1964,6 +1964,32 @@ addTask(400, "4");
 // output: 2 3 1 4
 
 ```
+#### Task类链式调用
+```js
+class Task {
+  constructor() {
+    this.promise = Promise.resolve(); // 返回一个状态为 fulfilled 的 Promise
+  }
+
+  log(content) {
+    this.promise = this.promise.then(() => console.log(content));
+    return this;
+  }
+
+  wait(seconds) {
+    this.promise = this.promise.then(
+      () => new Promise((resolve) => setTimeout(resolve, seconds * 1000))
+    );
+    return this;
+  }
+}
+
+// 使用
+new Task().log(1).log(2).wait(2).log(3).wait(2).log(4);
+
+// 效果
+// 打印1, 打印2, 等2s, 打印3, 等2s, 打印4
+```
 #### EventBus
 >基础版本实现：
 
