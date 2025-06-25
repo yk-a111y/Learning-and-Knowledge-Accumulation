@@ -23,21 +23,6 @@
             }
           },
           {
-            "id": "0dfaf368a6485b25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - 打包 & 工具链/webpack基础.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "webpack基础"
-            }
-          },
-          {
             "id": "e09b1d8530c1baff",
             "type": "leaf",
             "state": {
@@ -127,8 +112,7 @@
               "title": "1 - 监控流程设计"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5,
-    "collapsed": true
+    "width": 216.5
   },
   "right": {
     "id": "2114abde7063af78",
@@ -202,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 - 打包 & 工具链/webpack基础.md",
+                "file": "11 -  实际问题 & 案例/面试.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +195,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for webpack基础"
+              "title": "Backlinks for 面试"
             }
           },
           {
@@ -221,12 +204,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4 - 打包 & 工具链/webpack基础.md",
+                "file": "11 -  实际问题 & 案例/面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from webpack基础"
+              "title": "Outgoing links from 面试"
             }
           },
           {
@@ -250,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4 - 打包 & 工具链/webpack基础.md",
+                "file": "11 -  实际问题 & 案例/面试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of webpack基础"
+              "title": "Outline of 面试"
             }
           },
           {
@@ -322,10 +305,15 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "0dfaf368a6485b25",
+  "active": "984989a48fd6d28a",
   "lastOpenFiles": [
-    "4 - 打包 & 工具链/vite基础.md",
     "4 - 打包 & 工具链/webpack基础.md",
+    "image/img 计网基础/Pasted image 20240213191641.png",
+    "image/img 计网基础/Pasted image 20250206152913.png",
+    "image/img 计网基础/Pasted image 20240325214040.png",
+    "image/img 计网基础/Pasted image 20240307165949.png",
+    "Excalidraw/webpack基础 2024-11-11 15.20.19.excalidraw.md",
+    "4 - 打包 & 工具链/vite基础.md",
     "11 -  实际问题 & 案例/面试.md",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "9 - 跨端开发/1 - Webview.md",
@@ -346,10 +334,6 @@
     "Agent_面试/面试_image/Pasted image 20250407105556.png",
     "Agent_面试/面试_image/Pasted image 20250407105501.png",
     "Agent_面试/面试_image/Pasted image 20250407105413.png",
-    "Agent_面试/面试_image/Pasted image 20250407105329.png",
-    "Agent_面试/面试_image/Pasted image 20250407104716.png",
-    "Agent_面试/面试_image/Pasted image 20250407104325.png",
-    "Agent_面试/面试_image/Pasted image 20250407104140.png",
     "Agent_面试/面试_image",
     "Agent_面试",
     "11 -  实际问题 & 案例/Vanilla_img",
@@ -362,8 +346,6 @@
     "Excalidraw/1- JS基础方法与属性 2024-02-07 21.17.00.excalidraw.md",
     "Excalidraw/1- JS基础 2025-04-02 16.27.07.excalidraw.md",
     "Excalidraw/1- JS基础 2024-05-20 21.18.24.excalidraw.md",
-    "Excalidraw/1- JS基础 2024-11-05 11.49.09.excalidraw.md",
-    "Excalidraw/1- JS基础 2024-08-13 16.26.40.excalidraw.md",
     "面试/面试_image",
     "image/img Nest",
     "10 - Nest",

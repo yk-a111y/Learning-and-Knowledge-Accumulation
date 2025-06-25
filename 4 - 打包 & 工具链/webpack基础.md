@@ -7,7 +7,7 @@ Webpack 本质上是一个函数，它接受一个配置信息（config）作为
 【核心思想】
 - 第一步：根据webpack.config.js找到入口文件entry；
 - 第二步：找到entry所依赖的模块，并收集关键信息：比如`路径、源代码、它所依赖的模块`等；
-- 第三步：成最终输出到硬盘中的文件（dist）： 包括 modules 对象、require 模版代码、入口执行文件等。
+- 第三步：最终输出到硬盘中的文件（dist）： 包括 modules 对象、require 模版代码、入口执行文件等。
 
 这一过程中，由于浏览器并不认识除 `html、js、css` 以外的文件格式，所以我们还需要对源文件进行转换 —— **`Loader 系统`**
 ### 基本概念
@@ -73,7 +73,6 @@ Babel是一个工具链，可将ES6+语法、TS语法、JSX语法转换为浏览
 > 常见的babel预设：preset-env、preset-react、preset-typescript
 #### babel底层原理
 [[babel原理综述]]
-![[Pasted image 20240213191641.png]]
 #### babel结合webpack
 **安装依赖**
 `npm i babel-loader @babel/core @babel/preset-env @babel/polyfill`
