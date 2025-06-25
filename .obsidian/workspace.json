@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "right": {
     "id": "2114abde7063af78",
@@ -201,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
+                "file": "4 - 打包 & 工具链/webpack基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +212,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CodeGen_Vanilla"
+              "title": "Backlinks for webpack基础"
             }
           },
           {
@@ -220,12 +221,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
+                "file": "4 - 打包 & 工具链/webpack基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CodeGen_Vanilla"
+              "title": "Outgoing links from webpack基础"
             }
           },
           {
@@ -249,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
+                "file": "4 - 打包 & 工具链/webpack基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CodeGen_Vanilla"
+              "title": "Outline of webpack基础"
             }
           },
           {
@@ -321,13 +322,13 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "e09b1d8530c1baff",
+  "active": "0dfaf368a6485b25",
   "lastOpenFiles": [
-    "9 - 跨端开发/1 - Webview.md",
+    "4 - 打包 & 工具链/vite基础.md",
     "4 - 打包 & 工具链/webpack基础.md",
     "11 -  实际问题 & 案例/面试.md",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
-    "4 - 打包 & 工具链/vite基础.md",
+    "9 - 跨端开发/1 - Webview.md",
     "11 -  实际问题 & 案例/杂项.md",
     "1 - JS/1- JS基础.md",
     "Agent_面试/面试问题.md",
