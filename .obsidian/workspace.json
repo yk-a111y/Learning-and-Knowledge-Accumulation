@@ -14,12 +14,27 @@
               "type": "markdown",
               "state": {
                 "file": "11 -  实际问题 & 案例/面试.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
               "title": "面试"
+            }
+          },
+          {
+            "id": "73b807f5219c8b4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1 - 监控流程设计"
             }
           },
           {
@@ -36,83 +51,9 @@
               "icon": "lucide-file",
               "title": "CodeGen_Vanilla"
             }
-          },
-          {
-            "id": "c023b1d2d6c362e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/1- JS基础.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1- JS基础"
-            }
-          },
-          {
-            "id": "8f0c5a8e34cd7d42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2- 前端性能优化"
-            }
-          },
-          {
-            "id": "77a12ceb065586eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "3- 浏览器原理"
-            }
-          },
-          {
-            "id": "b1b8df4184159b1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 - 计算机基础/1 - 计网基础.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1 - 计网基础"
-            }
-          },
-          {
-            "id": "88e954e1b04486be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1 - 监控流程设计"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2114abde7063af78",
@@ -185,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11 -  实际问题 & 案例/面试.md",
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 面试"
+              "title": "Backlinks for 1 - 监控流程设计"
             }
           },
           {
@@ -204,12 +146,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11 -  实际问题 & 案例/面试.md",
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 面试"
+              "title": "Outgoing links from 1 - 监控流程设计"
             }
           },
           {
@@ -233,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11 -  实际问题 & 案例/面试.md",
+                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 面试"
+              "title": "Outline of 1 - 监控流程设计"
             }
           },
           {
@@ -305,11 +247,11 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "984989a48fd6d28a",
+  "active": "73b807f5219c8b4c",
   "lastOpenFiles": [
+    "11 -  实际问题 & 案例/面试.md",
     "7 - 前端全链路监控/1 - 监控流程设计.md",
     "1 - JS/1- JS基础.md",
-    "11 -  实际问题 & 案例/面试.md",
     "4 - 打包 & 工具链/webpack基础.md",
     "image/img 计网基础/Pasted image 20240213191641.png",
     "image/img 计网基础/Pasted image 20250206152913.png",
