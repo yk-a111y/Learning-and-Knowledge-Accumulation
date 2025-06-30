@@ -1395,6 +1395,48 @@ const compare = (obj1, obj2, res) => {
   })
 }
 ```
+#### 简易的Vue3响应式
+```js
+// 1.请手写一个函数 createReactive，模拟 Vue 3 的响应式系统核心逻辑，要求满足以下条件：
+//    1） 支持嵌套对象的响应式（如 { a: { b: 1 } }）；
+//    2） 当访问或修改属性时打印日志（如 get: a.b 或 set: a.b = 2）；
+
+function createReactive(obj, path = '') {
+  // 如果不是对象或者是null，直接返回
+  if (typeof obj !== 'object' || obj === null) {
+    return obj;
+  }
+
+  return new Proxy(obj, {
+    get(target, key, receiver) {
+      const value = target[key];
+      
+      // 打印访问日志
+      console.log(`get: ${path}${String(key)}`);
+      
+      // 如果访问的值是对象，递归创建响应式对象
+      if (typeof value === 'object' && value !== null) {
+        return createReactive(value, `${path}${String(key)}.`);
+      }
+      
+      return value;
+    },
+    
+    set(target, key, newValue, receiver) {
+      const oldValue = target[key];
+      
+      // 打印设置日志
+      console.log(`set: ${path}${String(key)} = ${newValue}`);
+      
+      // 设置新值
+      target[key] = newValue;
+      
+      // 返回true表示设置成功
+      return true;
+    }
+  });
+}
+```
 #### call apply bind
 call
 ```js
