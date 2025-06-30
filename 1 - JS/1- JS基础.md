@@ -1133,6 +1133,47 @@ function shuffle(arr) {
 	return res;
 }
 ```
+##### 最长连续序列
+```js
+/*  
+给定一个未排序的整数数组，找出最长连续序列的长度。  
+要求时间复杂度为 O(n)。  
+  
+示例:  
+输入: [100, 4, 200, 1, 3, 2]  
+输出: 4  
+解释: 最长连续序列是 [1, 2, 3, 4]。它的长度为 4。  
+*/
+
+const longestConsecutive = function(nums) {
+    if (nums.length === 0) return 0;
+    
+    // 使用 Set 存储所有数字，提供 O(1) 查找时间
+    const numSet = new Set(nums);
+    let maxLength = 0;
+    
+    // 遍历每个数字
+    for (const num of numSet) {
+        // 只有当前数字是连续序列的起始点时才开始计算
+        // 即 num - 1 不在集合中
+        if (!numSet.has(num - 1)) {
+            let currentNum = num;
+            let currentLength = 1;
+            
+            // 向后寻找连续的数字
+            while (numSet.has(currentNum + 1)) {
+                currentNum++;
+                currentLength++;
+            }
+            
+            // 更新最大长度
+            maxLength = Math.max(maxLength, currentLength);
+        }
+    }
+    
+    return maxLength;
+};
+```
 #### 去重 + 排序的应用
 在一个文档管理系统中，有多个用户上传了同一文档的不同版本。请实现一个函数，接收一个文档列表，根据文档的内容哈希值去重，并按照最后修改时间排序。
 ```ts
@@ -1957,6 +1998,7 @@ function resolvePromise (myPromise, x, resolve, reject) {
   }
 }
 ```
+#### 
 #### Scheduler异步任务调度
 ```js
 class Scheduler {
