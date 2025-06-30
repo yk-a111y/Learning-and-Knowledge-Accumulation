@@ -1998,7 +1998,6 @@ function resolvePromise (myPromise, x, resolve, reject) {
   }
 }
 ```
-#### 
 #### Scheduler异步任务调度
 ```js
 class Scheduler {
