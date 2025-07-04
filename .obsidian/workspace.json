@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - JS/1- JS基础.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -52,8 +52,7 @@
               "title": "1 - 监控流程设计"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "1 - JS/1- JS基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2- 前端性能优化"
+              "title": "Backlinks for 1- JS基础"
             }
           },
           {
@@ -145,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "1 - JS/1- JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2- 前端性能优化"
+              "title": "Outgoing links from 1- JS基础"
             }
           },
           {
@@ -174,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2- 前端性能优化"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -246,10 +245,10 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "67236b7ccdab0bf0",
+  "active": "423e3d28e3697f8d",
   "lastOpenFiles": [
-    "1 - JS/1- JS基础.md",
     "1 - JS/2- 前端性能优化.md",
+    "1 - JS/1- JS基础.md",
     "11 -  实际问题 & 案例/面试.md",
     "10 - Nest/工程实践.md",
     "10 - Nest/Nest基础.md",

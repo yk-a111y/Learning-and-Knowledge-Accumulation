@@ -1776,30 +1776,57 @@ getUserInfoAsync('user123')
 
 #### Promise相关
 都是将含有多个Promise实例组成的数组包装成一个Promise对象。Promise.all中的所有Promise都成功，则按顺序返回结果数组，出现失败，则整个过程直接结束，返回失败态的Promise。Promise.race为多个Promise对象竞争，返回率先完成执行的Promise的状态
-##### 手写Promise All
+##### 手写Promise All & AllSettled
 ```js
-function myPromiseAll(array) {
-  let res = [];
-  let count = 0;
+function myPromiseAll(promises) {
   return new Promise((resolve, reject) => {
-    function addData(index, value) {
-      res[index] = value;
-      count += 1;
-      // 若所有结果执行完毕，调用resolve
-      if (count === array.length) {
-        resolve(res);
-      }
-    }
+    const res = [];
+	let count = 0;
 
-    for (let i = 0; i < array.length; i++) {
-      let currentPromise = array[i];
-      // Promise.resolve同时处理值和promise对象，再调用then处理成功或失败
-      Promise.resolve(currentPromise).then(
-        (value) => addData(i, value),
-        reject
-      );
-    }
+	promises.forEach((promiseItem, index) => {
+	  promiseItem
+	    .then(value => {
+	      res[index] = value;
+	      count++;
+
+		  if (count === promises.length) {
+		    resolve(res);
+		  }
+	    })
+	    .catch(reason => {
+	      reject(reason);
+	    })
+	})
   });
+}
+
+function myPromiseAllSettled(promises) {
+  return new Promise((resolve, reject) => {
+    const res = [];
+    let count = 0;
+
+	promises.forEach((promiseItem, index) => {
+	  promiseItem
+	    .then(value => {
+	      res[index] = {
+	        status: 'fullfiled',
+	        value
+	      };
+	    })
+	    .catch(reason => {
+	      res[index] = {
+	        status: 'rejected',
+	        reason
+	      };
+	    })
+	    .finally(() => {
+	      count++;
+	      if (count === promises.length) {
+	        resolve(res);
+	      }
+	    })
+	})
+  })
 }
 ```
 将这个PromiseAll方法改成TS版本
