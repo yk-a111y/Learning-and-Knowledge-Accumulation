@@ -1385,9 +1385,9 @@ function deepEqual(a, b) {
 const diffJSON = (json1, json2) => {
   const result = {};
   
-  compare(json1, json2, res);
+  compare(json1, json2, result);
 
-  return res;
+  return result;
 }
 
 const compare = (obj1, obj2, res) => {
