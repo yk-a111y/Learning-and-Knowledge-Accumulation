@@ -92,9 +92,8 @@ white-space: nowrap;
 默认的最小字体为12px。
 可以使用`transform: scale()`来缩放，但由于其只作用于可以定义高度的元素，故要将行内元素使用`display: inline-block`转为可设置宽高的元素。
 ## 设置宽高比 16 ：9
-为右侧内容设置固定宽高比 `<div class="ratio-container">内容会自动保持9:16的宽高比</div>`
 ### aspect-ratio
-最简单方式，但有兼容性问题
+最简单方式，但有兼容性问题 `<div class="ratio-container">内容会自动保持9:16的宽高比</div>`
 ```css
 .ratio-container {
     width: 100%;
@@ -102,8 +101,25 @@ white-space: nowrap;
     background-color: #f0f0f0;
 }
 ```
-
 ### padding-bottom
+`<div class="ratio-container"> <div class="ratio-content">内容</div> </div>`
+```css
+/* 🔧 兼容性最好的经典方案 */
+.ratio-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 177.78%; /* 16/9 * 100% = 177.78% （padding各个方向的的百分比总是基于父元素宽度计算）*/ 
+}
+
+.ratio-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+```
 ## 像素单位
 px: 绝对单位，页面按精确像素展示
 
