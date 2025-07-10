@@ -25,6 +25,8 @@ function() {} instanceof Function // true
 ```
 
 3. **Object.prototype.toString.call()**
+
+访问对象内部的内部的`[[Class]]`属性，该属性由JS引擎维护
 ```jsx
 var a = 'abc'
 Object.prototype.toString.call(a) // [object String]
