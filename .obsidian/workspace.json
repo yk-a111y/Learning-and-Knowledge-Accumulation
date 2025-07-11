@@ -23,16 +23,6 @@
             }
           },
           {
-            "id": "1c45f4340dd094f8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "0fb5ff335bc3a83e",
             "type": "leaf",
             "state": {
@@ -92,8 +82,7 @@
               "title": "1 - 监控流程设计"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5086555480957,
-    "collapsed": true
+    "width": 221.5086555480957
   },
   "right": {
     "id": "2114abde7063af78",
@@ -215,12 +203,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 1- JS基础"
             }
           },
           {
@@ -282,10 +271,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "1c45f4340dd094f8",
+  "active": "423e3d28e3697f8d",
   "lastOpenFiles": [
     "1 - JS/1- JS基础.md",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
