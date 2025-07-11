@@ -23,6 +23,16 @@
             }
           },
           {
+            "id": "1c45f4340dd094f8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
             "id": "0fb5ff335bc3a83e",
             "type": "leaf",
             "state": {
@@ -82,7 +92,8 @@
               "title": "1 - 监控流程设计"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,13 +215,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline"
             }
           },
           {
@@ -272,14 +282,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "card-board:CardBoard": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "423e3d28e3697f8d",
+  "active": "1c45f4340dd094f8",
   "lastOpenFiles": [
-    "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "1 - JS/1- JS基础.md",
+    "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "2 - CSS/1 - CSS基础.md",
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/2- 前端性能优化.md",
