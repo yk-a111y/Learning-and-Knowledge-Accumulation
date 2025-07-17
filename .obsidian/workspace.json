@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1- JS基础"
+              "title": "CodeGen_Vanilla"
             }
           },
           {
@@ -139,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.51103591918945
+    "width": 207.51103591918945
   },
   "right": {
     "id": "2114abde7063af78",
@@ -203,13 +203,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/1- JS基础.md",
+                "file": "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1- JS基础"
+              "title": "Outline of CodeGen_Vanilla"
             }
           },
           {
@@ -277,8 +277,8 @@
   },
   "active": "423e3d28e3697f8d",
   "lastOpenFiles": [
-    "2 - CSS/1 - CSS基础.md",
     "1 - JS/1- JS基础.md",
+    "2 - CSS/1 - CSS基础.md",
     "Excalidraw/1- JS基础 2025-04-02 16.36.02.excalidraw.md",
     "1 - JS/3- 浏览器原理.md",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
