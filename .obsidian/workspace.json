@@ -82,7 +82,8 @@
               "title": "1 - 监控流程设计"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
+                "file": "2 - CSS/1 - CSS基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CodeGen_Vanilla"
+              "title": "Outline of 1 - CSS基础"
             }
           },
           {
@@ -275,7 +276,7 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "423e3d28e3697f8d",
+  "active": "0fb5ff335bc3a83e",
   "lastOpenFiles": [
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "1 - JS/1- JS基础.md",
