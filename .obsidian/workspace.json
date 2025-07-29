@@ -4,56 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "9a393cacf5885fd9",
+        "id": "1979a2b238d26ba3",
         "type": "tabs",
         "children": [
           {
-            "id": "423e3d28e3697f8d",
+            "id": "71024c19e9a47702",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CodeGen_Vanilla"
+              "title": "1 - 方案综述"
             }
           },
           {
-            "id": "0fb5ff335bc3a83e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - CSS/1 - CSS基础.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1 - CSS基础"
-            }
-          },
-          {
-            "id": "67236b7ccdab0bf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2- 前端性能优化"
-            }
-          },
-          {
-            "id": "829f0a4bf03fba49",
+            "id": "942f8c6357b05163",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,21 +35,6 @@
               },
               "icon": "lucide-file",
               "title": "3- 浏览器原理"
-            }
-          },
-          {
-            "id": "73b807f5219c8b4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - 前端全链路监控/1 - 监控流程设计.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1 - 监控流程设计"
             }
           }
         ],
@@ -204,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - CSS/1 - CSS基础.md",
+                "file": "1 - JS/3- 浏览器原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1 - CSS基础"
+              "title": "Outline of 3- 浏览器原理"
             }
           },
           {
@@ -276,11 +231,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "0fb5ff335bc3a83e",
+  "active": "942f8c6357b05163",
   "lastOpenFiles": [
+    "8 - 微前端/1 - 方案综述.md",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
-    "1 - JS/1- JS基础.md",
     "2 - CSS/1 - CSS基础.md",
+    "1 - JS/1- JS基础.md",
     "Excalidraw/1- JS基础 2025-04-02 16.36.02.excalidraw.md",
     "1 - JS/3- 浏览器原理.md",
     "1 - JS/2- 前端性能优化.md",
@@ -317,7 +273,6 @@
     "Drawing 2025-04-02 16.30.48.excalidraw.md",
     "Excalidraw/Drawing 2025-04-02 16.30.48.excalidraw.md",
     "Excalidraw/1- JS基础方法与属性 2024-02-07 21.17.00.excalidraw.md",
-    "Excalidraw/1- JS基础 2025-04-02 16.27.07.excalidraw.md",
     "面试/面试_image",
     "image/img Nest",
     "10 - Nest",
