@@ -52,8 +52,7 @@
               "title": "3- 浏览器原理"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/2- 前端性能优化.md",
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2- 前端性能优化"
+              "title": "Outline of 1 - 方案综述"
             }
           },
           {
@@ -246,15 +245,15 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "6d15f4530079efb3",
+  "active": "71024c19e9a47702",
   "lastOpenFiles": [
+    "1 - JS/2- 前端性能优化.md",
     "8 - 微前端/1 - 方案综述.md",
     "1 - JS/3- 浏览器原理.md",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
     "2 - CSS/1 - CSS基础.md",
     "1 - JS/1- JS基础.md",
     "Excalidraw/1- JS基础 2025-04-02 16.36.02.excalidraw.md",
-    "1 - JS/2- 前端性能优化.md",
     "11 -  实际问题 & 案例/面试.md",
     "10 - Nest/工程实践.md",
     "10 - Nest/Nest基础.md",
