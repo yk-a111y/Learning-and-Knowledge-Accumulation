@@ -1506,6 +1506,17 @@ const data = [
 	value: '110000',
 	children: [{value: '110101', label: '东城区'}, {value: '110102', label: '西城区'}, {value: '110105', label: '朝阳区'}]
   },
+  {
+    label: '河北省',
+	value: '130000',
+	children: [
+	  {
+	    label: '石家庄市',
+	    value:  '130100',
+	    children: [{value: '130101', label: '长安区'}, {value: '130102', label: '桥西区'}]
+	  }
+	]
+  }
   ...
 ]
 ```
