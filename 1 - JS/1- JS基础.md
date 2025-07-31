@@ -1438,6 +1438,77 @@ const compare = (obj1, obj2, res) => {
   })
 }
 ```
+#### 地址组装
+```js
+const data = [
+  { id: "110000", name: "北京市" },
+  { id: "110101", name: "东城区" },
+  { id: "110102", name: "西城区" },
+  { id: "110105", name: "朝阳区" },
+  { id: "120000", name: "天津市" },
+  { id: "120101", name: "和平区" },
+  { id: "120102", name: "河东区" },
+  { id: "120103", name: "河西区" },
+  { id: "130000", name: "河北省" },
+  { id: "130100", name: "石家庄市" },
+  { id: "130102", name: "长安区" },
+  { id: "130104", name: "桥西区" },
+  { id: "130200", name: "唐山市" },
+  { id: "130202", name: "路南区" },
+  { id: "130203", name: "路北区" },
+]
+
+const buildCityInfoReduceObj = (data) => {
+  const result = data.reduce((acc, { id, name }) => {	
+    if (id.endsWith('0000')) {
+      // 省
+      acc[id] = { value: id, label: name, children: {} };
+    } else if (id.endsWith('00')) {
+      // 市
+      const provinceId = id.slice(0, 2) + '0000';
+      
+      if (acc[provinceId]) {
+        acc[provinceId].children[id] = { value: id, label: name, children: [] };
+      }
+    } else {
+      // 区
+      const provinceId = id.slice(0, 2) + "0000";
+      const cityId = id.slice(0, 4) + "00";
+
+	  if (acc[provinceId]) {
+	    if (acc[provinceId].children[cityId]) {
+          acc[provinceId].children[cityId].children.push({
+            value: id,
+            label: name,
+          });
+        } else {
+          acc[provinceId].children[id] = { value: id, label: name };
+        }
+	  }
+    }
+
+	return acc;
+  }, {})
+
+  return Object.values(result).map(province => {
+    value: province.value,
+    label: province.label,
+    children: Object.values(province.children).map(city => {
+      Array.isArray(city.children) ? city : { value: city.value, label: city.label }
+    })
+  })
+}
+
+// 转换的结果
+const data = [
+  {
+    label: '北京市',
+	value: '110000',
+	children: [{value: '110101', label: '东城区'}, {value: '110102', label: '西城区'}, {value: '110105', label: '朝阳区'}]
+  },
+  ...
+]
+```
 #### 简易的Vue3响应式
 ```js
 // 1.请手写一个函数 createReactive，模拟 Vue 3 的响应式系统核心逻辑，要求满足以下条件：
