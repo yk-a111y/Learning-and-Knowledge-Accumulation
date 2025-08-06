@@ -59,7 +59,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - JS/3- 浏览器原理.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -67,8 +67,7 @@
               "title": "3- 浏览器原理"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- 浏览器原理"
+              "title": "Outline of 1 - 方案综述"
             }
           },
           {
@@ -261,14 +260,14 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "942f8c6357b05163",
+  "active": "71024c19e9a47702",
   "lastOpenFiles": [
+    "1 - JS/3- 浏览器原理.md",
+    "8 - 微前端/1 - 方案综述.md",
     "image/img 浏览器原理/Pasted image 20250806112747.png",
     "image/img 浏览器原理/Pasted image 20250806112658.png",
-    "1 - JS/3- 浏览器原理.md",
     "Pasted image 20250806112641.png",
     "1 - JS/2- 前端性能优化.md",
-    "8 - 微前端/1 - 方案综述.md",
     "1 - JS/1- JS基础.md",
     "image/img JS基础/Pasted image 20250731150413.png",
     "11 -  实际问题 & 案例/CodeGen_Vanilla.md",
@@ -294,7 +293,6 @@
     "image/img 浏览器原理/Pasted image 20240423130235.png",
     "11 -  实际问题 & 案例/Docker Swarm.md",
     "conflict-files-obsidian-git.md",
-    "image/img 浏览器原理/Pasted image 20250528194642.png",
     "Agent_面试/面试_image",
     "Agent_面试",
     "11 -  实际问题 & 案例/Vanilla_img",
