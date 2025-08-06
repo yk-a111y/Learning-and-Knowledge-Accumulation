@@ -67,8 +67,7 @@
               "title": "3- 浏览器原理"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - JS/3- 浏览器原理.md",
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- 浏览器原理"
+              "title": "Outline of 1 - 方案综述"
             }
           },
           {
@@ -261,11 +260,11 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "942f8c6357b05163",
+  "active": "71024c19e9a47702",
   "lastOpenFiles": [
+    "1 - JS/3- 浏览器原理.md",
     "image/img 浏览器原理/Pasted image 20250806150543.png",
     "8 - 微前端/1 - 方案综述.md",
-    "1 - JS/3- 浏览器原理.md",
     "image/img 浏览器原理/Pasted image 20250806112747.png",
     "image/img 浏览器原理/Pasted image 20250806112658.png",
     "Pasted image 20250806112641.png",
@@ -292,7 +291,6 @@
     "5 - 计算机基础/1 - 计网基础.md",
     "Untitled.md",
     "image/img 浏览器原理/Pasted image 20250608223138.png",
-    "image/img 浏览器原理/Pasted image 20240423130235.png",
     "11 -  实际问题 & 案例/Docker Swarm.md",
     "conflict-files-obsidian-git.md",
     "Agent_面试/面试_image",
