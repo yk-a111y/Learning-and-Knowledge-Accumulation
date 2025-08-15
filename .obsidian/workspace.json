@@ -23,16 +23,6 @@
             }
           },
           {
-            "id": "90ce524556bbcc7a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "609b0dcddded88cd",
             "type": "leaf",
             "state": {
@@ -77,8 +67,7 @@
               "title": "3- 浏览器原理"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,12 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "8 - 微前端/1 - 方案综述.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 1 - 方案综述"
             }
           },
           {
@@ -270,7 +260,7 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "90ce524556bbcc7a",
+  "active": "71024c19e9a47702",
   "lastOpenFiles": [
     "8 - 微前端/1 - 方案综述.md",
     "1 - JS/1- JS基础.md",
