@@ -878,13 +878,13 @@ function addStrings(num1, num2) {
 因为在操作JS原生的数组的过程中，如果是一个非常大的数组，shift带来的时间复杂度为O(n)，Queue可以实现O(1)级别的复杂度，并且不改变Array可遍历的特性
 ```js
 class INode<T> {
-	value: T;
-	next: INode<T> | null;
+  value: T;
+  next: INode<T> | null;
 
-	constructor(value: T, next: INode<T> | null = null) {
-		this.value = value;
-		this.next = next;
-	}
+  constructor(value: T, next: INode<T> | null = null) {
+	this.value = value;
+	this.next = next;
+  }
 }
 
 export default class Queue<T> {
